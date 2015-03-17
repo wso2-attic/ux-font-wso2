@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!--
+ * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ *
+ * WSO2 Inc. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+-->
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px"
+	 height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="Sequence">
+	<path d="M3.349,36.327c0,0.281-0.229,0.51-0.51,0.51H0.51c-0.281,0-0.51-0.229-0.51-0.51V10.556c0-0.281,0.229-0.51,0.51-0.51
+		h2.329c0.281,0,0.51,0.229,0.51,0.51V36.327z"/>
+	<path d="M7.814,35.211c0,0.281-0.229,0.51-0.51,0.51H4.975c-0.281,0-0.51-0.229-0.51-0.51V9.439c0-0.281,0.229-0.51,0.51-0.51
+		h2.329c0.281,0,0.51,0.229,0.51,0.51V35.211z"/>
+	<path d="M12.279,34.095c0,0.281-0.229,0.51-0.51,0.51H9.44c-0.281,0-0.51-0.229-0.51-0.51V8.323c0-0.281,0.229-0.51,0.51-0.51h2.33
+		c0.281,0,0.51,0.229,0.51,0.51V34.095z"/>
+	<path d="M16.744,32.979c0,0.281-0.229,0.51-0.51,0.51h-2.329c-0.281,0-0.51-0.229-0.51-0.51V7.207c0-0.281,0.229-0.51,0.51-0.51
+		h2.329c0.281,0,0.51,0.229,0.51,0.51V32.979z"/>
+	<path d="M21.209,34.095c0,0.281-0.229,0.51-0.51,0.51h-2.33c-0.281,0-0.51-0.229-0.51-0.51V8.323c0-0.281,0.229-0.51,0.51-0.51
+		h2.33c0.281,0,0.51,0.229,0.51,0.51V34.095z"/>
+	<path d="M25.674,35.211c0,0.281-0.229,0.51-0.51,0.51h-2.329c-0.281,0-0.51-0.229-0.51-0.51V9.439c0-0.281,0.229-0.51,0.51-0.51
+		h2.329c0.281,0,0.51,0.229,0.51,0.51V35.211z"/>
+	<path d="M30.14,36.327c0,0.281-0.229,0.51-0.51,0.51h-2.329c-0.281,0-0.51-0.229-0.51-0.51V10.556c0-0.281,0.229-0.51,0.51-0.51
+		h2.329c0.281,0,0.51,0.229,0.51,0.51V36.327z"/>
+	<path d="M34.604,37.443c0,0.281-0.229,0.51-0.51,0.51h-2.329c-0.281,0-0.51-0.229-0.51-0.51V11.672c0-0.281,0.229-0.51,0.51-0.51
+		h2.329c0.281,0,0.51,0.229,0.51,0.51V37.443z"/>
+	<path d="M39.069,38.56c0,0.281-0.229,0.51-0.51,0.51H36.23c-0.281,0-0.51-0.229-0.51-0.51V12.789c0-0.281,0.229-0.51,0.51-0.51
+		h2.329c0.281,0,0.51,0.229,0.51,0.51V38.56z"/>
+	<path d="M43.535,39.677c0,0.281-0.229,0.51-0.51,0.51h-2.329c-0.281,0-0.51-0.229-0.51-0.51V13.905c0-0.281,0.229-0.51,0.51-0.51
+		h2.329c0.281,0,0.51,0.229,0.51,0.51V39.677z"/>
+	<path d="M48,40.793c0,0.281-0.229,0.51-0.51,0.51h-2.329c-0.281,0-0.51-0.229-0.51-0.51V15.021c0-0.281,0.229-0.51,0.51-0.51h2.329
+		c0.281,0,0.51,0.229,0.51,0.51V40.793z"/>
+</g>
+</svg>
