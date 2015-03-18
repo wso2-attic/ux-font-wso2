@@ -1,0 +1,213 @@
+@font-face {
+	font-family: 'wso2metro';
+	src:url('fonts/wso2metro.eot?-a1d9jb');
+	src:url('fonts/wso2metro.eot?#iefix-a1d9jb') format('embedded-opentype'),
+		url('fonts/wso2metro.woff?-a1d9jb') format('woff'),
+		url('fonts/wso2metro.ttf?-a1d9jb') format('truetype'),
+		url('fonts/wso2metro.svg?-a1d9jb#wso2metro') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="wso2ico-"], [class*=" wso2ico-"] {
+	font-family: 'wso2metro';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wso2ico-circle-minus:before {
+	content: "\e624";
+}
+
+.wso2ico-circle-add:before {
+	content: "\e625";
+}
+
+.wso2ico-circle-up-arrow:before {
+	content: "\e62b";
+}
+
+.wso2ico-circle-right-arrow:before {
+	content: "\e62c";
+}
+
+.wso2ico-circle-left-arrow:before {
+	content: "\e62d";
+}
+
+.wso2ico-circle-down-arrow:before {
+	content: "\e62e";
+}
+
+.wso2ico-xsd:before {
+	content: "\e600";
+}
+
+.wso2ico-xml:before {
+	content: "\e601";
+}
+
+.wso2ico-xacml:before {
+	content: "\e602";
+}
+
+.wso2ico-wso2:before {
+	content: "\e603";
+}
+
+.wso2ico-wsdl:before {
+	content: "\e604";
+}
+
+.wso2ico-wadl:before {
+	content: "\e605";
+}
+
+.wso2ico-user-profile:before {
+	content: "\e606";
+}
+
+.wso2ico-uri:before {
+	content: "\e607";
+}
+
+.wso2ico-throttling_policy:before {
+	content: "\e608";
+}
+
+.wso2ico-text:before {
+	content: "\e609";
+}
+
+.wso2ico-swagger:before {
+	content: "\e60a";
+}
+
+.wso2ico-soap:before {
+	content: "\e60b";
+}
+
+.wso2ico-site:before {
+	content: "\e60c";
+}
+
+.wso2ico-share:before {
+	content: "\e60d";
+}
+
+.wso2ico-service_provider:before {
+	content: "\e60e";
+}
+
+.wso2ico-service:before {
+	content: "\e60f";
+}
+
+.wso2ico-sequence:before {
+	content: "\e610";
+}
+
+.wso2ico-security_policy:before {
+	content: "\e611";
+}
+
+.wso2ico-rules:before {
+	content: "\e612";
+}
+
+.wso2ico-rest_service:before {
+	content: "\e613";
+}
+
+.wso2ico-rest_api:before {
+	content: "\e614";
+}
+
+.wso2ico-proxy:before {
+	content: "\e615";
+}
+
+.wso2ico-policy:before {
+	content: "\e616";
+}
+
+.wso2ico-pdf:before {
+	content: "\e617";
+}
+
+.wso2ico-ms_document:before {
+	content: "\e618";
+}
+
+.wso2ico-javascript:before {
+	content: "\e619";
+}
+
+.wso2ico-javaee:before {
+	content: "\e61a";
+}
+
+.wso2ico-java:before {
+	content: "\e61b";
+}
+
+.wso2ico-jaggery:before {
+	content: "\e61c";
+}
+
+.wso2ico-html:before {
+	content: "\e61d";
+}
+
+.wso2ico-gadget:before {
+	content: "\e61e";
+}
+
+.wso2ico-endpoint:before {
+	content: "\e61f";
+}
+
+.wso2ico-dss:before {
+	content: "\e620";
+}
+
+.wso2ico-clock:before {
+	content: "\e621";
+}
+
+.wso2ico-circle-warning:before {
+	content: "\e622";
+}
+
+.wso2ico-circle-ok:before {
+	content: "\e623";
+}
+
+.wso2ico-bpmn:before {
+	content: "\e626";
+}
+
+.wso2ico-bpel:before {
+	content: "\e627";
+}
+
+.wso2ico-blank_document:before {
+	content: "\e628";
+}
+
+.wso2ico-aqpplication:before {
+	content: "\e629";
+}
+
+.wso2ico-api:before {
+	content: "\e62a";
+}
+
