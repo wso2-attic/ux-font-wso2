@@ -1,15 +1,15 @@
 @font-face {
 	font-family: 'wso2metro';
-	src:url('fonts/wso2metro.eot?12gfay');
-	src:url('fonts/wso2metro.eot?#iefix12gfay') format('embedded-opentype'),
-		url('fonts/wso2metro.woff?12gfay') format('woff'),
-		url('fonts/wso2metro.ttf?12gfay') format('truetype'),
-		url('fonts/wso2metro.svg?12gfay#wso2metro') format('svg');
+	src:url('fonts/wso2metro.eot?n9c1j7');
+	src:url('fonts/wso2metro.eot?#iefixn9c1j7') format('embedded-opentype'),
+		url('fonts/wso2metro.woff?n9c1j7') format('woff'),
+		url('fonts/wso2metro.ttf?n9c1j7') format('truetype'),
+		url('fonts/wso2metro.svg?n9c1j7#wso2metro') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-.icon {
+[class^="wso2ico-"], [class*=" wso2ico-"] {
 	font-family: 'wso2metro';
 	speak: none;
 	font-style: normal;
@@ -57,6 +57,14 @@
 
 .wso2ico-list:before {
 	content: "\e638";
+}
+
+.wso2ico-tile_menu:before {
+	content: "\e639";
+}
+
+.wso2ico-sort_move:before {
+	content: "\e63a";
 }
 
 .wso2ico-menu:before {
