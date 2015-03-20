@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'wso2metro';
-	src:url('fonts/wso2metro.eot?n9c1j7');
-	src:url('fonts/wso2metro.eot?#iefixn9c1j7') format('embedded-opentype'),
-		url('fonts/wso2metro.woff?n9c1j7') format('woff'),
-		url('fonts/wso2metro.ttf?n9c1j7') format('truetype'),
-		url('fonts/wso2metro.svg?n9c1j7#wso2metro') format('svg');
+	src:url('fonts/wso2metro.eot?-hufi21');
+	src:url('fonts/wso2metro.eot?#iefix-hufi21') format('embedded-opentype'),
+		url('fonts/wso2metro.woff?-hufi21') format('woff'),
+		url('fonts/wso2metro.ttf?-hufi21') format('truetype'),
+		url('fonts/wso2metro.svg?-hufi21#wso2metro') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -59,11 +59,11 @@
 	content: "\e638";
 }
 
-.wso2ico-tile_menu:before {
+.wso2ico-tile-menu:before {
 	content: "\e639";
 }
 
-.wso2ico-sort_move:before {
+.wso2ico-sort-move:before {
 	content: "\e63a";
 }
 
@@ -123,6 +123,14 @@
 	content: "\e600";
 }
 
+.wso2ico-xslt:before {
+	content: "\e63b";
+}
+
+.wso2ico-xq:before {
+	content: "\e63c";
+}
+
 .wso2ico-xacml:before {
 	content: "\e602";
 }
@@ -147,7 +155,7 @@
 	content: "\e607";
 }
 
-.wso2ico-blank_document:before {
+.wso2ico-blank-document:before {
 	content: "\e628";
 }
 
@@ -155,7 +163,7 @@
 	content: "\e609";
 }
 
-.wso2ico-throttling_policy:before {
+.wso2ico-throttling-policy:before {
 	content: "\e608";
 }
 
@@ -167,7 +175,7 @@
 	content: "\e60c";
 }
 
-.wso2ico-service_provider:before {
+.wso2ico-service-provider:before {
 	content: "\e60e";
 }
 
@@ -179,7 +187,7 @@
 	content: "\e610";
 }
 
-.wso2ico-security_policy:before {
+.wso2ico-security-policy:before {
 	content: "\e611";
 }
 
@@ -187,11 +195,11 @@
 	content: "\e612";
 }
 
-.wso2ico-rest_service:before {
+.wso2ico-rest-service:before {
 	content: "\e613";
 }
 
-.wso2ico-rest_api:before {
+.wso2ico-rest-api:before {
 	content: "\e614";
 }
 
@@ -207,7 +215,7 @@
 	content: "\e617";
 }
 
-.wso2ico-ms_document:before {
+.wso2ico-ms-document:before {
 	content: "\e618";
 }
 
@@ -225,6 +233,10 @@
 
 .wso2ico-jaggery:before {
 	content: "\e61c";
+}
+
+.wso2ico-jquery:before {
+	content: "\e63d";
 }
 
 .wso2ico-gadget:before {
@@ -247,7 +259,7 @@
 	content: "\e627";
 }
 
-.wso2ico-aqpplication:before {
+.wso2ico-application:before {
 	content: "\e629";
 }
 
