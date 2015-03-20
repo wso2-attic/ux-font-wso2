@@ -6,4 +6,4 @@ Font Generated Using IcoMoon
 https://icomoon.io
 
 Preview: RawGit URL
-https://cdn.rawgit.com/jeradrutnam/wso2-ui-icons/master/wso2metro/font/demo.html
+https://rawgit.com/jeradrutnam/wso2-ui-icons/master/wso2metro/font/demo.html
