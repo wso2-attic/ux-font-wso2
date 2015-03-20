@@ -5,5 +5,5 @@ WSO2 Products User Interface Icons Set (New)
 Font Generated Using IcoMoon
 https://icomoon.io
 
-Preview: RawGit URL
-https://cdn.rawgit.com/jeradrutnam/wso2-ui-icons/master/wso2metro/font/demo.html
+Preview:
+https://rawgit.com/jeradrutnam/wso2-ui-icons/master/wso2metro/font/demo.html [RawGit]
