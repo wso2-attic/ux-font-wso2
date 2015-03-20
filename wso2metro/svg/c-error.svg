@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ *
+ * WSO2 Inc. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+-->
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="282 372 48 48" enable-background="new 282 372 48 48" xml:space="preserve">
+<g>
+	<g transform="translate(0,0.00112438201904297)">
+		<path id="path1" d="M296.889,381.067l-5.819,5.819l9.112,9.111l-9.111,9.111l5.819,5.819l9.112-9.112l9.112,9.112l5.819-5.819
+			l-9.112-9.111l9.112-9.111l-5.819-5.819l-9.112,9.112L296.889,381.067z M306,372c13.253,0,24,10.747,24,23.999
+			c0,13.259-10.747,23.999-24,23.999c-13.254,0-24-10.74-24-23.999C282,382.747,292.746,372,306,372z"/>
+	</g>
+</g>
+</svg>

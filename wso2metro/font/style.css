@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'wso2metro';
-	src:url('fonts/wso2metro.eot?-hufi21');
-	src:url('fonts/wso2metro.eot?#iefix-hufi21') format('embedded-opentype'),
-		url('fonts/wso2metro.woff?-hufi21') format('woff'),
-		url('fonts/wso2metro.ttf?-hufi21') format('truetype'),
-		url('fonts/wso2metro.svg?-hufi21#wso2metro') format('svg');
+	src:url('fonts/wso2metro.eot?wrdvsl');
+	src:url('fonts/wso2metro.eot?#iefixwrdvsl') format('embedded-opentype'),
+		url('fonts/wso2metro.woff?wrdvsl') format('woff'),
+		url('fonts/wso2metro.ttf?wrdvsl') format('truetype'),
+		url('fonts/wso2metro.svg?wrdvsl#wso2metro') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,12 +23,12 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.wso2ico-bell:before {
-	content: "\e635";
-}
-
 .wso2ico-wifi:before {
 	content: "\e636";
+}
+
+.wso2ico-bell:before {
+	content: "\e635";
 }
 
 .wso2ico-camera:before {
@@ -59,6 +59,10 @@
 	content: "\e638";
 }
 
+.wso2ico-menu:before {
+	content: "\e62f";
+}
+
 .wso2ico-tile-menu:before {
 	content: "\e639";
 }
@@ -67,8 +71,8 @@
 	content: "\e63a";
 }
 
-.wso2ico-menu:before {
-	content: "\e62f";
+.wso2ico-c-delete:before {
+	content: "\e63e";
 }
 
 .wso2ico-c-minus:before {
@@ -95,12 +99,16 @@
 	content: "\e62e";
 }
 
-.wso2ico-c-warning:before {
-	content: "\e622";
-}
-
 .wso2ico-c-ok:before {
 	content: "\e623";
+}
+
+.wso2ico-c-error:before {
+	content: "\e63f";
+}
+
+.wso2ico-c-warning:before {
+	content: "\e622";
 }
 
 .wso2ico-clock:before {
@@ -163,16 +171,16 @@
 	content: "\e609";
 }
 
-.wso2ico-throttling-policy:before {
-	content: "\e608";
-}
-
 .wso2ico-swagger:before {
 	content: "\e60a";
 }
 
 .wso2ico-site:before {
 	content: "\e60c";
+}
+
+.wso2ico-proxy:before {
+	content: "\e615";
 }
 
 .wso2ico-service-provider:before {
@@ -187,10 +195,6 @@
 	content: "\e610";
 }
 
-.wso2ico-security-policy:before {
-	content: "\e611";
-}
-
 .wso2ico-rules:before {
 	content: "\e612";
 }
@@ -203,12 +207,16 @@
 	content: "\e614";
 }
 
-.wso2ico-proxy:before {
-	content: "\e615";
-}
-
 .wso2ico-policy:before {
 	content: "\e616";
+}
+
+.wso2ico-security-policy:before {
+	content: "\e611";
+}
+
+.wso2ico-throttling-policy:before {
+	content: "\e608";
 }
 
 .wso2ico-pdf:before {
