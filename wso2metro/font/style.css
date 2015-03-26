@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'wso2metro';
-	src:url('fonts/wso2metro.eot?-k0w116');
-	src:url('fonts/wso2metro.eot?#iefix-k0w116') format('embedded-opentype'),
-		url('fonts/wso2metro.woff?-k0w116') format('woff'),
-		url('fonts/wso2metro.ttf?-k0w116') format('truetype'),
-		url('fonts/wso2metro.svg?-k0w116#wso2metro') format('svg');
+	src:url('fonts/wso2metro.eot?cr9ezy');
+	src:url('fonts/wso2metro.eot?#iefixcr9ezy') format('embedded-opentype'),
+		url('fonts/wso2metro.woff?cr9ezy') format('woff'),
+		url('fonts/wso2metro.ttf?cr9ezy') format('truetype'),
+		url('fonts/wso2metro.svg?cr9ezy#wso2metro') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,7 +23,25 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-@import "extend.css"
+.wso2-usb:before {
+	content: "\e643";
+}
+
+.wso2-hdd:before {
+	content: "\e644";
+}
+
+.wso2-dial-up:before {
+	content: "\e645";
+}
+
+.wso2-devices:before {
+	content: "\e646";
+}
+
+.wso2-battery:before {
+	content: "\e647";
+}
 
 .wso2-search:before {
 	content: "\e640";
@@ -81,6 +99,10 @@
 	content: "\e641";
 }
 
+.wso2-c-settings:before {
+	content: "\e648";
+}
+
 .wso2-c-delete:before {
 	content: "\e63e";
 }
@@ -131,6 +153,10 @@
 
 .wso2-user-profile:before {
 	content: "\e606";
+}
+
+.wso2-settings:before {
+	content: "\e649";
 }
 
 .wso2-share:before {
