@@ -1,15 +1,15 @@
 @font-face {
 	font-family: 'wso2metro';
-	src:url('fonts/wso2metro.eot?wrdvsl');
-	src:url('fonts/wso2metro.eot?#iefixwrdvsl') format('embedded-opentype'),
-		url('fonts/wso2metro.woff?wrdvsl') format('woff'),
-		url('fonts/wso2metro.ttf?wrdvsl') format('truetype'),
-		url('fonts/wso2metro.svg?wrdvsl#wso2metro') format('svg');
+	src:url('fonts/wso2metro.eot?-k0w116');
+	src:url('fonts/wso2metro.eot?#iefix-k0w116') format('embedded-opentype'),
+		url('fonts/wso2metro.woff?-k0w116') format('woff'),
+		url('fonts/wso2metro.ttf?-k0w116') format('truetype'),
+		url('fonts/wso2metro.svg?-k0w116#wso2metro') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-[class^="wso2ico-"], [class*=" wso2ico-"] {
+.wso2icon {
 	font-family: 'wso2metro';
 	speak: none;
 	font-style: normal;
@@ -23,259 +23,273 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.wso2ico-wifi:before {
+@import "extend.css"
+
+.wso2-search:before {
+	content: "\e640";
+}
+
+.wso2-wifi:before {
 	content: "\e636";
 }
 
-.wso2ico-bell:before {
+.wso2-bell:before {
 	content: "\e635";
 }
 
-.wso2ico-camera:before {
+.wso2-camera:before {
 	content: "\e637";
 }
 
-.wso2ico-clean:before {
+.wso2-clean:before {
 	content: "\e630";
 }
 
-.wso2ico-map-location:before {
+.wso2-map-location:before {
 	content: "\e631";
 }
 
-.wso2ico-message:before {
+.wso2-message:before {
 	content: "\e632";
 }
 
-.wso2ico-incoming-call:before {
+.wso2-incoming-call:before {
 	content: "\e633";
 }
 
-.wso2ico-lock:before {
+.wso2-lock:before {
 	content: "\e634";
 }
 
-.wso2ico-list:before {
+.wso2-list:before {
 	content: "\e638";
 }
 
-.wso2ico-menu:before {
+.wso2-menu:before {
 	content: "\e62f";
 }
 
-.wso2ico-tile-menu:before {
+.wso2-tile-menu:before {
 	content: "\e639";
 }
 
-.wso2ico-sort-move:before {
+.wso2-sort-move:before {
 	content: "\e63a";
 }
 
-.wso2ico-c-delete:before {
+.wso2-sort:before {
+	content: "\e641";
+}
+
+.wso2-c-delete:before {
 	content: "\e63e";
 }
 
-.wso2ico-c-minus:before {
+.wso2-c-cancel:before {
+	content: "\e642";
+}
+
+.wso2-c-minus:before {
 	content: "\e624";
 }
 
-.wso2ico-c-add:before {
+.wso2-c-add:before {
 	content: "\e625";
 }
 
-.wso2ico-c-up-arrow:before {
+.wso2-c-up-arrow:before {
 	content: "\e62b";
 }
 
-.wso2ico-c-right-arrow:before {
+.wso2-c-right-arrow:before {
 	content: "\e62c";
 }
 
-.wso2ico-c-left-arrow:before {
+.wso2-c-left-arrow:before {
 	content: "\e62d";
 }
 
-.wso2ico-c-down-arrow:before {
+.wso2-c-down-arrow:before {
 	content: "\e62e";
 }
 
-.wso2ico-c-ok:before {
+.wso2-c-ok:before {
 	content: "\e623";
 }
 
-.wso2ico-c-error:before {
+.wso2-c-error:before {
 	content: "\e63f";
 }
 
-.wso2ico-c-warning:before {
+.wso2-c-warning:before {
 	content: "\e622";
 }
 
-.wso2ico-clock:before {
+.wso2-clock:before {
 	content: "\e621";
 }
 
-.wso2ico-user-profile:before {
+.wso2-user-profile:before {
 	content: "\e606";
 }
 
-.wso2ico-share:before {
+.wso2-share:before {
 	content: "\e60d";
 }
 
-.wso2ico-xml:before {
+.wso2-xml:before {
 	content: "\e601";
 }
 
-.wso2ico-xsd:before {
+.wso2-xsd:before {
 	content: "\e600";
 }
 
-.wso2ico-xslt:before {
+.wso2-xslt:before {
 	content: "\e63b";
 }
 
-.wso2ico-xq:before {
+.wso2-xq:before {
 	content: "\e63c";
 }
 
-.wso2ico-xacml:before {
+.wso2-xacml:before {
 	content: "\e602";
 }
 
-.wso2ico-wsdl:before {
+.wso2-wsdl:before {
 	content: "\e604";
 }
 
-.wso2ico-wadl:before {
+.wso2-wadl:before {
 	content: "\e605";
 }
 
-.wso2ico-soap:before {
+.wso2-soap:before {
 	content: "\e60b";
 }
 
-.wso2ico-html:before {
+.wso2-html:before {
 	content: "\e61d";
 }
 
-.wso2ico-uri:before {
+.wso2-uri:before {
 	content: "\e607";
 }
 
-.wso2ico-blank-document:before {
+.wso2-blank-document:before {
 	content: "\e628";
 }
 
-.wso2ico-text:before {
+.wso2-text:before {
 	content: "\e609";
 }
 
-.wso2ico-swagger:before {
+.wso2-swagger:before {
 	content: "\e60a";
 }
 
-.wso2ico-site:before {
+.wso2-site:before {
 	content: "\e60c";
 }
 
-.wso2ico-proxy:before {
+.wso2-proxy:before {
 	content: "\e615";
 }
 
-.wso2ico-service-provider:before {
+.wso2-service-provider:before {
 	content: "\e60e";
 }
 
-.wso2ico-service:before {
+.wso2-service:before {
 	content: "\e60f";
 }
 
-.wso2ico-sequence:before {
+.wso2-sequence:before {
 	content: "\e610";
 }
 
-.wso2ico-rules:before {
+.wso2-rules:before {
 	content: "\e612";
 }
 
-.wso2ico-rest-service:before {
+.wso2-rest-service:before {
 	content: "\e613";
 }
 
-.wso2ico-rest-api:before {
+.wso2-rest-api:before {
 	content: "\e614";
 }
 
-.wso2ico-policy:before {
+.wso2-policy:before {
 	content: "\e616";
 }
 
-.wso2ico-security-policy:before {
+.wso2-security-policy:before {
 	content: "\e611";
 }
 
-.wso2ico-throttling-policy:before {
+.wso2-throttling-policy:before {
 	content: "\e608";
 }
 
-.wso2ico-pdf:before {
+.wso2-pdf:before {
 	content: "\e617";
 }
 
-.wso2ico-ms-document:before {
+.wso2-ms-document:before {
 	content: "\e618";
 }
 
-.wso2ico-java:before {
+.wso2-java:before {
 	content: "\e61b";
 }
 
-.wso2ico-javaee:before {
+.wso2-javaee:before {
 	content: "\e61a";
 }
 
-.wso2ico-javascript:before {
+.wso2-javascript:before {
 	content: "\e619";
 }
 
-.wso2ico-jaggery:before {
+.wso2-jaggery:before {
 	content: "\e61c";
 }
 
-.wso2ico-jquery:before {
+.wso2-jquery:before {
 	content: "\e63d";
 }
 
-.wso2ico-gadget:before {
+.wso2-gadget:before {
 	content: "\e61e";
 }
 
-.wso2ico-endpoint:before {
+.wso2-endpoint:before {
 	content: "\e61f";
 }
 
-.wso2ico-dss:before {
+.wso2-dss:before {
 	content: "\e620";
 }
 
-.wso2ico-bpmn:before {
+.wso2-bpmn:before {
 	content: "\e626";
 }
 
-.wso2ico-bpel:before {
+.wso2-bpel:before {
 	content: "\e627";
 }
 
-.wso2ico-application:before {
+.wso2-application:before {
 	content: "\e629";
 }
 
-.wso2ico-api:before {
+.wso2-api:before {
 	content: "\e62a";
 }
 
-.wso2ico-wso2:before {
+.wso2-wso2:before {
 	content: "\e603";
 }
 

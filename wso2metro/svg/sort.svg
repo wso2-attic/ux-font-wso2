@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ *
+ * WSO2 Inc. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+-->
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<g>
+	<g>
+		<path d="M8.602,33.074l7.517-18.767h0.831l7.363,18.767h-1.47l-2.595-6.622h-7.594l-2.608,6.622H8.602z M13.127,25.302h6.686
+			l-2.544-6.737c-0.213-0.528-0.469-1.261-0.767-2.199c-0.23,0.818-0.481,1.56-0.754,2.225L13.127,25.302z"/>
+		<path d="M25.361,33.074v-0.951l10.943-16.538H25.859v-1.202h12.197v0.952L27.088,31.872H38.35v1.202H25.361z"/>
+	</g>
+	<polygon points="18.09,8.961 29.91,8.961 24,0 	"/>
+	<polygon points="18.09,39.039 29.91,39.039 24,48 	"/>
+</g>
+</svg>

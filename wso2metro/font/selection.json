@@ -4,6 +4,39 @@
 		{
 			"icon": {
 				"paths": [
+					"M390.4 145.067c-49.067 0-98.133 14.933-140.8 44.8-102.4 70.4-119.467 202.667-38.4 292.267 78.933 91.733 226.133 106.667 328.533 34.133 102.4-70.4 119.467-202.667 38.4-292.267-44.8-51.2-110.933-78.933-179.2-78.933-2.133-0-4.267-0-8.533-0zM396.8 0c2.133 0 6.4 0 8.533 0 113.067 2.133 226.133 49.067 300.8 134.4 110.933 125.867 110.933 298.667 10.667 424.533l307.2 347.733-166.4 117.333-307.2-347.733c-160 61.867-352 21.333-465.067-106.667-134.4-153.6-104.533-375.467 66.133-494.933 72.533-51.2 157.867-74.667 245.333-74.667z"
+				],
+				"attrs": [
+					{}
+				],
+				"isMulticolor": false,
+				"grid": 0,
+				"tags": [
+					"search"
+				],
+				"colorPermutations": {
+					"6868681": [
+						0
+					]
+				}
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 115,
+				"id": 67,
+				"prevSize": 32,
+				"code": 58944,
+				"name": "search"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
 					"M649.323 707.115c-79.723-73.984-188.992-82.731-276.373 1.557-4.501 4.309-6.976 6.869 1.323 15.104l137.067 134.357 135.701-130.197c13.973-14.016 6.912-16.171 2.283-20.821z",
 					"M849.152 542.421c-187.627-184.875-490.667-184.064-677.12 2.453-4.416 4.373-4.416 11.541 0.021 15.915l97.28 97.344c4.373 4.373 11.477 4.373 15.872 0 124.885-124.928 328.235-124.992 453.184 0 4.309 4.373 11.499 4.373 15.872 0l97.664-97.728c4.437-4.437 4.437-11.627 0.064-15.936l-2.837-2.048z",
 					"M1020.757 375.723l-2.923-2.005c-280.683-277.995-735.061-277.056-1014.592 2.432-4.373 4.373-4.373 11.499 0.107 16l100.075 100.075c4.437 4.437 11.541 4.373 15.915 0 216.427-216.469 568.576-216.363 784.96 0.043 4.309 4.352 11.499 4.373 15.872 0.043l100.501-100.565c4.373-4.416 4.48-11.669 0.085-16.021z"
@@ -32,7 +65,7 @@
 				{}
 			],
 			"properties": {
-				"order": 113,
+				"order": 117,
 				"id": 64,
 				"prevSize": 32,
 				"code": 58934,
@@ -40,7 +73,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 0
+			"iconIdx": 1
 		},
 		{
 			"icon": {
@@ -73,7 +106,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 1
+			"iconIdx": 2
 		},
 		{
 			"icon": {
@@ -106,7 +139,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 2
+			"iconIdx": 3
 		},
 		{
 			"icon": {
@@ -139,7 +172,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 3
+			"iconIdx": 4
 		},
 		{
 			"icon": {
@@ -172,7 +205,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 4
+			"iconIdx": 5
 		},
 		{
 			"icon": {
@@ -205,7 +238,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 5
+			"iconIdx": 6
 		},
 		{
 			"icon": {
@@ -238,7 +271,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 6
+			"iconIdx": 7
 		},
 		{
 			"icon": {
@@ -271,7 +304,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 7
+			"iconIdx": 8
 		},
 		{
 			"icon": {
@@ -304,7 +337,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 8
+			"iconIdx": 9
 		},
 		{
 			"icon": {
@@ -337,7 +370,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 9
+			"iconIdx": 10
 		},
 		{
 			"icon": {
@@ -370,7 +403,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 10
+			"iconIdx": 11
 		},
 		{
 			"icon": {
@@ -403,7 +436,52 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 11
+			"iconIdx": 12
+		},
+		{
+			"icon": {
+				"paths": [
+					"M183.509 705.579l160.363-400.363h17.728l157.077 400.363h-31.36l-55.36-141.269h-162.005l-55.637 141.269h-30.805zM280.043 539.776h142.635l-54.272-143.723c-4.544-11.264-10.005-26.901-16.363-46.912-4.907 17.451-10.261 33.28-16.085 47.467l-55.915 143.168z",
+					"M541.035 705.579v-20.288l233.451-352.811h-222.827v-25.643h260.203v20.309l-233.984 352.789h240.256v25.643h-277.099z",
+					"M385.92 191.168h252.16l-126.080-191.168z",
+					"M385.92 832.832h252.16l-126.080 191.168z"
+				],
+				"attrs": [
+					{},
+					{},
+					{},
+					{}
+				],
+				"isMulticolor": false,
+				"grid": 0,
+				"tags": [
+					"sort"
+				],
+				"colorPermutations": {
+					"6868681": [
+						0,
+						0,
+						0,
+						0
+					]
+				}
+			},
+			"attrs": [
+				{},
+				{},
+				{},
+				{}
+			],
+			"properties": {
+				"order": 119,
+				"id": 69,
+				"prevSize": 32,
+				"code": 58945,
+				"name": "sort"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 13
 		},
 		{
 			"icon": {
@@ -440,7 +518,48 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 12
+			"iconIdx": 14
+		},
+		{
+			"icon": {
+				"paths": [
+					"M874.667 874.667c-198.4 198.4-524.8 198.4-725.333 0-198.4-198.4-198.4-524.8 0-725.333 198.4-198.4 524.8-198.4 725.333 0s200.533 524.8 0 725.333zM172.8 172.8c-185.6 185.6-187.733 488.533 0 676.267 185.6 185.6 488.533 187.733 676.267 0s187.733-488.533 0-676.267c-185.6-185.6-488.533-185.6-676.267 0z",
+					"M676.267 371.2l-305.067 305.067c-6.4 6.4-17.067 6.4-23.467 0s-6.4-17.067 0-23.467l305.067-305.067c6.4-6.4 17.067-6.4 23.467 0s8.533 17.067 0 23.467z",
+					"M676.267 676.267c-6.4 6.4-17.067 6.4-23.467 0l-305.067-305.067c-6.4-6.4-6.4-17.067 0-23.467s17.067-6.4 23.467 0l305.067 305.067c6.4 6.4 8.533 17.067 0 23.467z"
+				],
+				"attrs": [
+					{},
+					{},
+					{}
+				],
+				"isMulticolor": false,
+				"grid": 0,
+				"tags": [
+					"c-cancel"
+				],
+				"colorPermutations": {
+					"6868681": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			"attrs": [
+				{},
+				{},
+				{}
+			],
+			"properties": {
+				"order": 118,
+				"id": 68,
+				"prevSize": 32,
+				"code": 58946,
+				"name": "c-cancel"
+			},
+			"setIdx": 0,
+			"setId": 0,
+			"iconIdx": 15
 		},
 		{
 			"icon": {
@@ -477,7 +596,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 13
+			"iconIdx": 16
 		},
 		{
 			"icon": {
@@ -518,7 +637,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 14
+			"iconIdx": 17
 		},
 		{
 			"icon": {
@@ -555,7 +674,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 15
+			"iconIdx": 18
 		},
 		{
 			"icon": {
@@ -592,7 +711,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 16
+			"iconIdx": 19
 		},
 		{
 			"icon": {
@@ -629,7 +748,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 17
+			"iconIdx": 20
 		},
 		{
 			"icon": {
@@ -666,7 +785,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 18
+			"iconIdx": 21
 		},
 		{
 			"icon": {
@@ -699,7 +818,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 19
+			"iconIdx": 22
 		},
 		{
 			"icon": {
@@ -732,7 +851,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 20
+			"iconIdx": 23
 		},
 		{
 			"icon": {
@@ -765,7 +884,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 21
+			"iconIdx": 24
 		},
 		{
 			"icon": {
@@ -798,7 +917,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 22
+			"iconIdx": 25
 		},
 		{
 			"icon": {
@@ -831,7 +950,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 23
+			"iconIdx": 26
 		},
 		{
 			"icon": {
@@ -864,7 +983,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 24
+			"iconIdx": 27
 		},
 		{
 			"icon": {
@@ -905,7 +1024,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 25
+			"iconIdx": 28
 		},
 		{
 			"icon": {
@@ -958,7 +1077,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 26
+			"iconIdx": 29
 		},
 		{
 			"icon": {
@@ -1007,7 +1126,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 27
+			"iconIdx": 30
 		},
 		{
 			"icon": {
@@ -1060,7 +1179,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 28
+			"iconIdx": 31
 		},
 		{
 			"icon": {
@@ -1113,7 +1232,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 29
+			"iconIdx": 32
 		},
 		{
 			"icon": {
@@ -1166,7 +1285,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 30
+			"iconIdx": 33
 		},
 		{
 			"icon": {
@@ -1223,7 +1342,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 31
+			"iconIdx": 34
 		},
 		{
 			"icon": {
@@ -1280,7 +1399,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 32
+			"iconIdx": 35
 		},
 		{
 			"icon": {
@@ -1329,7 +1448,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 33
+			"iconIdx": 36
 		},
 		{
 			"icon": {
@@ -1362,7 +1481,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 34
+			"iconIdx": 37
 		},
 		{
 			"icon": {
@@ -1395,7 +1514,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 35
+			"iconIdx": 38
 		},
 		{
 			"icon": {
@@ -1444,7 +1563,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 36
+			"iconIdx": 39
 		},
 		{
 			"icon": {
@@ -1477,7 +1596,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 37
+			"iconIdx": 40
 		},
 		{
 			"icon": {
@@ -1522,7 +1641,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 38
+			"iconIdx": 41
 		},
 		{
 			"icon": {
@@ -1563,7 +1682,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 39
+			"iconIdx": 42
 		},
 		{
 			"icon": {
@@ -1608,7 +1727,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 40
+			"iconIdx": 43
 		},
 		{
 			"icon": {
@@ -1649,7 +1768,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 41
+			"iconIdx": 44
 		},
 		{
 			"icon": {
@@ -1722,7 +1841,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 42
+			"iconIdx": 45
 		},
 		{
 			"icon": {
@@ -1767,7 +1886,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 43
+			"iconIdx": 46
 		},
 		{
 			"icon": {
@@ -1816,7 +1935,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 44
+			"iconIdx": 47
 		},
 		{
 			"icon": {
@@ -1913,7 +2032,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 45
+			"iconIdx": 48
 		},
 		{
 			"icon": {
@@ -1974,7 +2093,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 46
+			"iconIdx": 49
 		},
 		{
 			"icon": {
@@ -2043,7 +2162,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 47
+			"iconIdx": 50
 		},
 		{
 			"icon": {
@@ -2108,7 +2227,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 48
+			"iconIdx": 51
 		},
 		{
 			"icon": {
@@ -2141,7 +2260,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 49
+			"iconIdx": 52
 		},
 		{
 			"icon": {
@@ -2178,7 +2297,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 50
+			"iconIdx": 53
 		},
 		{
 			"icon": {
@@ -2239,7 +2358,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 51
+			"iconIdx": 54
 		},
 		{
 			"icon": {
@@ -2308,7 +2427,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 52
+			"iconIdx": 55
 		},
 		{
 			"icon": {
@@ -2349,7 +2468,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 53
+			"iconIdx": 56
 		},
 		{
 			"icon": {
@@ -2394,7 +2513,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 54
+			"iconIdx": 57
 		},
 		{
 			"icon": {
@@ -2435,7 +2554,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 55
+			"iconIdx": 58
 		},
 		{
 			"icon": {
@@ -2480,7 +2599,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 56
+			"iconIdx": 59
 		},
 		{
 			"icon": {
@@ -2529,7 +2648,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 57
+			"iconIdx": 60
 		},
 		{
 			"icon": {
@@ -2590,7 +2709,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 58
+			"iconIdx": 61
 		},
 		{
 			"icon": {
@@ -2623,7 +2742,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 59
+			"iconIdx": 62
 		},
 		{
 			"icon": {
@@ -2656,7 +2775,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 60
+			"iconIdx": 63
 		},
 		{
 			"icon": {
@@ -2689,7 +2808,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 61
+			"iconIdx": 64
 		},
 		{
 			"icon": {
@@ -2778,7 +2897,7 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 62
+			"iconIdx": 65
 		},
 		{
 			"icon": {
@@ -2827,12 +2946,14 @@
 			},
 			"setIdx": 0,
 			"setId": 0,
-			"iconIdx": 63
+			"iconIdx": 66
 		}
 	],
 	"height": 1024,
 	"metadata": {
-		"name": "wso2metro"
+		"name": "wso2metro",
+		"license": "Apache License, Version 2.0",
+		"licenseURL": "http://wso2.com/licenses"
 	},
 	"preferences": {
 		"showGlyphs": true,
@@ -2840,22 +2961,28 @@
 		"showQuickUse2": true,
 		"showSVGs": true,
 		"fontPref": {
-			"prefix": "wso2ico-",
+			"prefix": "wso2-",
 			"metadata": {
 				"fontFamily": "wso2metro",
 				"majorVersion": 1,
-				"minorVersion": 0
+				"minorVersion": 1,
+				"licenseURL": "http://wso2.com/licenses",
+				"license": "Apache License, Version 2.0",
+				"copyright": "2015",
+				"description": "WSO2 Products User Interface Icons Set"
 			},
 			"metrics": {
 				"emSize": 1024,
 				"baseline": 6.25,
 				"whitespace": 50
 			},
-			"showSelector": false,
-			"selector": "",
-			"classSelector": ".icon",
-			"showVersion": true,
-			"autoHost": true
+			"showSelector": true,
+			"selector": "class",
+			"classSelector": ".wso2icon",
+			"showVersion": false,
+			"autoHost": true,
+			"showMetrics": true,
+			"showMetadata": false
 		},
 		"imagePref": {
 			"prefix": "icon-",

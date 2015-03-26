@@ -1,0 +1,165 @@
+.wso2icon, [class^="wso2-"], [class*=" wso2-"] {
+    font: normal normal normal 25px/1 wso2metro;
+    font-size: inherit;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: middle;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: auto;
+    transform: translate(0, 0);
+}
+
+/* icon options */
+
+.wso2icon-lg {
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+.wso2icon-2x {
+    font-size: 2em;
+}
+.wso2icon-3x {
+    font-size: 3em;
+}
+.wso2icon-4x {
+    font-size: 4em;
+}
+.wso2icon-5x {
+    font-size: 5em;
+}
+.wso2icon-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+.wso2icon-ul {
+    padding-left: 0;
+    margin-left: 2.14285714em;
+    list-style-type: none;
+}
+.wso2icon-ul > li {
+    position: relative;
+}
+.wso2icon-li {
+    position: absolute;
+    left: -2.14285714em;
+    width: 2.14285714em;
+    top: 0.14285714em;
+    text-align: center;
+}
+.wso2icon-li.wso2icon-lg {
+    left: -1.85714286em;
+}
+.wso2icon-border {
+    padding: .2em .25em .15em;
+    border: solid 0.08em #eeeeee;
+    border-radius: .1em;
+}
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
+.wso2icon.pull-left {
+    margin-right: .3em;
+}
+.wso2icon.pull-right {
+    margin-left: .3em;
+}
+.wso2icon-spin {
+    -webkit-animation: wso2icon-spin 2s infinite linear;
+    animation: wso2icon-spin 2s infinite linear;
+}
+.wso2icon-pulse {
+    -webkit-animation: wso2icon-spin 1s infinite steps(8);
+    animation: wso2icon-spin 1s infinite steps(8);
+}
+@-webkit-keyframes wso2icon-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes wso2icon-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+.wso2icon-rotate-90 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.wso2icon-rotate-180 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.wso2icon-rotate-270 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.wso2icon-flip-horizontal {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+.wso2icon-flip-vertical {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+:root .wso2icon-rotate-90,
+:root .wso2icon-rotate-180,
+:root .wso2icon-rotate-270,
+:root .wso2icon-flip-horizontal,
+:root .wso2icon-flip-vertical {
+    filter: none;
+}
+.wso2icon-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+.wso2icon-stack-1x,
+.wso2icon-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.wso2icon-stack-1x {
+    line-height: inherit;
+}
+.wso2icon-stack-2x {
+    font-size: 2em;
+}
+.wso2icon-inverse {
+    color: #ffffff;
+}
