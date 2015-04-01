@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'wso2metro';
-	src:url('fonts/wso2metro.eot?t0uqvg');
-	src:url('fonts/wso2metro.eot?#iefixt0uqvg') format('embedded-opentype'),
-		url('fonts/wso2metro.woff?t0uqvg') format('woff'),
-		url('fonts/wso2metro.ttf?t0uqvg') format('truetype'),
-		url('fonts/wso2metro.svg?t0uqvg#wso2metro') format('svg');
+	src:url('fonts/wso2metro.eot?-tk4en9');
+	src:url('fonts/wso2metro.eot?#iefix-tk4en9') format('embedded-opentype'),
+		url('fonts/wso2metro.woff?-tk4en9') format('woff'),
+		url('fonts/wso2metro.ttf?-tk4en9') format('truetype'),
+		url('fonts/wso2metro.svg?-tk4en9#wso2metro') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -45,6 +45,10 @@
 
 .wso2-settings:before {
 	content: "\e612";
+}
+
+.wso2-view:before {
+	content: "\e652";
 }
 
 .wso2-search:before {
