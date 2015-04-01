@@ -1,12 +1,12 @@
 .wso2icon, [class^="wso2-"], [class*=" wso2-"] {
-    font: normal normal normal 25px/1 wso2metro;
+    display: inline-block;
+    font: normal normal normal 14px/1 wso2metro;
     font-size: inherit;
     speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
-    display: inline-block;
     vertical-align: middle;
 
     /* Better Font Rendering =========== */
@@ -17,11 +17,13 @@
 }
 
 /* icon options */
-
 .wso2icon-lg {
     font-size: 1.33333333em;
     line-height: 0.75em;
     vertical-align: -15%;
+}
+.wso2icon-1-5x {
+    font-size: 1.5em;
 }
 .wso2icon-2x {
     font-size: 2em;
@@ -139,26 +141,36 @@
 :root .wso2icon-flip-vertical {
     filter: none;
 }
-.wso2icon-stack {
+.wso2icon-stack, .wso2icon-stack-md {
     position: relative;
     display: inline-block;
     width: 2em;
     height: 2em;
-    line-height: 2em;
+    line-height: 1.8em;
     vertical-align: middle;
+    text-align: center;
+}
+.wso2icon-stack-md {
+    width: 1em;
 }
 .wso2icon-stack-1x,
-.wso2icon-stack-2x {
+.wso2icon-stack-2x,
+.wso2icon-stack-1-5x {
     position: absolute;
     left: 0;
     width: 100%;
     text-align: center;
 }
 .wso2icon-stack-1x {
+     line-height: inherit;
+     font-size: 0.8em;
+ }
+.wso2icon-stack-1-5x {
     line-height: inherit;
+    font-size: 1.2em;
 }
 .wso2icon-stack-2x {
-    font-size: 2em;
+    font-size: 1.8em;
 }
 .wso2icon-inverse {
     color: #ffffff;

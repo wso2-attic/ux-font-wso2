@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'wso2metro';
-	src:url('fonts/wso2metro.eot?1pw1qq');
-	src:url('fonts/wso2metro.eot?#iefix1pw1qq') format('embedded-opentype'),
-		url('fonts/wso2metro.woff?1pw1qq') format('woff'),
-		url('fonts/wso2metro.ttf?1pw1qq') format('truetype'),
-		url('fonts/wso2metro.svg?1pw1qq#wso2metro') format('svg');
+	src:url('fonts/wso2metro.eot?t0uqvg');
+	src:url('fonts/wso2metro.eot?#iefixt0uqvg') format('embedded-opentype'),
+		url('fonts/wso2metro.woff?t0uqvg') format('woff'),
+		url('fonts/wso2metro.ttf?t0uqvg') format('truetype'),
+		url('fonts/wso2metro.svg?t0uqvg#wso2metro') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,307 +23,331 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.wso2-usb:before {
-	content: "\e643";
-}
-
-.wso2-hdd:before {
-	content: "\e644";
-}
-
-.wso2-dial-up:before {
-	content: "\e645";
-}
-
-.wso2-devices:before {
-	content: "\e646";
-}
-
-.wso2-battery:before {
-	content: "\e647";
-}
-
-.wso2-check:before {
-	content: "\e64a";
-}
-
-.wso2-search:before {
-	content: "\e640";
-}
-
-.wso2-wifi:before {
-	content: "\e636";
-}
-
-.wso2-bell:before {
-	content: "\e635";
-}
-
-.wso2-camera:before {
-	content: "\e637";
-}
-
-.wso2-clean:before {
-	content: "\e630";
-}
-
-.wso2-map-location:before {
-	content: "\e631";
-}
-
-.wso2-message:before {
-	content: "\e632";
-}
-
-.wso2-incoming-call:before {
-	content: "\e633";
-}
-
-.wso2-lock:before {
-	content: "\e634";
-}
-
-.wso2-list:before {
-	content: "\e638";
+.wso2-tiles:before {
+	content: "\e60e";
 }
 
 .wso2-menu:before {
-	content: "\e62f";
+	content: "\e60f";
 }
 
-.wso2-tile-menu:before {
-	content: "\e639";
+.wso2-list:before {
+	content: "\e610";
 }
 
-.wso2-sort-move:before {
-	content: "\e63a";
+.wso2-grid:before {
+	content: "\e611";
 }
 
-.wso2-sort:before {
-	content: "\e641";
+.wso2-user:before {
+	content: "\e601";
 }
 
-.wso2-refresh:before {
-	content: "\e64b";
+.wso2-settings:before {
+	content: "\e612";
 }
 
-.wso2-c-settings:before {
-	content: "\e648";
+.wso2-search:before {
+	content: "\e613";
 }
 
-.wso2-c-delete:before {
-	content: "\e63e";
+.wso2-delete:before {
+	content: "\e614";
 }
 
-.wso2-c-cancel:before {
-	content: "\e642";
+.wso2-share:before {
+	content: "\e615";
 }
 
-.wso2-c-minus:before {
-	content: "\e624";
+.wso2-message:before {
+	content: "\e616";
 }
 
-.wso2-c-add:before {
-	content: "\e625";
+.wso2-bell:before {
+	content: "\e617";
 }
 
-.wso2-c-up-arrow:before {
-	content: "\e62b";
+.wso2-lock:before {
+	content: "\e618";
 }
 
-.wso2-c-right-arrow:before {
-	content: "\e62c";
+.wso2-battery:before {
+	content: "\e619";
 }
 
-.wso2-c-left-arrow:before {
-	content: "\e62d";
+.wso2-camera:before {
+	content: "\e61a";
 }
 
-.wso2-c-down-arrow:before {
-	content: "\e62e";
+.wso2-wifi:before {
+	content: "\e606";
 }
 
-.wso2-c-ok:before {
-	content: "\e623";
+.wso2-usb-drive:before {
+	content: "\e602";
 }
 
-.wso2-c-error:before {
-	content: "\e63f";
+.wso2-invitation:before {
+	content: "\e61b";
 }
 
-.wso2-c-warning:before {
-	content: "\e622";
+.wso2-hdd:before {
+	content: "\e61c";
+}
+
+.wso2-map-location:before {
+	content: "\e61d";
+}
+
+.wso2-dial-up:before {
+	content: "\e61f";
+}
+
+.wso2-incoming-call:before {
+	content: "\e620";
 }
 
 .wso2-clock:before {
 	content: "\e621";
 }
 
-.wso2-user-profile:before {
-	content: "\e606";
+.wso2-clean:before {
+	content: "\e622";
 }
 
-.wso2-settings:before {
+.wso2-sort:before {
+	content: "\e623";
+}
+
+.wso2-list-sort:before {
+	content: "\e624";
+}
+
+.wso2-sequence:before {
+	content: "\e625";
+}
+
+.wso2-rules:before {
+	content: "\e626";
+}
+
+.wso2-uri:before {
+	content: "\e603";
+}
+
+.wso2-pdf:before {
+	content: "\e627";
+}
+
+.wso2-ms-document:before {
+	content: "\e629";
+}
+
+.wso2-swagger:before {
+	content: "\e62a";
+}
+
+.wso2-jquery:before {
+	content: "\e62b";
+}
+
+.wso2-java:before {
+	content: "\e62c";
+}
+
+.wso2-javaee:before {
+	content: "\e62d";
+}
+
+.wso2-javascript:before {
+	content: "\e62e";
+}
+
+.wso2-jaggery:before {
+	content: "\e62f";
+}
+
+.wso2-uncheck:before {
+	content: "\e630";
+}
+
+.wso2-check:before {
+	content: "\e631";
+}
+
+.wso2-up-arrow:before {
+	content: "\e632";
+}
+
+.wso2-down-arrow:before {
+	content: "\e63e";
+}
+
+.wso2-left-arrow:before {
+	content: "\e633";
+}
+
+.wso2-right-arrow:before {
+	content: "\e634";
+}
+
+.wso2-cancel:before {
+	content: "\e635";
+}
+
+.wso2-add:before {
+	content: "\e636";
+}
+
+.wso2-minus:before {
+	content: "\e628";
+}
+
+.wso2-refresh:before {
+	content: "\e637";
+}
+
+.wso2-ring:before {
+	content: "\e600";
+}
+
+.wso2-circle:before {
+	content: "\e638";
+}
+
+.wso2-ok:before {
+	content: "\e639";
+}
+
+.wso2-error:before {
+	content: "\e63a";
+}
+
+.wso2-block:before {
+	content: "\e63b";
+}
+
+.wso2-warning:before {
+	content: "\e605";
+}
+
+.wso2-devices:before {
+	content: "\e63c";
+}
+
+.wso2-dss:before {
+	content: "\e63d";
+}
+
+.wso2-endpoint:before {
+	content: "\e63f";
+}
+
+.wso2-bpmn:before {
+	content: "\e640";
+}
+
+.wso2-bpel:before {
+	content: "\e641";
+}
+
+.wso2-gadget:before {
+	content: "\e642";
+}
+
+.wso2-application:before {
+	content: "\e643";
+}
+
+.wso2-cloud:before {
+	content: "\e644";
+}
+
+.wso2-service:before {
+	content: "\e645";
+}
+
+.wso2-rest-service:before {
+	content: "\e646";
+}
+
+.wso2-rest-api:before {
+	content: "\e647";
+}
+
+.wso2-api:before {
+	content: "\e648";
+}
+
+.wso2-service-provider:before {
 	content: "\e649";
 }
 
-.wso2-share:before {
+.wso2-website:before {
+	content: "\e604";
+}
+
+.wso2-proxy:before {
+	content: "\e64a";
+}
+
+.wso2-policy:before {
+	content: "\e64b";
+}
+
+.wso2-security-policy:before {
+	content: "\e64c";
+}
+
+.wso2-throttling-policy:before {
+	content: "\e64d";
+}
+
+.wso2-blank-document:before {
+	content: "\e64e";
+}
+
+.wso2-text:before {
+	content: "\e64f";
+}
+
+.wso2-html:before {
+	content: "\e650";
+}
+
+.wso2-wadl:before {
+	content: "\e608";
+}
+
+.wso2-wsdl:before {
+	content: "\e609";
+}
+
+.wso2-xacml:before {
+	content: "\e60a";
+}
+
+.wso2-xsd:before {
+	content: "\e60b";
+}
+
+.wso2-xq:before {
+	content: "\e60c";
+}
+
+.wso2-xslt:before {
 	content: "\e60d";
 }
 
 .wso2-xml:before {
-	content: "\e601";
-}
-
-.wso2-xsd:before {
-	content: "\e600";
-}
-
-.wso2-xslt:before {
-	content: "\e63b";
-}
-
-.wso2-xq:before {
-	content: "\e63c";
-}
-
-.wso2-xacml:before {
-	content: "\e602";
-}
-
-.wso2-wsdl:before {
-	content: "\e604";
-}
-
-.wso2-wadl:before {
-	content: "\e605";
-}
-
-.wso2-soap:before {
-	content: "\e60b";
-}
-
-.wso2-html:before {
-	content: "\e61d";
-}
-
-.wso2-uri:before {
-	content: "\e607";
-}
-
-.wso2-blank-document:before {
-	content: "\e628";
-}
-
-.wso2-text:before {
-	content: "\e609";
-}
-
-.wso2-swagger:before {
-	content: "\e60a";
-}
-
-.wso2-site:before {
-	content: "\e60c";
-}
-
-.wso2-proxy:before {
-	content: "\e615";
-}
-
-.wso2-service-provider:before {
-	content: "\e60e";
-}
-
-.wso2-service:before {
-	content: "\e60f";
-}
-
-.wso2-sequence:before {
-	content: "\e610";
-}
-
-.wso2-rules:before {
-	content: "\e612";
-}
-
-.wso2-rest-service:before {
-	content: "\e613";
-}
-
-.wso2-rest-api:before {
-	content: "\e614";
-}
-
-.wso2-policy:before {
-	content: "\e616";
-}
-
-.wso2-security-policy:before {
-	content: "\e611";
-}
-
-.wso2-throttling-policy:before {
-	content: "\e608";
-}
-
-.wso2-pdf:before {
-	content: "\e617";
-}
-
-.wso2-ms-document:before {
-	content: "\e618";
-}
-
-.wso2-java:before {
-	content: "\e61b";
-}
-
-.wso2-javaee:before {
-	content: "\e61a";
-}
-
-.wso2-javascript:before {
-	content: "\e619";
-}
-
-.wso2-jaggery:before {
-	content: "\e61c";
-}
-
-.wso2-jquery:before {
-	content: "\e63d";
-}
-
-.wso2-gadget:before {
 	content: "\e61e";
 }
 
-.wso2-endpoint:before {
-	content: "\e61f";
-}
-
-.wso2-dss:before {
-	content: "\e620";
-}
-
-.wso2-bpmn:before {
-	content: "\e626";
-}
-
-.wso2-bpel:before {
-	content: "\e627";
-}
-
-.wso2-application:before {
-	content: "\e629";
-}
-
-.wso2-api:before {
-	content: "\e62a";
+.wso2-soap:before {
+	content: "\e651";
 }
 
 .wso2-wso2:before {
-	content: "\e603";
+	content: "\e607";
 }
 
