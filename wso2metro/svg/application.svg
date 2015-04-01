@@ -1,35 +1,14 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px"
-	 height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<g id="Application">
-	<path id="_x3C_Compound_Path_x3E_" d="M0.13,38.019L0.078,16.204c-0.002-1.074,1.095-1.799,2.081-1.377
-		l19.859,8.49c0.549,0.234,0.905,0.772,0.907,1.369l0.051,21.815c0.003,1.073-1.094,1.799-2.081,1.377L1.036,39.389
-		C0.488,39.154,0.131,38.615,0.13,38.019z M45.632,17.23l-18.327,7.938l0.049,20.188l18.326-7.937L45.632,17.23 M46.373,14.599
-		c0.788-0.002,1.494,0.631,1.496,1.492l0.053,21.815c0.001,0.597-0.354,1.138-0.9,1.374l-19.818,8.584
-		c-0.196,0.084-0.396,0.124-0.592,0.125c-0.787,0.002-1.494-0.632-1.496-1.492l-0.053-21.814c-0.001-0.598,0.354-1.138,0.9-1.375
-		l19.819-8.583C45.979,14.639,46.178,14.599,46.373,14.599L46.373,14.599z M23.855,2.311L4.844,10.799l19.051,8.398l19.012-8.488
-		L23.855,2.311 M23.85,0c0.207,0,0.413,0.042,0.605,0.127L45.35,9.338c1.186,0.522,1.189,2.203,0.007,2.731l-20.851,9.31
-		c-0.192,0.086-0.398,0.129-0.605,0.13s-0.413-0.042-0.605-0.127L2.399,12.17c-1.185-0.522-1.188-2.203-0.006-2.731l20.851-9.31
-		C23.437,0.044,23.643,0,23.85,0L23.85,0z"/>
-</g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="application" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
+<path id="_x3C_Compound_Path_x3E_" d="M0.038,11.089L0.023,4.726C0.022,4.413,0.342,4.201,0.63,4.325l5.792,2.476
+	C6.582,6.869,6.686,7.026,6.686,7.2l0.015,6.363c0.001,0.313-0.319,0.525-0.607,0.402l-5.792-2.476
+	C0.142,11.42,0.038,11.263,0.038,11.089z M13.309,5.025L7.964,7.341l0.014,5.888l5.345-2.315L13.309,5.025 M13.525,4.258
+	c0.23-0.001,0.436,0.184,0.436,0.435l0.015,6.363c0,0.174-0.103,0.332-0.263,0.401l-5.78,2.504
+	c-0.057,0.024-0.115,0.036-0.173,0.036c-0.23,0.001-0.436-0.184-0.436-0.435L7.31,7.199c0-0.174,0.103-0.332,0.262-0.401
+	l5.781-2.503C13.411,4.27,13.469,4.258,13.525,4.258L13.525,4.258z M6.958,0.674L1.413,3.15l5.557,2.449l5.545-2.476L6.958,0.674
+	 M6.956,0c0.06,0,0.12,0.012,0.176,0.037l6.094,2.687c0.346,0.152,0.347,0.643,0.002,0.797L7.148,6.236
+	C7.092,6.261,7.031,6.273,6.971,6.273s-0.12-0.012-0.176-0.037L0.7,3.55C0.354,3.397,0.353,2.907,0.698,2.753L6.78,0.038
+	C6.836,0.013,6.896,0,6.956,0L6.956,0z"/>
 </svg>

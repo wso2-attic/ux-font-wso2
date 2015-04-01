@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
-<path id="path1" d="M9,19.5h12l9,9H9V19.5z M6,16.5v15h33v-15H6z M0,10.5h45v9h3v12h-3v6H0V10.5z"/>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="battery" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-2.037 0 18.074 14" enable-background="new -2.037 0 18.074 14" xml:space="preserve">
+<path id="path1" d="M1.352,5.306H5.87l3.389,3.389H1.352V5.306z M0.222,4.176v5.648h12.426V4.176H0.222z M-2.037,1.917h16.944v3.389
+	h1.13v4.519h-1.13v2.259H-2.037V1.917z"/>
 </svg>

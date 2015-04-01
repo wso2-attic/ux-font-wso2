@@ -1,33 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="282 372 48 48" enable-background="new 282 372 48 48" xml:space="preserve">
-<g>
-	<path d="M312.437,405.146c-3.737-3.468-8.859-3.878-12.955,0.073c-0.211,0.202-0.327,0.322,0.062,0.708l6.425,6.298l6.361-6.103
-		C312.985,405.465,312.654,405.364,312.437,405.146z"/>
-	<path d="M321.804,397.426c-8.795-8.666-23-8.628-31.74,0.115c-0.207,0.205-0.207,0.541,0.001,0.746l4.56,4.563
-		c0.205,0.205,0.538,0.205,0.744,0c5.854-5.856,15.386-5.859,21.243,0c0.202,0.205,0.539,0.205,0.744,0l4.563-4.563l0.015-0.018
-		c0.208-0.208,0.208-0.545,0.003-0.747L321.804,397.426z"/>
-	<path d="M329.848,389.612l-0.137-0.094c-13.157-13.031-34.456-12.987-47.559,0.114c-0.205,0.205-0.205,0.539,0.005,0.75
-		l4.691,4.691c0.208,0.208,0.541,0.205,0.746,0c10.145-10.147,26.652-10.142,36.795,0.002c0.202,0.204,0.539,0.205,0.744,0.002
-		l4.691-4.694l0.02-0.02C330.049,390.156,330.054,389.816,329.848,389.612z"/>
-</g>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="wifi" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="16.324 17 18.121 14" enable-background="new 16.324 17 18.121 14" xml:space="preserve">
+<path d="M27.815,27.453c-1.411-1.309-3.344-1.464-4.891,0.028c-0.08,0.076-0.123,0.122,0.023,0.267l2.425,2.378l2.401-2.304
+	C28.021,27.573,27.896,27.535,27.815,27.453z M31.351,24.538c-3.32-3.271-8.683-3.257-11.982,0.043
+	c-0.078,0.077-0.078,0.204,0,0.282l1.721,1.723c0.077,0.077,0.203,0.077,0.281,0c2.21-2.211,5.808-2.212,8.019,0
+	c0.076,0.077,0.203,0.077,0.281,0l1.723-1.723l0.006-0.007c0.079-0.079,0.079-0.206,0.001-0.282L31.351,24.538z M34.387,21.588
+	l-0.052-0.035c-4.967-4.919-13.007-4.903-17.954,0.043c-0.077,0.077-0.077,0.203,0.002,0.283l1.771,1.771
+	c0.079,0.079,0.204,0.077,0.282,0c3.83-3.831,10.062-3.829,13.891,0.001c0.076,0.077,0.203,0.077,0.281,0.001l1.771-1.772
+	l0.008-0.008C34.463,21.794,34.465,21.665,34.387,21.588z"/>
 </svg>
