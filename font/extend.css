@@ -1,6 +1,6 @@
-.wso2icon, [class^="wso2-"], [class*=" wso2-"] {
+.fw, [class^="fw-"], [class*=" fw-"] {
     display: inline-block;
-    font: normal normal normal 14px/1 wso2metro;
+    font: normal normal normal 14px/1 fontwso2;
     font-size: inherit;
     speak: none;
     font-style: normal;
@@ -17,49 +17,49 @@
 }
 
 /* icon options */
-.wso2icon-lg {
+.fw-lg {
     font-size: 1.33333333em;
     line-height: 0.75em;
     vertical-align: -15%;
 }
-.wso2icon-1-5x {
+.fw-1-5x {
     font-size: 1.5em;
 }
-.wso2icon-2x {
+.fw-2x {
     font-size: 2em;
 }
-.wso2icon-3x {
+.fw-3x {
     font-size: 3em;
 }
-.wso2icon-4x {
+.fw-4x {
     font-size: 4em;
 }
-.wso2icon-5x {
+.fw-5x {
     font-size: 5em;
 }
-.wso2icon-fw {
+.fw-fixedwidth {
     width: 1.28571429em;
     text-align: center;
 }
-.wso2icon-ul {
+.fw-ul {
     padding-left: 0;
     margin-left: 2.14285714em;
     list-style-type: none;
 }
-.wso2icon-ul > li {
+.fw-ul > li {
     position: relative;
 }
-.wso2icon-li {
+.fw-li {
     position: absolute;
     left: -2.14285714em;
     width: 2.14285714em;
     top: 0.14285714em;
     text-align: center;
 }
-.wso2icon-li.wso2icon-lg {
+.fw-li.fw-lg {
     left: -1.85714286em;
 }
-.wso2icon-border {
+.fw-border {
     padding: .2em .25em .15em;
     border: solid 0.08em #eeeeee;
     border-radius: .1em;
@@ -70,17 +70,17 @@
 .pull-left {
     float: left;
 }
-.wso2icon.pull-left {
+.fw.pull-left {
     margin-right: .3em;
 }
-.wso2icon.pull-right {
+.fw.pull-right {
     margin-left: .3em;
 }
-.wso2icon-spin {
+.fw-spin {
     -webkit-animation: wso2icon-spin 2s infinite linear;
     animation: wso2icon-spin 2s infinite linear;
 }
-.wso2icon-pulse {
+.fw-pulse {
     -webkit-animation: wso2icon-spin 1s infinite steps(8);
     animation: wso2icon-spin 1s infinite steps(8);
 }
@@ -104,44 +104,44 @@
         transform: rotate(359deg);
     }
 }
-.wso2icon-rotate-90 {
+.fw-rotate-90 {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-.wso2icon-rotate-180 {
+.fw-rotate-180 {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-.wso2icon-rotate-270 {
+.fw-rotate-270 {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
 }
-.wso2icon-flip-horizontal {
+.fw-flip-horizontal {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
     -webkit-transform: scale(-1, 1);
     -ms-transform: scale(-1, 1);
     transform: scale(-1, 1);
 }
-.wso2icon-flip-vertical {
+.fw-flip-vertical {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
     -webkit-transform: scale(1, -1);
     -ms-transform: scale(1, -1);
     transform: scale(1, -1);
 }
-:root .wso2icon-rotate-90,
-:root .wso2icon-rotate-180,
-:root .wso2icon-rotate-270,
-:root .wso2icon-flip-horizontal,
-:root .wso2icon-flip-vertical {
+:root .fw-rotate-90,
+:root .fw-rotate-180,
+:root .fw-rotate-270,
+:root .fw-flip-horizontal,
+:root .fw-flip-vertical {
     filter: none;
 }
-.wso2icon-stack, .wso2icon-stack-md {
+.fw-stack, .fw-stack-md {
     position: relative;
     display: inline-block;
     width: 2em;
@@ -150,28 +150,28 @@
     vertical-align: middle;
     text-align: center;
 }
-.wso2icon-stack-md {
+.fw-stack-md {
     width: 1em;
 }
-.wso2icon-stack-1x,
-.wso2icon-stack-2x,
-.wso2icon-stack-1-5x {
+.fw-stack-1x,
+.fw-stack-2x,
+.fw-stack-1-5x {
     position: absolute;
     left: 0;
     width: 100%;
     text-align: center;
 }
-.wso2icon-stack-1x {
+.fw-stack-1x {
      line-height: inherit;
      font-size: 0.9em;
  }
-.wso2icon-stack-1-5x {
+.fw-stack-1-5x {
     line-height: inherit;
     font-size: 1.2em;
 }
-.wso2icon-stack-2x {
+.fw-stack-2x {
     font-size: 1.8em;
 }
-.wso2icon-inverse {
+.fw-inverse {
     color: #ffffff;
 }
