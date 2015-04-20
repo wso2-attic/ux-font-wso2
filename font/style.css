@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fontwso2';
-	src:url('fonts/fontwso2.eot?3uii6i');
-	src:url('fonts/fontwso2.eot?#iefix3uii6i') format('embedded-opentype'),
-		url('fonts/fontwso2.woff?3uii6i') format('woff'),
-		url('fonts/fontwso2.ttf?3uii6i') format('truetype'),
-		url('fonts/fontwso2.svg?3uii6i#fontwso2') format('svg');
+	src:url('fonts/fontwso2.eot?aseqqq');
+	src:url('fonts/fontwso2.eot?#iefixaseqqq') format('embedded-opentype'),
+		url('fonts/fontwso2.woff?aseqqq') format('woff'),
+		url('fonts/fontwso2.ttf?aseqqq') format('truetype'),
+		url('fonts/fontwso2.svg?aseqqq#fontwso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -60,7 +60,7 @@
 }
 
 .fw-dots:before {
-	content: "\e65a";
+	content: "\e615";
 }
 
 .fw-tiles:before {
@@ -112,7 +112,7 @@
 }
 
 .fw-share:before {
-	content: "\e615";
+	content: "\e65a";
 }
 
 .fw-message:before {
