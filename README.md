@@ -1,4 +1,4 @@
-# Jerad Rutnam | GitHub.io - jeradrutnam.github.io
+# WSO2 DEV UX | GitHub.io - wso2-dev-ux.github.io
 
-### Projects
-* Font WSO2 - http://jeradrutnam.github.io/fontwso2/index.html
+### Project Link
+* Font WSO2 - http://wso2-dev-u.github.io/fontwso2/index.html
