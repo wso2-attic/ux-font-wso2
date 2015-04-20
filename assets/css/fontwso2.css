@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fontwso2';
-	src:url('../fonts/fontwso2.eot?ndpm8l');
-	src:url('../fonts/fontwso2.eot?#iefixndpm8l') format('embedded-opentype'),
-		url('../fonts/fontwso2.woff?ndpm8l') format('woff'),
-		url('../fonts/fontwso2.ttf?ndpm8l') format('truetype'),
-		url('../fonts/fontwso2.svg?ndpm8l#fontwso2') format('svg');
+	src:url('../fonts/fontwso2.eot?3uii6i');
+	src:url('../fonts/fontwso2.eot?#iefix3uii6i') format('embedded-opentype'),
+		url('../fonts/fontwso2.woff?3uii6i') format('woff'),
+		url('../fonts/fontwso2.ttf?3uii6i') format('truetype'),
+		url('../fonts/fontwso2.svg?3uii6i#fontwso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -21,6 +21,14 @@
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.fw-star-2:before {
+	content: "\e612";
+}
+
+.fw-store:before {
+	content: "\e61b";
 }
 
 .fw-apple:before {
@@ -51,6 +59,10 @@
 	content: "\e656";
 }
 
+.fw-dots:before {
+	content: "\e65a";
+}
+
 .fw-tiles:before {
 	content: "\e60e";
 }
@@ -71,12 +83,20 @@
 	content: "\e601";
 }
 
-.fw-settings:before {
-	content: "\e612";
+.fw-key:before {
+	content: "\e65b";
+}
+
+.fw-star:before {
+	content: "\e65c";
 }
 
 .fw-view:before {
 	content: "\e652";
+}
+
+.fw-edit:before {
+	content: "\e65d";
 }
 
 .fw-search:before {
@@ -85,6 +105,10 @@
 
 .fw-delete:before {
 	content: "\e614";
+}
+
+.fw-settings:before {
+	content: "\e65e";
 }
 
 .fw-share:before {
@@ -120,7 +144,7 @@
 }
 
 .fw-invitation:before {
-	content: "\e61b";
+	content: "\e65f";
 }
 
 .fw-hdd:before {
@@ -205,6 +229,22 @@
 
 .fw-check:before {
 	content: "\e631";
+}
+
+.fw-up-arrow-2:before {
+	content: "\e660";
+}
+
+.fw-down-arrow-2:before {
+	content: "\e661";
+}
+
+.fw-left-arrow-2:before {
+	content: "\e662";
+}
+
+.fw-right-arrow-2:before {
+	content: "\e663";
 }
 
 .fw-up-arrow:before {
