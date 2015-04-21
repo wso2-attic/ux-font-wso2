@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fontwso2';
-	src:url('fonts/fontwso2.eot?aseqqq');
-	src:url('fonts/fontwso2.eot?#iefixaseqqq') format('embedded-opentype'),
-		url('fonts/fontwso2.woff?aseqqq') format('woff'),
-		url('fonts/fontwso2.ttf?aseqqq') format('truetype'),
-		url('fonts/fontwso2.svg?aseqqq#fontwso2') format('svg');
+	src:url('fonts/fontwso2.eot?ndaax3');
+	src:url('fonts/fontwso2.eot?#iefixndaax3') format('embedded-opentype'),
+		url('fonts/fontwso2.woff?ndaax3') format('woff'),
+		url('fonts/fontwso2.ttf?ndaax3') format('truetype'),
+		url('fonts/fontwso2.svg?ndaax3#fontwso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -99,6 +99,10 @@
 	content: "\e65d";
 }
 
+.fw-register:before {
+	content: "\e65f";
+}
+
 .fw-search:before {
 	content: "\e657";
 }
@@ -143,16 +147,16 @@
 	content: "\e602";
 }
 
-.fw-invitation:before {
-	content: "\e65f";
-}
-
 .fw-hdd:before {
 	content: "\e61c";
 }
 
 .fw-map-location:before {
 	content: "\e61d";
+}
+
+.fw-invitation:before {
+	content: "\e664";
 }
 
 .fw-dial-up:before {
