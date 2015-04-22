@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fontwso2';
-	src:url('fonts/fontwso2.eot?ndaax3');
-	src:url('fonts/fontwso2.eot?#iefixndaax3') format('embedded-opentype'),
-		url('fonts/fontwso2.woff?ndaax3') format('woff'),
-		url('fonts/fontwso2.ttf?ndaax3') format('truetype'),
-		url('fonts/fontwso2.svg?ndaax3#fontwso2') format('svg');
+	src:url('fonts/fontwso2.eot?-4zz5af');
+	src:url('fonts/fontwso2.eot?#iefix-4zz5af') format('embedded-opentype'),
+		url('fonts/fontwso2.woff?-4zz5af') format('woff'),
+		url('fonts/fontwso2.ttf?-4zz5af') format('truetype'),
+		url('fonts/fontwso2.svg?-4zz5af#fontwso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,8 +23,8 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.fw-star-2:before {
-	content: "\e612";
+.fw-filter:before {
+	content: "\e65b";
 }
 
 .fw-store:before {
@@ -84,11 +84,15 @@
 }
 
 .fw-key:before {
-	content: "\e65b";
+	content: "\e665";
 }
 
 .fw-star:before {
 	content: "\e65c";
+}
+
+.fw-star-2:before {
+	content: "\e612";
 }
 
 .fw-view:before {
