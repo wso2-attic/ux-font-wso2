@@ -175,3 +175,6 @@
 .fw-inverse {
     color: #ffffff;
 }
+.fw-number {
+    line-height: 1.8em;
+}
