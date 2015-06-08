@@ -18,8 +18,9 @@
  * under the License.
 -->
 
-<svg version="1.1" id="dots" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
-<path d="M3.7,6.9c0,1.1-0.8,1.8-1.9,1.8S0,8,0,6.9s0.8-1.8,1.8-1.8S3.7,5.9,3.7,6.9z M7.1,5.1C6,5.1,5.2,5.9,5.2,6.9S6,8.7,7.1,8.7
-	S8.8,8,8.8,6.9S8,5.1,7.1,5.1z M12.2,5.1c-1.1,0-1.8,0.7-1.8,1.8s0.7,1.8,1.8,1.8S14,8,14,6.9S13.2,5.1,12.2,5.1z"/>
+<svg version="1.1" id="exclamation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
+<path d="M7.8,8.7H6.2V3.1h1.6V8.7z M7,9.5c-0.5,0-0.9,0.4-0.9,0.9s0.4,0.9,0.9,0.9s0.9-0.4,0.9-0.9S7.5,9.5,7,9.5z M14,7
+	c0-3.8-3.1-7-7-7S0,3.1,0,7s3.1,7,7,7S14,10.8,14,7z M12.6,7c0,3.1-2.5,5.6-5.6,5.6S1.4,10.1,1.4,7S3.9,1.4,7,1.4S12.6,3.9,12.6,7z"
+	/>
 </svg>
