@@ -18,8 +18,8 @@
  * under the License.
 -->
 
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-0.4 0.1 14.7 14" enable-background="new -0.4 0.1 14.7 14" xml:space="preserve">
-<path d="M12.6,6.8l-5.6,4l-5.6-4l-1.8-1.3v8.5h14.7V5.5L12.6,6.8z M7,0.1L3.6,1.8h6.6L7,0.1z M12.7,5.9V2.2H1.3v3.8L7,10L12.7,5.9z
-	 M1.5,2.4h10.8v3.5L7,9.7L1.5,5.8V2.4z"/>
+<svg version="1.1" id="invitation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
+<path d="M12.3,6.8L7,10.6L1.7,6.8L0,5.6v8.1h14V5.6L12.3,6.8z M7,0.4L3.8,2.1h6.3L7,0.4z M7,10.1L1.4,6.2V2.5h11.1v3.7L7,10.1z
+	 M1.8,6L7,9.6L12.1,6V2.9H1.8V6z"/>
 </svg>
