@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fontwso2';
-	src:url('../fonts/fontwso2.eot?-enve8y');
-	src:url('../fonts/fontwso2.eot?#iefix-enve8y') format('embedded-opentype'),
-		url('../fonts/fontwso2.ttf?-enve8y') format('truetype'),
-		url('../fonts/fontwso2.woff?-enve8y') format('woff'),
-		url('../fonts/fontwso2.svg?-enve8y#fontwso2') format('svg');
+	src:url('fonts/fontwso2.eot?uuv5gn');
+	src:url('fonts/fontwso2.eot?#iefixuuv5gn') format('embedded-opentype'),
+		url('fonts/fontwso2.ttf?uuv5gn') format('truetype'),
+		url('fonts/fontwso2.woff?uuv5gn') format('woff'),
+		url('fonts/fontwso2.svg?uuv5gn#fontwso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -53,11 +53,11 @@
 .fw-list:before {
 	content: "\e610";
 }
+.fw-checklist:before {
+	content: "\e612";
+}
 .fw-grid:before {
 	content: "\e611";
-}
-.fw-list2:before {
-	content: "\e667";
 }
 .fw-user:before {
 	content: "\e601";
@@ -68,8 +68,8 @@
 .fw-key:before {
 	content: "\e665";
 }
-.fw-star-2:before {
-	content: "\e612";
+.fw-star:before {
+	content: "\e667";
 }
 .fw-view:before {
 	content: "\e652";
@@ -277,9 +277,6 @@
 }
 .fw-dss:before {
 	content: "\e63d";
-}
-.fw-computer2:before {
-	content: "\e66f";
 }
 .fw-endpoint:before {
 	content: "\e63f";
