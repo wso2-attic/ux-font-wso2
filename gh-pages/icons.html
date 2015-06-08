@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <title>Font WSO2</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Fonts from Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+
+    <!-- Code beautifier -->
+    <link rel="stylesheet" href="assets/css/highlight.min.css">
+    <script src="assets/js/highlight.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  <div class="code-box">
+      <span class="fw-stack code-hide-btn" onclick="hideCode()">
+         <i class="fw fw-ring fw-stack-2x"></i>
+         <i class="fw fw-cancel fw-stack-1x"></i>
+      </span>
+      <div class="icon" id="icon"></div>
+      <h3>HTML</h3>
+      <h4>
+          <div class="highlight">
+              <pre><code class="html" id="html"></code></pre>
+          </div>
+      </h4>
+      <h3>CSS</h3>
+      <h4>
+          <div class="highlight">
+              <pre><code class="css" id="css"></code></pre>
+          </div>
+      </h4>
+      <h3>HTML Entity</h3>
+      <h4>
+          <div class="highlight">
+              <pre><code class="html" id="htmlE"></code></pre>
+          </div>
+      </h4>
+  </div>
+  <div class="code-box-bg" onclick="hideCode()"></div>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Font <i class="fw fw-wso2 fw-inverse fw-2x"></i></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="icons.html">Icons</a></li>
+                <li><a href="options.html">Options</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div class="container mt">
+		<div class="row mt centered">
+            <h1 id="title">WSO2 Bootstrap Icons - All</h1>
+		</div><!-- /row -->
+
+        <div class="row centered">
+            <i class="fw fw-search search-icon"></i>
+            <input type="text" class="search-input" id="icons-filter" placeholder="Search Icons ...">
+        </div><!-- /row -->
+
+        <div class="row icons-list" id="icons"><!-- dynamic content loads here--></div>
+	</div><! --/container -->
+
+	<div class="container">
+		<hr>
+        <p class="centered">WSO2 Inc. <script>document.write(new Date().getFullYear());</script> | <a href="http://wso2.com/licenses" target="_blank">License</a></p>
+	</div><!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        $.getJSON("assets/data/selection.json", function(data) {
+            var items = [];
+            var icons = data["icons"];
+
+            $.each(icons, function(key, val) {
+                items.push( "<li onclick='showCode(this)' data-icon='" + icons[key].properties.name + "'>" +
+                "<i class='fw fw-" + icons[key].properties.name + "'></i>" +
+                icons[key].properties.name +
+                "<span class='get-code'>" +
+                "<i class='fw fw-left-arrow'></i>" +
+                "Code" +
+                "<i class='fw fw-right-arrow'></i>" +
+                "</span>" +
+                "</li>" );
+            });
+
+            $( "<ul/>", {
+                "class": "fontwso2",
+                html: items.join("")
+            }).appendTo("#icons");
+
+            $("#title").append("&nbsp;[" + icons.length + "]");
+        });
+
+        function showCode(elem){
+            var i = elem.getElementsByTagName("i")[0],
+                iContent = getComputedStyle(i, ':before').content,
+                iContentHTML = ((escape(iContent)).toLowerCase()).replace("%u", "\\"),
+                iContentHTML = iContentHTML.replace(/%27|%22/g, ""),
+                iContentHTMLEntity = iContentHTML.replace("\\", "&#x") + ";";
+            
+            $("#icon").html(i.outerHTML + " " + $(elem).attr("data-icon"));
+            $("#html").text(i.outerHTML);
+            $("#css").text(function(){
+                var name = $(elem).attr("data-icon"),
+                    css = ".fw-" + name + ":before {\n    content: '" + iContentHTML + "';\n}";
+
+                return css;
+            });
+            $("#htmlE").text(iContentHTMLEntity);
+            $(".code-box, .code-box-bg").show();
+        }
+
+        function hideCode(){
+            $(".code-box, .code-box-bg").hide();
+        }
+
+        $(document).ready(function () {
+
+            /* filter icons */
+            $("#icons-filter").on("keyup click input", function(){
+                if (this.value.length > 0) {
+                    $("#icons ul li").hide().filter(function() {
+                        return $(this).text().toLowerCase().indexOf($("#icons-filter").val().toLowerCase()) != -1;
+                    }).show();
+                }
+                else {
+                    $("#icons ul li").show();
+                }
+            });
+
+        });
+    </script>
+</body>
+</html>

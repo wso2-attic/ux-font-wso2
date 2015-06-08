@@ -1,0 +1,566 @@
+/*
+ * Author: WSO2
+ * URL: http://wso2.com
+ *
+ * Project Name: Font WSO2
+ * Version: 1.0 BETA
+ * URL: http://wso2-dev-ux.github.io/font-wso2/
+ */
+ 
+@import "fontwso2.css";
+@import "fontwso2-extend.css";
+
+/* Regular */
+@font-face {
+    font-family: 'Open Sans';
+
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Italic-webfont.eot');
+    src: url('../fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Italic-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Italic-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+/* Light */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+/* Light Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot');
+    src: url('../fonts/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+/* Semibold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Semibold-webfont.eot');
+    src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+/* Semibold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-SemiboldItalic-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+/* Bold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/* Bold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-BoldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-BoldItalic-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    font-weight: bold;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+/* Extra Bold */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-ExtraBold-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-ExtraBold-webfont.svg#OpenSansExtrabold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+/* Extra Bold Italic */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-ExtraBoldItalic-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
+    url('../fonts/OpenSans-ExtraBoldItalic-webfont.ttf') format('truetype'),
+    url('../fonts/OpenSans-ExtraBoldItalic-webfont.svg#OpenSansExtraboldItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #555;
+    padding: 0;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+	/*font-weight: 400;*/
+}
+
+h4 {
+	/*font-weight: 400;*/
+	font-size: 20px;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #F0AD4E;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #ed9c28;
+    text-decoration: underline;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar-default {
+	background-color: #2c313b;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ed9c28;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:visited,
+.navbar-default .navbar-brand:focus {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+
+.navbar-nav.navbar-right {
+    margin-top: 6px;
+}
+
+.navbar-toggle {
+    margin-top: 14px;
+}
+
+/* Helpers */
+
+.mt {
+	padding: 40px 15px;
+}
+
+.form-control {
+	height: 42px;
+	font-size: 18px;
+	width: 280px;
+}
+
+i {
+	margin: 8px;
+	color: #333; 
+}
+
+i.fw {
+    margin: 0;
+}
+
+i.fw-border {
+    border-color: #dedede;
+}
+
+/* HeaderWrap */
+#headerwrap {
+	background-color: #2c313b;
+	margin-top: -20px;
+	padding-top:100px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+    color: #ffffff;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap a {
+    color: #ffffff;
+}
+
+#headerwrap .desc {
+    margin-bottom: 30px;
+}
+
+#headerwrap button {
+    margin-bottom: 15px;
+}
+
+#headerwrap .sample-icon .item {
+    text-align: right;
+}
+
+#headerwrap .sample-icon .fw {
+    font-size: 22em;
+    color: #ffffff;
+}
+
+#headerwrap h1 {
+	margin-bottom: 15px;
+	color: white;
+	font-size: 60px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+#headerwrap h1 a {
+    text-decoration: none;
+}
+
+.icons-list ul {
+    padding: 0 10px;
+    margin: 0;
+}
+
+.icons-list ul:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.icons-list ul li {
+    list-style: none;
+    margin-bottom: 8px;
+    width: 375px;
+    float: left;
+    font-size: 20px;
+    cursor: pointer;
+}
+.icons-list ul li i.fw {
+    margin-right: 10px;
+    text-align: center;
+    width: 40px;
+    color: #333;
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+.icons-list .get-code {
+    margin-left: 10px;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+.icons-list ul li:hover .get-code {
+    visibility: visible;
+    text-transform: uppercase;
+}
+
+.icons-list .get-code i.fw {
+    width: auto;
+    margin: 0 2px;
+}
+
+.search-input {
+    width: 375px;
+    height: 40px;
+    padding: 0 15px 0 38px;
+    border: none;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    color: #333;
+    background: #d4d4d4;
+    position: relative;
+}
+
+.search-icon {
+    position: relative;
+    z-index: 1;
+    right: -32px;
+    top: -2px;
+    color: #7B7B7B;
+    cursor: pointer;
+}
+
+.options .fw {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.options .fw.fw-spin {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.options ul.iconlist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.options ul.iconlist li {
+    list-style: none;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+pre {
+    background-color: #f9f9f9;
+}
+
+code {
+    color: #ed9c28;
+    background-color: #F9F8F2;
+}
+
+.code-box {
+    position: fixed;
+    padding: 10px 20px 20px;
+    width: 100%;
+    max-width: 500px;
+    left: 50%;
+    top: 150px;
+    z-index: 10001;
+    background: #fff;
+    margin-left: -250px;
+    display: none;
+    border-radius: 4px;
+
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-constant,
+.hljs-parent,
+.hljs-tag .hljs-value,
+.hljs-rule .hljs-value,
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-name,
+.haml .hljs-symbol,
+.ruby .hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.hljs-template_tag,
+.django .hljs-variable,
+.smalltalk .hljs-class,
+.hljs-addition,
+.hljs-flow,
+.hljs-stream,
+.bash .hljs-variable,
+.pf .hljs-variable,
+.apache .hljs-tag,
+.apache .hljs-cbracket,
+.tex .hljs-command,
+.tex .hljs-special,
+.erlang_repl .hljs-function_or_atom,
+.asciidoc .hljs-header,
+.markdown .hljs-header,
+.coffeescript .hljs-attribute {
+    color: #ed9c28;
+    background-color: #F9F8F2;
+    font-weight: 100;
+}
+
+.hljs-keyword,
+.hljs-id,
+.hljs-title,
+.hljs-built_in,
+.css .hljs-tag,
+.hljs-javadoctag,
+.hljs-phpdoc,
+.hljs-dartdoc,
+.hljs-yardoctag,
+.smalltalk .hljs-class,
+.hljs-winutils,
+.bash .hljs-variable,
+.pf .hljs-variable,
+.apache .hljs-tag,
+.hljs-type,
+.hljs-typename,
+.tex .hljs-command,
+.asciidoc .hljs-strong,
+.markdown .hljs-strong,
+.hljs-request,
+.hljs-status {
+    font-weight: 100;
+    color: #333;
+    background-color: inherit;
+}
+
+.hljs {
+    background: inherit;
+}
+
+.hljs, .hljs-subst, .hljs-tag .hljs-title, .nginx .hljs-title {
+    color: #333;
+}
+
+.code-box .code-hide-btn {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.code-box .code-hide-btn .fw-ring {
+    display: none;
+}
+
+.code-box .code-hide-btn:hover .fw-ring {
+    display: inline-block;
+}
+
+.code-box-bg {
+    position:absolute;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.7;
+    display: none;
+}
+
+pre code {
+    white-space: pre-wrap;
+}
+pre code .fw {
+	font-family: monospace;
+}
+
+pre code .fw:before {
+	content: none;
+}
+
+.code-box .icon {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.code-box .icon .fw {
+    font-size: 26px;
+    margin-right: 5px;
+}

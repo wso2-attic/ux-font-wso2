@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <title>Font WSO2</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Fonts from Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+
+    <!-- Code beautifier -->
+    <link rel="stylesheet" href="assets/css/highlight.min.css">
+    <script src="assets/js/highlight.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" style="display: none;">Font <i class="fw fw-wso2 fw-inverse fw-2x"></i></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="icons.html">Icons</a></li>
+                <li><a href="options.html">Options</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+                    <h1><a href="index.html">Font <i class="fw fw-wso2 fw-inverse fw-2x"></i></a></h1>
+                    <h4 class="desc">Font WSO2 gives you scalable vector icons that can instantly customized and use on any website with the power of CSS.</h4>
+                    <form method="get" action="downloads/fontwso2-1.0-dist.zip">
+                        <button type="submit" class="btn btn-warning btn-lg">Download</button>
+                    </form>
+                    Version <span id="fontVersion"></span> · <a href="https://github.com/wso2-dev-ux/fontwso2" target="_blank">GitHub Project</a>
+				</div><!-- /col-lg-6 -->
+				<div class="col-lg-6 sample-icon">
+
+                    <!--&lt;!&ndash; Indicators &ndash;&gt;-->
+                    <!--<ol class="carousel-indicators">-->
+                        <!--<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
+                        <!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
+                        <!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
+                    <!--</ol>-->
+
+                    <! -- CAROUSEL -->
+                    <div class="row">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <i class="fw fw-wsdl fw-5x"></i>
+                                </div>
+                                <div class="item">
+                                    <i class="fw fw-jaggery fw-5x"></i>
+                                </div>
+                                <div class="item">
+                                    <i class="fw fw-rest-api fw-5x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /row -->
+				</div><!-- /col-lg-6 -->
+				
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+	
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-12">
+				<h1>Start</h1>
+				<h3>Setting up Font WSO2 can be as simple as adding two lines of code to your website!</h3>
+			</div>
+		</div><!-- /row -->
+
+		<div class="row">
+            <ol>
+                <li>
+                    Download the latest font pack and copy files as below structure.
+                    <div class="hightlight">
+<pre><code class="language-bash" data-lang="bash">root/ [ where your page is ]
+├── css/
+│   ├── fontwso2.css
+│   ├── fontwso2-extend.css
+└── fonts/
+    ├── fontwso2.svg
+    ├── fontwso2.ttf
+    ├── fontwso2.woff
+    └── fontwso2.eot</code></pre>
+                    </div>
+                </li>
+                <li>
+                    Paste the following code into the <code>&lt;head&gt;</code> section of your site's HTML.
+                    <div class="highlight">
+<pre><code class="html"><link rel="stylesheet" href="css/fontwso2.css" />
+<link rel="stylesheet" href="css/fontwso2-extend.css" /></code></pre>
+                    </div>
+                </li>
+            </ol>
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-12">
+				<h1>Using</h1>
+				<h3>
+                    You can place Font WSO2 icons just anywhere by using the CSS Prefix <code>fw</code> and the icon's
+                    name. And it can be use with any html inline elements. But we recommend  <code>&lt;i&gt;</code> & <code>&lt;span&gt;</code> tags.
+                </h3>
+			</div>
+		</div><!-- /row -->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="highlight">
+<pre><code class="html"><i class="fw fw-wsdl"></i> fw-wsdl</code></pre>
+                </div>
+
+                <ul>
+                    <li>
+                        Click <a href="icons.html">Icons</a> to list down all the available icons.
+                    </li>
+                    <li>
+                        And check out the <a href="options.html">Options</a> to view available css tricks in Font WSO2!
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+	</div><! --/container -->
+
+	<div class="container">
+        <hr>
+        <div>Credits: <a href="https://icomoon.io/" target="_blank">IcoMoon</a> | <a href="http://www.syncfusion.com/downloads/metrostudio" target="_blank">Metro Studio</a></div>
+		<hr>
+		<p class="centered">WSO2 Inc. <script>document.write(new Date().getFullYear());</script> | <a href="http://wso2.com/licenses" target="_blank">License</a></p>
+	</div><!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        
+        var $logo = $('.navbar-brand');
+        $(document).scroll(function() {
+            $logo.css({
+                display: $(this).scrollTop() > 160 ? "block":"none"
+            });
+        });
+
+        $.getJSON("assets/data/selection.json", function(data) {
+            var fontMetaData = data["preferences"].fontPref.metadata;
+
+           $('#fontVersion').html(fontMetaData.majorVersion + "." + fontMetaData.minorVersion);
+        });
+
+
+        var code = 'pre code.html';
+
+        function htmlEscape(str) {
+            return String(str)
+                    .replace(/&/g, '&amp;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;');
+        }
+
+        $(document).ready(function() {
+            $(code).each(function(i, block){
+                var thisCode = $(this).html();
+                $(this).html(htmlEscape(thisCode));
+                hljs.highlightBlock(block);
+            });
+        });
+        
+    </script>
+</body>
+</html>
