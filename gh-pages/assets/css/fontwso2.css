@@ -77,6 +77,9 @@
 .fw-edit:before {
 	content: "\e65d";
 }
+.fw-bookmark:before {
+	content: "\e66f";
+}
 .fw-register2:before {
 	content: "\e669";
 }
@@ -268,6 +271,9 @@
 }
 .fw-warning:before {
 	content: "\e605";
+}
+.fw-remove:before {
+	content: "\e678";
 }
 .fw-deploy:before {
 	content: "\e66d";

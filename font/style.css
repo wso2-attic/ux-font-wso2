@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fontwso2';
-	src:url('fonts/fontwso2.eot?uuv5gn');
-	src:url('fonts/fontwso2.eot?#iefixuuv5gn') format('embedded-opentype'),
-		url('fonts/fontwso2.ttf?uuv5gn') format('truetype'),
-		url('fonts/fontwso2.woff?uuv5gn') format('woff'),
-		url('fonts/fontwso2.svg?uuv5gn#fontwso2') format('svg');
+	src:url('fonts/fontwso2.eot?pv75y8');
+	src:url('fonts/fontwso2.eot?#iefixpv75y8') format('embedded-opentype'),
+		url('fonts/fontwso2.ttf?pv75y8') format('truetype'),
+		url('fonts/fontwso2.woff?pv75y8') format('woff'),
+		url('fonts/fontwso2.svg?pv75y8#fontwso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -76,6 +76,9 @@
 }
 .fw-edit:before {
 	content: "\e65d";
+}
+.fw-bookmark:before {
+	content: "\e66f";
 }
 .fw-register2:before {
 	content: "\e669";
@@ -268,6 +271,9 @@
 }
 .fw-warning:before {
 	content: "\e605";
+}
+.fw-remove:before {
+	content: "\e678";
 }
 .fw-deploy:before {
 	content: "\e66d";
