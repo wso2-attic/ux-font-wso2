@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fontwso2';
-	src:url('../fonts/fontwso2.eot?uuv5gn');
-	src:url('../fonts/fontwso2.eot?#iefixuuv5gn') format('embedded-opentype'),
-		url('../fonts/fontwso2.ttf?uuv5gn') format('truetype'),
-		url('../fonts/fontwso2.woff?uuv5gn') format('woff'),
-		url('../fonts/fontwso2.svg?uuv5gn#fontwso2') format('svg');
+	src:url('fonts/fontwso2.eot?mihvri');
+	src:url('fonts/fontwso2.eot?#iefixmihvri') format('embedded-opentype'),
+		url('fonts/fontwso2.ttf?mihvri') format('truetype'),
+		url('fonts/fontwso2.woff?mihvri') format('woff'),
+		url('fonts/fontwso2.svg?mihvri#fontwso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -143,11 +143,11 @@
 .fw-map-location:before {
 	content: "\e61d";
 }
-.fw-database:before {
-	content: "\e672";
-}
 .fw-invitation:before {
 	content: "\e664";
+}
+.fw-dashboard:before {
+	content: "\e672";
 }
 .fw-lifecycle:before {
 	content: "\e617";
@@ -218,6 +218,9 @@
 .fw-check:before {
 	content: "\e631";
 }
+.fw-ticked-box:before {
+	content: "\e67a";
+}
 .fw-up-arrow-2:before {
 	content: "\e660";
 }
@@ -283,6 +286,12 @@
 }
 .fw-dss:before {
 	content: "\e63d";
+}
+.fw-database:before {
+	content: "\e67b";
+}
+.fw-servers:before {
+	content: "\e679";
 }
 .fw-endpoint:before {
 	content: "\e63f";
