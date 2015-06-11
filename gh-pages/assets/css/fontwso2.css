@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fontwso2';
-	src:url('fonts/fontwso2.eot?mihvri');
-	src:url('fonts/fontwso2.eot?#iefixmihvri') format('embedded-opentype'),
-		url('fonts/fontwso2.ttf?mihvri') format('truetype'),
-		url('fonts/fontwso2.woff?mihvri') format('woff'),
-		url('fonts/fontwso2.svg?mihvri#fontwso2') format('svg');
+	src:url('../fonts/fontwso2.eot?mihvri');
+	src:url('../fonts/fontwso2.eot?#iefixmihvri') format('embedded-opentype'),
+		url('../fonts/fontwso2.ttf?mihvri') format('truetype'),
+		url('../fonts/fontwso2.woff?mihvri') format('woff'),
+		url('../fonts/fontwso2.svg?mihvri#fontwso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
