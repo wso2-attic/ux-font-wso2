@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'fontwso2';
-	src:url('../fonts/fontwso2.eot?j2uolp');
-	src:url('../fonts/fontwso2.eot?#iefixj2uolp') format('embedded-opentype'),
-		url('../fonts/fontwso2.ttf?j2uolp') format('truetype'),
-		url('../fonts/fontwso2.woff?j2uolp') format('woff'),
-		url('../fonts/fontwso2.svg?j2uolp#fontwso2') format('svg');
+	src:url('../fonts/fontwso2.eot?wtbfne');
+	src:url('../fonts/fontwso2.eot?#iefixwtbfne') format('embedded-opentype'),
+		url('../fonts/fontwso2.ttf?wtbfne') format('truetype'),
+		url('../fonts/fontwso2.woff?wtbfne') format('woff'),
+		url('../fonts/fontwso2.svg?wtbfne#fontwso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -73,6 +73,9 @@
 }
 .fw-view:before {
 	content: "\e652";
+}
+.fw-sign-up:before {
+	content: "\e67f";
 }
 .fw-edit:before {
 	content: "\e65d";
