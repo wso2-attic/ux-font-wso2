@@ -151,6 +151,9 @@
 .fw-clock {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe621;');
 }
+.fw-hour-glass {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe685;');
+}
 .fw-clean {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe622;');
 }
@@ -199,6 +202,9 @@
 .fw-java-spring {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe673;');
 }
+.fw-nodejs {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe686;');
+}
 .fw-javascript {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe62e;');
 }
@@ -207,6 +213,9 @@
 }
 .fw-jaxrs {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe674;');
+}
+.fw-bug {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe687;');
 }
 .fw-uncheck {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe630;');
