@@ -18,8 +18,8 @@
  * under the License.
 -->
 
-<svg version="1.1" id="ring" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="info" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
-<path d="M7,0C3.1,0,0,3.1,0,7s3.1,7,7,7s7-3.1,7-7S10.9,0,7,0z M7,13.3c-3.5,0-6.3-2.8-6.3-6.3c0-3.5,2.8-6.3,6.3-6.3
-	c3.5,0,6.3,2.8,6.3,6.3C13.3,10.5,10.5,13.3,7,13.3z"/>
+<path id="path1" d="M7.7,4.6H6.2V3.4h1.5V4.6z M7.5,11.1h-1L6.2,6.3h1.5L7.5,11.1z M7,12.6c3.1,0,5.6-2.5,5.6-5.6S10.1,1.4,7,1.4
+	S1.4,3.9,1.4,7S3.9,12.6,7,12.6z M7,14c-3.9,0-7-3.1-7-7s3.1-7,7-7c3.9,0,7,3.1,7,7S10.9,14,7,14z"/>
 </svg>
