@@ -1,3 +1,9 @@
+.fw-scep {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe618;');
+}
+.fw-security {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe698;');
+}
 .fw-home {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe688;');
 }
@@ -49,6 +55,9 @@
 .fw-add-user {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe668;');
 }
+.fw-contact {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe69a;');
+}
 .fw-key {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe665;');
 }
@@ -73,7 +82,7 @@
 .fw-bookmark {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe66f;');
 }
-.fw-register2 {
+.fw-register {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe669;');
 }
 .fw-search {
@@ -97,8 +106,17 @@
 .fw-settings {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe65e;');
 }
+.fw-apn {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe696;');
+}
+.fw-vpn2 {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe699;');
+}
 .fw-calendar {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe658;');
+}
+.fw-subscribed-calendar {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe69b;');
 }
 .fw-share {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe65a;');
@@ -133,8 +151,8 @@
 .fw-bell {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe66b;');
 }
-.fw-lock {
-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe618;');
+.fw-airplay {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe695;');
 }
 .fw-battery {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe619;');
@@ -196,7 +214,7 @@
 .fw-rules {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe626;');
 }
-.fw-padlock {
+.fw-lock {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe66c;');
 }
 .fw-uri {
@@ -325,6 +343,9 @@
 .fw-devices {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe63c;');
 }
+.fw-ldap {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe694;');
+}
 .fw-dss {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe63d;');
 }
@@ -379,10 +400,13 @@
 .fw-website {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe604;');
 }
+.fw-webclip {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe697;');
+}
 .fw-proxy {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe64a;');
 }
-.fw-jaxws {
+.fw-web-service {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe676;');
 }
 .fw-policy {

@@ -18,9 +18,8 @@
  * under the License.
 -->
 
-<svg version="1.1" id="padlock" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
-<path d="M10.7,5.8H9.2v-2c0-1.2-1-2.2-2.2-2.2c-1.2,0-2.2,1-2.2,2.2v2H3.3v-2C3.3,1.7,4.9,0,7,0c2.1,0,3.7,1.7,3.7,3.7V5.8z
-	 M12.3,13.2V7.3c0-0.4-0.4-0.8-0.8-0.8h-9C2,6.5,1.7,6.8,1.7,7.3v5.9C1.7,13.6,2,14,2.5,14h9C12,14,12.3,13.6,12.3,13.2z M7.5,9.8
-	v2.1H6.5V9.8C6.3,9.6,6.1,9.3,6.1,9c0-0.5,0.4-0.9,0.9-0.9S7.9,8.5,7.9,9C7.9,9.3,7.7,9.6,7.5,9.8z"/>
+<path id="XMLID_1_" fill="#010101" d="M14,2.114v7.859h-2.907l-0.995-1.279h2.623V3.393H1.279v5.301h2.542L2.847,9.973H0V2.114H14z
+	 M11.77,11.886l-4.84-6.222l-4.736,6.222H11.77z"/>
 </svg>
