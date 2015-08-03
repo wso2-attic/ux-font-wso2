@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'font-wso2';
-	src:url('../fonts/font-wso2.eot?-7y52b');
-	src:url('../fonts/font-wso2.eot?#iefix-7y52b') format('embedded-opentype'),
-		url('../fonts/font-wso2.ttf?-7y52b') format('truetype'),
-		url('../fonts/font-wso2.woff?-7y52b') format('woff'),
-		url('../fonts/font-wso2.svg?-7y52b#font-wso2') format('svg');
+	src:url('../fonts/font-wso2.eot?k4i0fx');
+	src:url('../fonts/font-wso2.eot?#iefixk4i0fx') format('embedded-opentype'),
+		url('../fonts/font-wso2.ttf?k4i0fx') format('truetype'),
+		url('../fonts/font-wso2.woff?k4i0fx') format('woff'),
+		url('../fonts/font-wso2.svg?k4i0fx#font-wso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -36,9 +36,6 @@
     line-height: 0.75em;
     vertical-align: -15%;
 }
-.fw-1-5x {
-    font-size: 1.5em;
-}
 .fw-2x {
     font-size: 2em;
 }
@@ -51,7 +48,7 @@
 .fw-5x {
     font-size: 5em;
 }
-.fw-fixedwidth {
+.fw-fw {
     width: 1.28571429em;
     text-align: center;
 }
@@ -78,44 +75,71 @@
     border: solid 0.08em #eeeeee;
     border-radius: .1em;
 }
-.pull-right {
-    float: right;
+.fw-background {
+    background: #888;
+    border-radius: .3em;
+    padding: .4em .50em .45em;
 }
-.pull-left {
+.fw-pull-left {
     float: left;
 }
-.fw.pull-left {
+.fw-pull-right {
+    float: right;
+}
+.fw.fw-pull-left {
     margin-right: .3em;
 }
-.fw.pull-right {
+.fw.fw-pull-right {
     margin-left: .3em;
 }
 .fw-spin {
-    -webkit-animation: wso2icon-spin 2s infinite linear;
-    animation: wso2icon-spin 2s infinite linear;
+    -webkit-animation: fw-spin 2s infinite linear;
+    animation: fw-spin 2s infinite linear;
+}
+@-webkit-keyframes fw-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes fw-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
 }
 .fw-pulse {
-    -webkit-animation: wso2icon-spin 1s infinite steps(8);
-    animation: wso2icon-spin 1s infinite steps(8);
+    -webkit-animation: fw-pulse 2s ease-out infinite;
+    animation: fw-pulse 2s ease-out infinite;
 }
-@-webkit-keyframes wso2icon-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
+@-webkit-keyframes fw-pulse {
+    0%, 30%  {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 1;
     }
     100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg);
+        opacity: 0.3;
     }
 }
-@keyframes wso2icon-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
+@keyframes fw-pulse {
+    0%, 30%  {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 1;
     }
     100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg);
+        opacity: 0.3;
     }
 }
 .fw-rotate-90 {
@@ -155,21 +179,16 @@
 :root .fw-flip-vertical {
     filter: none;
 }
-.fw-stack, .fw-stack-md {
+.fw-stack {
     position: relative;
     display: inline-block;
     width: 2em;
     height: 2em;
-    line-height: 1.8em;
+    line-height: 2em;
     vertical-align: middle;
-    text-align: center;
-}
-.fw-stack-md {
-    width: 1em;
 }
 .fw-stack-1x,
-.fw-stack-2x,
-.fw-stack-1-5x {
+.fw-stack-2x {
     position: absolute;
     left: 0;
     width: 100%;
@@ -177,14 +196,9 @@
 }
 .fw-stack-1x {
     line-height: inherit;
-    font-size: 0.9em;
-}
-.fw-stack-1-5x {
-    line-height: inherit;
-    font-size: 1.2em;
 }
 .fw-stack-2x {
-    font-size: 1.8em;
+    font-size: 2em;
 }
 .fw-inverse {
     color: #ffffff;
@@ -299,6 +313,12 @@
 .fw-paste:before {
 	content: "\e658";
 }
+.fw-undo:before {
+	content: "\e683";
+}
+.fw-redo:before {
+	content: "\e65d";
+}
 .fw-dashboard:before {
 	content: "\e622";
 }
@@ -404,9 +424,6 @@
 .fw-computer:before {
 	content: "\e653";
 }
-.fw-ms-document:before {
-	content: "\e654";
-}
 .fw-devices:before {
 	content: "\e626";
 }
@@ -422,17 +439,20 @@
 .fw-circle:before {
 	content: "\e61a";
 }
+.fw-ring:before {
+	content: "\e61f";
+}
 .fw-pdf:before {
 	content: "\e659";
+}
+.fw-ms-document:before {
+	content: "\e654";
 }
 .fw-pie-chart:before {
 	content: "\e65a";
 }
 .fw-publish:before {
 	content: "\e65c";
-}
-.fw-remove:before {
-	content: "\e65f";
 }
 .fw-resource:before {
 	content: "\e660";
@@ -512,14 +532,11 @@
 .fw-uncheck:before {
 	content: "\e682";
 }
-.fw-undo:before {
-	content: "\e683";
-}
-.fw-redo:before {
-	content: "\e65d";
-}
 .fw-upload:before {
 	content: "\e68c";
+}
+.fw-download:before {
+	content: "\e65f";
 }
 .fw-up:before {
 	content: "\e684";

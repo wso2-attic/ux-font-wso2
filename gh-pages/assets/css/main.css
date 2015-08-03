@@ -407,7 +407,7 @@ i.fw-border {
     vertical-align: middle;
 }
 
-.options .fw.fw-spin {
+.options .fw.fw-spin, .options .fw.fw-pulse {
     margin-right: 8px;
     margin-bottom: 8px;
 }
