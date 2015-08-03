@@ -16,7 +16,10 @@
     transform: translate(0, 0);
 }
 
-/* icon options */
+/* ========================================================================
+ * font options
+ * ======================================================================== */
+
 .fw-lg {
     font-size: 1.33333333em;
     line-height: 0.75em;
@@ -162,9 +165,9 @@
     text-align: center;
 }
 .fw-stack-1x {
-     line-height: inherit;
-     font-size: 0.9em;
- }
+    line-height: inherit;
+    font-size: 0.9em;
+}
 .fw-stack-1-5x {
     line-height: inherit;
     font-size: 1.2em;

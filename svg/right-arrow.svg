@@ -18,9 +18,7 @@
  * under the License.
 -->
 
-<svg version="1.1" id="right-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="6.334 0 7.666 14" enable-background="new 6.334 0 7.666 14" xml:space="preserve">
-<path d="M6.98,14c-0.165,0-0.33-0.055-0.44-0.165c-0.275-0.275-0.275-0.659,0-0.934l5.88-5.88L6.54,1.14
-	c-0.275-0.275-0.275-0.659,0-0.934c0.275-0.275,0.659-0.275,0.934,0l6.32,6.32c0.275,0.275,0.275,0.659,0,0.934l-6.32,6.32
-	C7.309,13.945,7.145,14,6.98,14z"/>
+<svg version="1.1" id="right-arrow-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
+<polygon fill="#070707" points="10.3,2.1 14,7 10.3,11.9 8.7,11.9 12.1,7.7 0,7.7 0,6.3 12.1,6.3 8.7,2.1 "/>
 </svg>
