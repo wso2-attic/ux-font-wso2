@@ -211,6 +211,7 @@
  * font icons
  * ======================================================================== */
 
+
 .fw-airplay:before {
 	content: "\e600";
 }
@@ -297,9 +298,6 @@
 }
 .fw-enterprise-wipe:before {
 	content: "\e62f";
-}
-.fw-enterprise-app:before {
-	content: "\e62e";
 }
 .fw-cloud:before {
 	content: "\e61e";
@@ -562,11 +560,11 @@
 .fw-right-arrow:before {
 	content: "\e68b";
 }
-.fw-uri:before {
-	content: "\e68d";
-}
 .fw-endpoint:before {
 	content: "\e62d";
+}
+.fw-uri:before {
+	content: "\e68d";
 }
 .fw-broken-link:before {
 	content: "\e610";
@@ -604,14 +602,17 @@
 .fw-application:before {
 	content: "\e608";
 }
-.fw-web-app:before {
-	content: "\e696";
+.fw-applications:before {
+	content: "\e609";
 }
 .fw-public-app:before {
 	content: "\e65b";
 }
-.fw-applications:before {
-	content: "\e609";
+.fw-enterprise-app:before {
+	content: "\e62e";
+}
+.fw-web-app:before {
+	content: "\e696";
 }
 .fw-globe:before {
 	content: "\e697";

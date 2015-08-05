@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'font-wso2';
-	src:url('fonts/font-wso2.eot?k4i0fx');
-	src:url('fonts/font-wso2.eot?#iefixk4i0fx') format('embedded-opentype'),
-		url('fonts/font-wso2.ttf?k4i0fx') format('truetype'),
-		url('fonts/font-wso2.woff?k4i0fx') format('woff'),
-		url('fonts/font-wso2.svg?k4i0fx#font-wso2') format('svg');
+	src:url('fonts/font-wso2.eot?-ki0oyb');
+	src:url('fonts/font-wso2.eot?#iefix-ki0oyb') format('embedded-opentype'),
+		url('fonts/font-wso2.ttf?-ki0oyb') format('truetype'),
+		url('fonts/font-wso2.woff?-ki0oyb') format('woff'),
+		url('fonts/font-wso2.svg?-ki0oyb#font-wso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -109,9 +109,6 @@
 }
 .fw-enterprise-wipe:before {
 	content: "\e62f";
-}
-.fw-enterprise-app:before {
-	content: "\e62e";
 }
 .fw-cloud:before {
 	content: "\e61e";
@@ -374,11 +371,11 @@
 .fw-right-arrow:before {
 	content: "\e68b";
 }
-.fw-uri:before {
-	content: "\e68d";
-}
 .fw-endpoint:before {
 	content: "\e62d";
+}
+.fw-uri:before {
+	content: "\e68d";
 }
 .fw-broken-link:before {
 	content: "\e610";
@@ -416,14 +413,17 @@
 .fw-application:before {
 	content: "\e608";
 }
-.fw-web-app:before {
-	content: "\e696";
+.fw-applications:before {
+	content: "\e609";
 }
 .fw-public-app:before {
 	content: "\e65b";
 }
-.fw-applications:before {
-	content: "\e609";
+.fw-enterprise-app:before {
+	content: "\e62e";
+}
+.fw-web-app:before {
+	content: "\e696";
 }
 .fw-globe:before {
 	content: "\e697";
