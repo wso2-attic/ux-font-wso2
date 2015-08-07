@@ -1,11 +1,9 @@
 #/bin/sh
-screen -X title "Deploy gh-pages files to gh-pages brunch"
-
 echo
 echo =========================================================
 echo "gh-pages" folder contains will deploy to gh-pages brunch
-echo =========================================================
 echo please commit all the changes before continue
+echo =========================================================
 echo
 echo -n "Do you want to continue [Y/N]?"
 old_stty_cfg=$(stty -g)
@@ -22,7 +20,6 @@ if echo "$answer" | grep -iq "^y" ;then
 	echo Complete Deploying!
 	sleep
 else
-    echo
-	sleep
+    sleep
 fi
 exit 
