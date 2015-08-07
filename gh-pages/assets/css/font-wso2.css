@@ -211,7 +211,6 @@
  * font icons
  * ======================================================================== */
 
-
 .fw-airplay:before {
 	content: "\e600";
 }
@@ -368,6 +367,15 @@
 .fw-filter:before {
 	content: "\e634";
 }
+.fw-sort:before {
+	content: "\e673";
+}
+.fw-sort-up:before {
+	content: "\e64b";
+}
+.fw-sort-down:before {
+	content: "\e663";
+}
 .fw-message:before {
 	content: "\e635";
 }
@@ -404,9 +412,6 @@
 .fw-list-sort:before {
 	content: "\e64d";
 }
-.fw-sort:before {
-	content: "\e673";
-}
 .fw-lock:before {
 	content: "\e64e";
 }
@@ -419,6 +424,9 @@
 .fw-mobile:before {
 	content: "\e652";
 }
+.fw-ringing:before {
+	content: "\e694";
+}
 .fw-computer:before {
 	content: "\e653";
 }
@@ -427,6 +435,9 @@
 }
 .fw-mute:before {
 	content: "\e655";
+}
+.fw-unmute:before {
+	content: "\e6ae";
 }
 .fw-ok:before {
 	content: "\e657";
@@ -455,9 +466,6 @@
 .fw-resource:before {
 	content: "\e660";
 }
-.fw-ring-message:before {
-	content: "\e663";
-}
 .fw-rules:before {
 	content: "\e664";
 }
@@ -481,6 +489,15 @@
 }
 .fw-database:before {
 	content: "\e623";
+}
+.fw-hardware:before {
+	content: "\e6a9";
+}
+.fw-raspberry:before {
+	content: "\e6aa";
+}
+.fw-arduino:before {
+	content: "\e6ab";
 }
 .fw-share:before {
 	content: "\e670";
@@ -569,9 +586,6 @@
 .fw-broken-link:before {
 	content: "\e610";
 }
-.fw-link:before {
-	content: "\e64b";
-}
 .fw-user:before {
 	content: "\e68f";
 }
@@ -595,6 +609,12 @@
 }
 .fw-schema:before {
 	content: "\e667";
+}
+.fw-organization:before {
+	content: "\e6ac";
+}
+.fw-public:before {
+	content: "\e6ad";
 }
 .fw-bpel:before {
 	content: "\e60e";
