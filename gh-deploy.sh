@@ -1,11 +1,12 @@
 #/bin/sh
-title Deploy gh-pages files to gh-pages brunch
+screen -X title "Deploy gh-pages files to gh-pages brunch"
 
+echo
+echo =========================================================
 echo "gh-pages" folder contains will deploy to gh-pages brunch
 echo =========================================================
 echo please commit all the changes before continue
 echo
-
 echo -n "Do you want to continue [Y/N]?"
 old_stty_cfg=$(stty -g)
 stty raw -echo
