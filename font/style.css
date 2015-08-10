@@ -364,6 +364,9 @@
 .fw-file-browse:before {
 	content: "\e633";
 }
+.fw-grouping:before {
+	content: "\e6af";
+}
 .fw-filter:before {
 	content: "\e634";
 }
@@ -459,6 +462,9 @@
 }
 .fw-pie-chart:before {
 	content: "\e65a";
+}
+.fw-bar-chart:before {
+	content: "\e6b0";
 }
 .fw-publish:before {
 	content: "\e65c";
