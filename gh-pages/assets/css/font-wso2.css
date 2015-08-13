@@ -210,7 +210,18 @@
 /* ========================================================================
  * font icons
  * ======================================================================== */
-
+.fw-mouse-pointer:before {
+	content: "\e6b1";
+}
+.fw-pointer:before {
+	content: "\e6b2";
+}
+.fw-hand:before {
+	content: "\e6b3";
+}
+.fw-question-mark:before {
+	content: "\e6b4";
+}
 .fw-airplay:before {
 	content: "\e600";
 }
@@ -322,6 +333,9 @@
 .fw-view:before {
 	content: "\e691";
 }
+.fw-focus:before {
+	content: "\e6b5";
+}
 .fw-delete:before {
 	content: "\e624";
 }
@@ -367,6 +381,9 @@
 .fw-grouping:before {
 	content: "\e6af";
 }
+.fw-folder:before {
+	content: "\e6b6";
+}
 .fw-filter:before {
 	content: "\e634";
 }
@@ -379,11 +396,17 @@
 .fw-sort-down:before {
 	content: "\e663";
 }
+.fw-faq:before {
+	content: "\e6b7";
+}
 .fw-message:before {
 	content: "\e635";
 }
 .fw-forum:before {
 	content: "\e636";
+}
+.fw-chat:before {
+	content: "\e6b8";
 }
 .fw-mail:before {
 	content: "\e64f";
@@ -499,6 +522,9 @@
 .fw-hardware:before {
 	content: "\e6a9";
 }
+.fw-signal:before {
+	content: "\e6b9";
+}
 .fw-raspberry:before {
 	content: "\e6aa";
 }
@@ -511,6 +537,9 @@
 .fw-star:before {
 	content: "\e674";
 }
+.fw-coins:before {
+	content: "\e6ba";
+}
 .fw-statistics:before {
 	content: "\e675";
 }
@@ -519,6 +548,12 @@
 }
 .fw-subscribe:before {
 	content: "\e677";
+}
+.fw-fan:before {
+	content: "\e6bb";
+}
+.fw-light:before {
+	content: "\e6bc";
 }
 .fw-subscribed-calendar:before {
 	content: "\e678";
