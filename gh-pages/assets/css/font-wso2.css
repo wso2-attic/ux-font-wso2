@@ -1,215 +1,28 @@
 @font-face {
 	font-family: 'font-wso2';
-	src:url('../fonts/font-wso2.eot?k4i0fx');
-	src:url('../fonts/font-wso2.eot?#iefixk4i0fx') format('embedded-opentype'),
-		url('../fonts/font-wso2.ttf?k4i0fx') format('truetype'),
-		url('../fonts/font-wso2.woff?k4i0fx') format('woff'),
-		url('../fonts/font-wso2.svg?k4i0fx#font-wso2') format('svg');
+	src:url('fonts/font-wso2.eot?vyuam9');
+	src:url('fonts/font-wso2.eot?#iefixvyuam9') format('embedded-opentype'),
+		url('fonts/font-wso2.ttf?vyuam9') format('truetype'),
+		url('fonts/font-wso2.woff?vyuam9') format('woff'),
+		url('fonts/font-wso2.svg?vyuam9#font-wso2') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-.fw, [class^="fw-"], [class*=" fw-"] {
-    display: inline-block;
-    font: normal normal normal 14px/1 font-wso2;
-    font-size: inherit;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    vertical-align: middle;
+.fw {
+	font-family: 'font-wso2';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: auto;
-    transform: translate(0, 0);
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
-/* ========================================================================
- * font options
- * ======================================================================== */
-
-.fw-lg {
-    font-size: 1.33333333em;
-    line-height: 0.75em;
-    vertical-align: -15%;
-}
-.fw-2x {
-    font-size: 2em;
-}
-.fw-3x {
-    font-size: 3em;
-}
-.fw-4x {
-    font-size: 4em;
-}
-.fw-5x {
-    font-size: 5em;
-}
-.fw-fw {
-    width: 1.28571429em;
-    text-align: center;
-}
-.fw-ul {
-    padding-left: 0;
-    margin-left: 2.14285714em;
-    list-style-type: none;
-}
-.fw-ul > li {
-    position: relative;
-}
-.fw-li {
-    position: absolute;
-    left: -2.14285714em;
-    width: 2.14285714em;
-    top: 0.14285714em;
-    text-align: center;
-}
-.fw-li.fw-lg {
-    left: -1.85714286em;
-}
-.fw-border {
-    padding: .2em .25em .15em;
-    border: solid 0.08em #eeeeee;
-    border-radius: .1em;
-}
-.fw-background {
-    background: #888;
-    border-radius: .3em;
-    padding: .4em .50em .45em;
-}
-.fw-pull-left {
-    float: left;
-}
-.fw-pull-right {
-    float: right;
-}
-.fw.fw-pull-left {
-    margin-right: .3em;
-}
-.fw.fw-pull-right {
-    margin-left: .3em;
-}
-.fw-spin {
-    -webkit-animation: fw-spin 2s infinite linear;
-    animation: fw-spin 2s infinite linear;
-}
-@-webkit-keyframes fw-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg);
-    }
-}
-@keyframes fw-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg);
-    }
-}
-.fw-pulse {
-    -webkit-animation: fw-pulse 2s ease-out infinite;
-    animation: fw-pulse 2s ease-out infinite;
-}
-@-webkit-keyframes fw-pulse {
-    0%, 30%  {
-        opacity: 0.3;
-    }
-    40% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0.3;
-    }
-}
-@keyframes fw-pulse {
-    0%, 30%  {
-        opacity: 0.3;
-    }
-    40% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0.3;
-    }
-}
-.fw-rotate-90 {
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-.fw-rotate-180 {
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-    -webkit-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
-.fw-rotate-270 {
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-}
-.fw-flip-horizontal {
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
-    -webkit-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
-    transform: scale(-1, 1);
-}
-.fw-flip-vertical {
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
-    -webkit-transform: scale(1, -1);
-    -ms-transform: scale(1, -1);
-    transform: scale(1, -1);
-}
-:root .fw-rotate-90,
-:root .fw-rotate-180,
-:root .fw-rotate-270,
-:root .fw-flip-horizontal,
-:root .fw-flip-vertical {
-    filter: none;
-}
-.fw-stack {
-    position: relative;
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    line-height: 2em;
-    vertical-align: middle;
-}
-.fw-stack-1x,
-.fw-stack-2x {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
-.fw-stack-1x {
-    line-height: inherit;
-}
-.fw-stack-2x {
-    font-size: 2em;
-}
-.fw-inverse {
-    color: #ffffff;
-}
-.fw-number {
-    line-height: 1.8em;
-}
-
-/* ========================================================================
- * font icons
- * ======================================================================== */
 .fw-mouse-pointer:before {
 	content: "\e6b1";
 }

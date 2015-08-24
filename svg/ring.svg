@@ -17,9 +17,8 @@
  * specific language governing permissions and limitations
  * under the License.
 -->
-
 <svg version="1.1" id="ring" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
-<path d="M7,1.25c3.17056,0,5.75,2.57944,5.75,5.75S10.17056,12.75,7,12.75S1.25,10.17056,1.25,7S3.82944,1.25,7,1.25 M7,0
-	C3.13401,0,0,3.13401,0,7s3.13401,7,7,7s7-3.13401,7-7S10.86599,0,7,0L7,0z"/>
+	 viewBox="-2992 1494 14 14" style="enable-background:new -2992 1494 14 14;" xml:space="preserve">
+	<path d="M-2985,1494.8c3.4,0,6.2,2.8,6.2,6.2s-2.8,6.2-6.2,6.2s-6.2-2.8-6.2-6.2S-2988.4,1494.8-2985,1494.8 M-2985,1494
+		c-3.9,0-7,3.1-7,7s3.1,7,7,7s7-3.1,7-7S-2981.1,1494-2985,1494L-2985,1494z"/>
 </svg>
