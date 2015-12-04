@@ -49,7 +49,7 @@ Then install `fontforge`.
 * Add SVG icons to the icons folder - Please read the icon [design guides](#)
 * Open "icons.properties" and add the name of the icon file with codepoint value
 
-ex:- `"wso2":0xe6a8`
+ex:- `"service":0xe66d`
 
 Optional if want to add sub class names follow the example. You can add them within [] brackets and use || for separate multiple names. See the example below
 
