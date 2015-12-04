@@ -1,0 +1,284 @@
+/*
+~   Copyright (c) WSO2 Inc. (http://wso2.com) All Rights Reserved.
+~
+~   Licensed under the Apache License, Version 2.0 (the "License");
+~   you may not use this file except in compliance with the License.
+~   You may obtain a copy of the License at
+~
+~        http://www.apache.org/licenses/LICENSE-2.0
+~
+~   Unless required by applicable law or agreed to in writing, software
+~   distributed under the License is distributed on an "AS IS" BASIS,
+~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~   See the License for the specific language governing permissions and
+~   limitations under the License.
+*/
+
+<% if (fontfaceStyles) { %>
+<% if (fontSrc1 && embed.length) { %>
+@font-face {
+	font-family:"<%= fontBaseName %>";
+	src:<%= fontSrc1 %>;
+	font-weight:normal;
+	font-style:normal;
+}
+<% } %>@font-face {
+	font-family:"<%= fontBaseName %>";<% if (fontSrc1) { %>
+	src:<%= fontSrc1 %>;<% }%>
+	src:<%= fontSrc2 %>;
+	font-weight:normal;
+	font-style:normal;
+}
+<% } %>
+<% if (baseStyles) { %>.<%= baseClass %>, [class^="<%= baseClass %>-"], [class*=" <%= baseClass %>-"]<% if (addLigatures) { %>,
+.ligature-icons<% } %> {
+    font: normal normal normal 14px/1 <%= fontBaseName %>;
+    display:inline-block;
+    vertical-align:middle;
+    line-height:1;
+    font-weight:normal;
+    font-style:normal;
+    font-size: inherit;
+    font-variant: normal;
+    speak:none;
+    text-decoration:inherit;
+    
+    /* Better Font Rendering =========== */
+    text-transform:none;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+}
+<% } %>
+
+/* ========================================================================
+ * font options
+ * ======================================================================== */
+
+.<%= baseClass %>-lg {
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+.<%= baseClass %>-2x {
+    font-size: 2em;
+}
+.<%= baseClass %>-3x {
+    font-size: 3em;
+}
+.<%= baseClass %>-4x {
+    font-size: 4em;
+}
+.<%= baseClass %>-5x {
+    font-size: 5em;
+}
+.<%= baseClass %>-<%= baseClass %> {
+    width: 1.28571429em;
+    text-align: center;
+}
+.<%= baseClass %>-ul {
+    padding-left: 0;
+    margin-left: 2.14285714em;
+    list-style-type: none;
+}
+.<%= baseClass %>-ul > li {
+    position: relative;
+}
+.<%= baseClass %>-li {
+    position: absolute;
+    left: -2.14285714em;
+    width: 2.14285714em;
+    top: 0.14285714em;
+    text-align: center;
+}
+.<%= baseClass %>-li.<%= baseClass %>-lg {
+    left: -1.85714286em;
+}
+.<%= baseClass %>-border {
+    padding: .2em .25em .15em;
+    border: solid 0.08em #eeeeee;
+    border-radius: .1em;
+}
+.<%= baseClass %>-background {
+    background: #888;
+    border-radius: .3em;
+    padding: .4em .50em .45em;
+}
+.<%= baseClass %>-pull-left {
+    float: left;
+}
+.<%= baseClass %>-pull-right {
+    float: right;
+}
+.<%= baseClass %>.<%= baseClass %>-pull-left {
+    margin-right: .3em;
+}
+.<%= baseClass %>.<%= baseClass %>-pull-right {
+    margin-left: .3em;
+}
+.<%= baseClass %>-spin {
+    -webkit-animation: <%= baseClass %>-spin 2s infinite linear;
+    animation: <%= baseClass %>-spin 2s infinite linear;
+}
+@-webkit-keyframes <%= baseClass %>-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+@keyframes <%= baseClass %>-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+.<%= baseClass %>-pulse {
+    -webkit-animation: <%= baseClass %>-pulse 2s ease-out infinite;
+    animation: <%= baseClass %>-pulse 2s ease-out infinite;
+}
+@-webkit-keyframes <%= baseClass %>-pulse {
+    0%, 30%  {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+@keyframes <%= baseClass %>-pulse {
+    0%, 30%  {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+.<%= baseClass %>-rotate-90 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.<%= baseClass %>-rotate-180 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.<%= baseClass %>-rotate-270 {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.<%= baseClass %>-flip-horizontal {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+.<%= baseClass %>-flip-vertical {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+:root .<%= baseClass %>-rotate-90,
+:root .<%= baseClass %>-rotate-180,
+:root .<%= baseClass %>-rotate-270,
+:root .<%= baseClass %>-flip-horizontal,
+:root .<%= baseClass %>-flip-vertical {
+    filter: none;
+}
+.<%= baseClass %>-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+.<%= baseClass %>-stack-1x,
+.<%= baseClass %>-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.<%= baseClass %>-stack-1x {
+    line-height: inherit;
+}
+.<%= baseClass %>-stack-2x {
+    font-size: 2em;
+}
+.<%= baseClass %>-stack > .<%= baseClass %>-stack {
+    position: absolute;
+    font-size: 0.5em;
+}
+.<%= baseClass %>-stack > .<%= baseClass %>-stack > .<%= baseClass %>-stack-1x.<%= baseClass %>-stroke {
+    font-size: 1.1em;
+    left: 0;
+    top: 0;
+}
+.<%= baseClass %>-stack > .<%= baseClass %>-stack > .<%= baseClass %>-stack-2x.<%= baseClass %>-stroke {
+    font-size: 2.3em;
+    left: -0.07em;
+    top: -0.07em;
+}
+.<%= baseClass %>-stack > .<%= baseClass %>-stack.<%= baseClass %>-move-top {
+    top: -0.2em;
+}
+.<%= baseClass %>-stack > .<%= baseClass %>-stack.<%= baseClass %>-move-bottom {
+    bottom: -0.2em;
+}
+.<%= baseClass %>-stack > .<%= baseClass %>.stack.<%= baseClass %>-move-left {
+    left: -0.5em;
+}
+.<%= baseClass %>-stack > .<%= baseClass %>-stack.<%= baseClass %>-move-right {
+    right: -0.5em;
+}
+.<%= baseClass %>-inverse {
+    color: #ffffff;
+}
+.<%= baseClass %>-number {
+    line-height: 1.8em;
+}
+
+<% if (iconsStyles) { %>
+/* ========================================================================
+ * font icons
+ * ======================================================================== */
+<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
+<% if (stylesheet === 'less') { %>
+.<%= mixinPrefix %><%= glyphs[glyphIdx] %>() {
+	&:before {
+		content:"<% if (addLigatures) { %><%= glyphs[glyphIdx] %><% } else { %>\<%= codepoints[glyphIdx] %><% } %>";
+	}
+	<% if (ie7) {%>
+	*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x<%= codepoints[glyphIdx] %>;');
+	<% } %>
+}
+.<%= classPrefix %><%= glyphs[glyphIdx] %>{
+ 	.<%= mixinPrefix %><%= glyphs[glyphIdx] %>();
+}<% } else { %>
+<% if (ie7) {%>.<%= classPrefix %><%= glyphs[glyphIdx] %> {
+	*zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x<%= codepoints[glyphIdx] %>;');
+}
+<% } %>
+.<%= classPrefix %><%= glyphs[glyphIdx] %>:before<%= subClasses[glyphs[glyphIdx]] %> {
+    content:"<% if (addLigatures) { %><%= glyphs[glyphIdx] %><% } else { %>\<%= codepoints[glyphIdx] %><% } %>";
+}
+<% }}} %>

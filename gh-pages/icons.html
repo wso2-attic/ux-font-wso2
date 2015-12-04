@@ -107,11 +107,32 @@
     <script src="assets/js/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script>
+        
+        $.get("assets/data/icons.properties", function(data) {
+            
+            var codePointString = data.split(',');
+            var dataObj = {};
+            codePointString.forEach(function(codeString){
+                var cssClass = codeString.split(':')[0];
+                cssClass = cssClass.replace(/\[.*?\]/g, ''); //Remove [square brackets with value]          
+                dataObj[cssClass] = parseInt(codeString.split(':')[1],16);
+            });
+            var str = JSON.stringify(dataObj);
+            str = str.replace(/(?:\\[rn"\"]|[\r\n]+)+/g, ''); //Remove characters "\r\n"
+            str = JSON.parse(str);
+            
+            console.log(str);
+        });
+        
         $.getJSON("assets/data/selection.json", function(data) {
             var items = [];
             var icons = data["icons"];
-
             $.each(icons, function(key, val) {
+                
+                
+                //console.log(icons[key].properties.name);
+                
+                
                 items.push( "<li onclick='showCode(this)' data-icon='" + icons[key].properties.name + "'>" +
                 "<i class='fw fw-" + icons[key].properties.name + "'></i>" +
                 icons[key].properties.name +
