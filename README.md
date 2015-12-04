@@ -5,11 +5,11 @@ http://wso2-dev-ux.github.io/font-wso2/
 
 ## Build
 
-Download annd run grunt command
+Download and run 'grunt' command
 ```
 grunt
 ```
-## Build
+## Adding New Icons To The Library
 
 * Add SVG icons to the icons folder - Please read the icon design guides
 * Open "icons.properties" and add the name of the icon file with codepoint value
@@ -27,7 +27,7 @@ To run the build, this requires Grunt 0.4 and Node Package Manager. And `fontfor
 Note that `ttfautohint` is optional, 
 but your generated font will not be properly hinted if it’s not installed. And make sure you don’t use `ttfautohint` 0.97 because that version won’t work.
 
-### OS X
+#### OS X
 
 ```
 brew install ttfautohint fontforge --with-python
@@ -37,7 +37,7 @@ brew install ttfautohint fontforge --with-python
 
 *`fontforge` isn’t required for `node` engine (see below).*
 
-### Linux
+#### Linux
 
 ```
 sudo apt-get install fontforge ttfautohint
@@ -45,7 +45,7 @@ sudo apt-get install fontforge ttfautohint
 
 *`fontforge` isn’t required for the `node` engine (see [below](#available-engines)).*
 
-### Windows
+#### Windows
 
 [install `ttfautohint`](http://www.freetype.org/ttfautohint/#download) (optional).
 
@@ -57,4 +57,4 @@ Then install `fontforge`.
 
 ## License
 
-The MIT License, see the included [License.md](License.md) file.
+The MIT License, see the included [LICENSE](LICENSE) file.
