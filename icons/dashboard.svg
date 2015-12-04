@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ *
+ * WSO2 Inc. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+-->
+
+<svg version="1.1" id="dashboard" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
+<path d="M10.739,1.12C9.941,1.718,9.143,2.317,8.445,2.915c-0.299,0.199-0.499,0.299-0.898,0.1c-3.092-1.396-6.683,0.598-7.182,3.99
+	c-0.1,0.698,0,1.496,0.199,2.194c0,0.199,0,0.199-0.1,0.299c-0.898-1.995-0.598-5.286,1.795-7.481
+	C4.655-0.376,8.246-0.476,10.739,1.12z M6.949,8.9c0.997,0,1.895-0.898,1.895-1.895c0-0.1,0.1-0.299,0.1-0.399
+	c0.997-1.297,2.095-2.693,3.092-3.99c0.1-0.1,0.1-0.1,0.199-0.199c0.199-0.199,0.199-0.499,0-0.698
+	c-0.199-0.199-0.499-0.199-0.698,0l-0.1,0.1c-1.396,1.097-2.793,2.194-4.09,3.192c-0.1,0.1-0.299,0.199-0.399,0.199
+	c-0.997,0-1.795,0.798-1.795,1.795S5.951,8.9,6.949,8.9z M6.151,7.005c0-0.499,0.399-0.798,0.798-0.898
+	c0.499,0,0.798,0.399,0.898,0.798c0,0.499-0.399,0.798-0.798,0.898C6.55,7.902,6.151,7.503,6.151,7.005z M3.059,10.895
+	c-0.199,0.199-0.299,0.399-0.499,0.499c-0.199,0.199-0.399,0.299-0.598,0.499c2.793,2.893,7.481,2.593,9.875,0
+	c-0.299-0.299-0.698-0.698-0.997-0.997C8.744,12.989,5.153,12.989,3.059,10.895z M12.834,3.314
+	c-0.698,0.997-1.496,1.895-2.194,2.893c0,0.1,0,0.199,0,0.199c0.1,0.499,0.1,0.898,0.199,1.396c0,0.1,0,0.199,0.199,0.199
+	c0.898,0.199,1.696,0.499,2.593,0.698c0.1,0,0.1,0,0.199,0.1C14.23,6.805,13.931,5.01,12.834,3.314L12.834,3.314z"/>
+</svg>
