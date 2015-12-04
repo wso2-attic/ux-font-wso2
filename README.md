@@ -5,7 +5,7 @@ http://wso2-dev-ux.github.io/font-wso2/
 
 ## Build
 
-Download and run 'grunt' command
+Download and run `grunt` command
 ```
 grunt
 ```
