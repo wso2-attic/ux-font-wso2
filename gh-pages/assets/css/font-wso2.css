@@ -17,11 +17,12 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:url("../fonts/font-wso2.eot?712775f15fa26baaf40e500fa4e21cd8");
-	src:url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff?712775f15fa26baaf40e500fa4e21cd8") format("woff"),
-		url("../fonts/font-wso2.ttf?712775f15fa26baaf40e500fa4e21cd8") format("truetype"),
-		url("../fonts/font-wso2.svg?712775f15fa26baaf40e500fa4e21cd8#font-wso2") format("svg");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?d415aa4bf52732e5795a95e59f4685f6");
+	src:local("font-wso2"),
+        url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/font-wso2.woff?d415aa4bf52732e5795a95e59f4685f6") format("woff"),
+		url("../fonts/font-wso2.ttf?d415aa4bf52732e5795a95e59f4685f6") format("truetype"),
+		url("../fonts/font-wso2.svg?d415aa4bf52732e5795a95e59f4685f6#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -259,7 +260,7 @@
 
 
 
-.fw-add-user:before, .fw-abby:before, .fw-sunny:before, .fw-jerad:before {
+.fw-add-user:before {
     content:"\e690";
 }
 
@@ -1069,7 +1070,7 @@
 
 
 
-.fw-send:before {
+.fw-send:before, .fw-paper-rocket:before {
     content:"\e66a";
 }
 
@@ -1094,12 +1095,12 @@
 
 
 .fw-service:before {
-    content:"\e66d";
+    content:"\e6be";
 }
 
 
 
-.fw-settings:before, .fw-cog:before, .fw-gear:before {
+.fw-settings:before, .fw-cogwheel:before, .fw-gear:before {
     content:"\e66f";
 }
 
