@@ -104,11 +104,29 @@ module.exports = function(grunt) {
                 dest: 'build/downloads/<%= pkg.name %>-<%= pkg.version %>.zip'
             }
         },
+        json_generator: {
+            target: {
+                dest: "build/build.json",
+                options: {
+                    "name": "<%= pkg.name %>",
+                    "version": "<%= pkg.version %>",
+                    "url": "<%= pkg.url %>",
+                    "git": "<%= pkg.git %>",
+                    "designer": "<%= pkg.designer %>",
+                    "designerURL": "<%= pkg.designerURL %>",
+                    "license": "<%= pkg.license %>",
+                    "licenseURL": "<%= pkg.licenseURL %>"
+                }
+            }
+        },
         copy: {
             main: {
                 files: [
                     { expand: true, cwd: 'build/fonts/', src: ['**'], dest: 'gh-pages/assets/fonts/' },
-                    { expand: true, cwd: 'build/css/', src: ['**'], dest: 'gh-pages/assets/css/' }
+                    { expand: true, cwd: 'build/css/', src: ['**'], dest: 'gh-pages/assets/css/' },
+                    { expand: true, cwd: 'build/downloads/', src: ['**'], dest: 'gh-pages/assets/downloads/' },
+                    { expand: true, cwd: 'build/', src: ['build.json'], dest: 'gh-pages/assets/data/' },
+                    { expand: true, cwd: '', src: ['icons.properties'], dest: 'gh-pages/assets/data/' }
                 ],
             },
         }
@@ -119,8 +137,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-zip');
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-json-generator');
 
     // Default task(s).
-    grunt.registerTask('default', ['webfont','cssmin','zip','copy']);
+    grunt.registerTask('default', ['webfont','cssmin','zip','copy','json_generator']);
 
 };
