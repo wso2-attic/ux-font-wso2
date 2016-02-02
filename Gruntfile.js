@@ -16,13 +16,14 @@ module.exports = function(grunt) {
         var codePointString = codepoints.split(',');
         var dataObj = {};
         codePointString.forEach(function(codeString){
-            var cssClass = codeString.split(':')[0];
-            cssClass = cssClass.replace(/\[.*?\]/g, ''); //Remove [square brackets with value]          
-            dataObj[cssClass] = parseInt(codeString.split(':')[1],16);
+            var cssClass = codeString.split(':')[0]; 
+            cssClass = cssClass.replace(/\[.*?\]/g, ''); //Remove [square brackets with value] 
+            cssClass = cssClass.replace(/"/g,''); //Remove double quotes
+            var className = cssClass.split('@');
+            dataObj[className[0]] = parseInt(codeString.split(':')[1],16);
         });
         
         return removeEscapeCharactersJsonObject(dataObj);
-
     })();
     
     var subClassesExtract = (function() {
@@ -32,22 +33,24 @@ module.exports = function(grunt) {
             var cssClass = codeString.split(':')[0];
             var subCssClasses = cssClass.match(/[^[\]]+(?=])/g); //Extract values in [square brackets]          
             cssClass = cssClass.replace(/\[.*?\]/g, ''); //Remove [square brackets with value]
+            cssClass = cssClass.replace(/"/g,''); //Remove double quotes
+            var className = cssClass.split('@');
             if(subCssClasses !== null){
                 subCssClasses = subCssClasses.toString();
                 var subCssClassesArray = subCssClasses.split('||');
                 var css = '';
                 for(var i = 0; i < subCssClassesArray.length; i++){
-                    css += ', .'+classPrefix+'-'+subCssClassesArray[i]+':before';
+                    var subClassName = subCssClassesArray[i].split('@');
+                    css += ', .'+classPrefix+'-'+subClassName[0]+':before';
                 }
-                dataObj[cssClass] = css;
+                dataObj[className[0]] = css;
             }
             else{
-                dataObj[cssClass] = '';
+                dataObj[className[0]] = '';
             }
         });
         
-        return removeEscapeCharactersJsonObject(dataObj);
-        
+        return removeEscapeCharactersJsonObject(dataObj);     
     })();
 
     // Project configuration.

@@ -108,20 +108,26 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script>
         
+        function removeEscapeCharactersJsonObject(obj){
+            var str = JSON.stringify(obj);
+            str = str.replace(/(?:\\[rn"\"]|[\r\n]+)+/g, ''); //Remove characters "\r\n"
+            str = JSON.parse(str);
+            return str;
+        }
+        
         $.get("assets/data/icons.properties", function(data) {
             
             var codePointString = data.split(',');
             var dataObj = {};
             codePointString.forEach(function(codeString){
                 var cssClass = codeString.split(':')[0];
-                cssClass = cssClass.replace(/\[.*?\]/g, ''); //Remove [square brackets with value]          
-                dataObj[cssClass] = parseInt(codeString.split(':')[1],16);
+                cssClass = cssClass.replace(/\[.*?\]/g, ''); //Remove [square brackets with value]
+                cssClass = cssClass.replace(/"/g,''); //Remove double quotes
+                var className = cssClass.split('@');
+                dataObj[className[0]] = parseInt(codeString.split(':')[1],16);
             });
-            var str = JSON.stringify(dataObj);
-            str = str.replace(/(?:\\[rn"\"]|[\r\n]+)+/g, ''); //Remove characters "\r\n"
-            str = JSON.parse(str);
-            
-            console.log(str);
+            var icons = removeEscapeCharactersJsonObject(dataObj);
+            console.log(icons);
         });
         
         $.getJSON("assets/data/selection.json", function(data) {
