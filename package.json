@@ -5,7 +5,7 @@
   "git": "http://github.com/wso2-dev-ux/font-wso2",
   "designer": "WSO2",
   "designerURL": "http://wso2.com",
-  "license": "Apache License, Version 2.0 MIT",
+  "license": "Apache License, Version 2.0",
   "licenseURL": "http://wso2.com/licenses",
   "devDependencies": {
     "grunt": "~0.4.1",
