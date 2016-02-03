@@ -577,11 +577,11 @@ code {
     cursor: pointer;
 }
 
-.code-box .code-hide-btn .fw-ring {
+.code-box .code-hide-btn .fw-circle-outline {
     display: none;
 }
 
-.code-box .code-hide-btn:hover .fw-ring {
+.code-box .code-hide-btn:hover .fw-circle-outline {
     display: inline-block;
 }
 
