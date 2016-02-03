@@ -58,7 +58,7 @@ ex:- `"service":0xe66d`
 
 Optional if want to add sub class names follow the example. You can add them within [] brackets and use || for separate multiple names. See the example below
 
-ex:- `"service[[cogwheels||gears]]":0xe66d`
+ex:- `"service[cogwheels||gears]":0xe66d`
 
 ## Available Engines
 
@@ -71,4 +71,4 @@ There are two font rendering engines available. See also `engine` option below.
 
 ## License
 
-The MIT License, see the included [LICENSE](LICENSE) file.
+WSO2 Inc. licenses this source under the Apache License, Version 2.0 ([LICENSE](LICENSE)), You may not use this file except in compliance with the License.
