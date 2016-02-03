@@ -127,21 +127,16 @@
                 dataObj[className[0]] = parseInt(codeString.split(':')[1],16);
             });
             var icons = removeEscapeCharactersJsonObject(dataObj);
-            console.log(icons);
-        });
-        
-        $.getJSON("assets/data/selection.json", function(data) {
+            var iconsNames = Object.keys(icons);
+            
+            console.log(iconsNames.length);
+            console.log(iconsNames);
+            
             var items = [];
-            var icons = data["icons"];
-            $.each(icons, function(key, val) {
-                
-                
-                //console.log(icons[key].properties.name);
-                
-                
-                items.push( "<li onclick='showCode(this)' data-icon='" + icons[key].properties.name + "'>" +
-                "<i class='fw fw-" + icons[key].properties.name + "'></i>" +
-                icons[key].properties.name +
+            $.each(iconsNames, function(key, val) {
+                items.push( "<li onclick='showCode(this)' data-icon='" + iconsNames[key] + "'>" +
+                "<i class='fw fw-" + iconsNames[key] + "'></i>" +
+                iconsNames[key] +
                 "<span class='get-code'>" +
                 "<i class='fw fw-left'></i>" +
                 "Code" +
@@ -155,7 +150,7 @@
                 html: items.join("")
             }).appendTo("#icons");
 
-            $("#title").append("&nbsp;[" + icons.length + "]");
+            $("#title").append("&nbsp;[" + iconsNames.length + "]");
         });
 
         function showCode(elem){

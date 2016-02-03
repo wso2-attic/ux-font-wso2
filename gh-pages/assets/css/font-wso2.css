@@ -17,12 +17,12 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?589683e34917fcfc182673345fc4bd1c");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?07f52100ae7bcc699fbed0aa46b6e940");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff?589683e34917fcfc182673345fc4bd1c") format("woff"),
-		url("../fonts/font-wso2.ttf?589683e34917fcfc182673345fc4bd1c") format("truetype"),
-		url("../fonts/font-wso2.svg?589683e34917fcfc182673345fc4bd1c#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff?07f52100ae7bcc699fbed0aa46b6e940") format("woff"),
+		url("../fonts/font-wso2.ttf?07f52100ae7bcc699fbed0aa46b6e940") format("truetype"),
+		url("../fonts/font-wso2.svg?07f52100ae7bcc699fbed0aa46b6e940#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -344,6 +344,10 @@
 
 .fw-checklist:before {
     content:"\e619";
+}
+
+.fw-circle-outline:before {
+    content:"\e61f";
 }
 
 .fw-circle:before {
@@ -716,10 +720,6 @@
 
 .fw-right:before {
     content:"\e687";
-}
-
-.fw-ring:before {
-    content:"\e61f";
 }
 
 .fw-ringing:before {
