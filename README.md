@@ -71,4 +71,4 @@ There are two font rendering engines available. See also `engine` option below.
 
 ## License
 
-WSO2 Inc. licenses this source under the Apache License, Version 2.0 ([LICENSE](LICENSE)); you may not use this file except in compliance with the License.
+WSO2 Inc. licenses this source under the Apache License, Version 2.0 ([LICENSE](LICENSE)), You may not use this file except in compliance with the License.
