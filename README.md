@@ -1,6 +1,8 @@
-# Font WSO2 v1.0
+# Font WSO2 v1.0.0
 Font WSO2 gives you scalable vector icons that can instantly customized and use on any website with the power of CSS.
 http://wso2-dev-ux.github.io/font-wso2/
+
+Font generation is based on [sapegin/grunt-webfont](https://github.com/sapegin/grunt-webfont/)
 
 ## Build
 
@@ -24,7 +26,7 @@ brew install ttfautohint fontforge --with-python
 
 *You may need to use `sudo` for `brew`, depending on your setup.*
 
-*`fontforge` isn’t required for `node` engine (see below).*
+*`fontforge` isn’t required for `node` engine (see [below](#available-engines)).*
 
 #### Linux
 
@@ -54,6 +56,35 @@ ex:- `"service":0xe66d`
 Optional if want to add sub class names follow the example. You can add them within [] brackets and use || for separate multiple names. See the example below
 
 ex:- `"service[[cogwheels||gears]]":0xe66d`
+
+## Available Engines
+
+There are two font rendering engines available. See also `engine` option below.
+
+### fontforge
+
+#### Pros
+
+* All features supported.
+* The best results.
+
+#### Cons
+
+* You have to install `fontforge`.
+* Really weird bugs sometimes.
+
+### node
+
+#### Pros
+
+* No external dependencies (except optional `ttfautohint`).
+* Works on all platforms.
+
+#### Cons
+
+* Doesn’t work [with some SVG files](https://github.com/fontello/svg2ttf/issues/25).
+* Ligatures aren’t supported.
+
 
 ## License
 
