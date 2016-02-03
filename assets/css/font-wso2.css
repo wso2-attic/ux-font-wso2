@@ -17,12 +17,12 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?4d85205cb8c947743d0facc98a21c50f");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?e13278cd0f3e9160cba0e2b47a0f03d6");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff?4d85205cb8c947743d0facc98a21c50f") format("woff"),
-		url("../fonts/font-wso2.ttf?4d85205cb8c947743d0facc98a21c50f") format("truetype"),
-		url("../fonts/font-wso2.svg?4d85205cb8c947743d0facc98a21c50f#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff?e13278cd0f3e9160cba0e2b47a0f03d6") format("woff"),
+		url("../fonts/font-wso2.ttf?e13278cd0f3e9160cba0e2b47a0f03d6") format("truetype"),
+		url("../fonts/font-wso2.svg?e13278cd0f3e9160cba0e2b47a0f03d6#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -270,6 +270,10 @@
     content:"\e6c2";
 }
 
+.fw-alert:before {
+    content:"\e6be";
+}
+
 .fw-android:before {
     content:"\e606";
 }
@@ -324,6 +328,10 @@
 
 .fw-bug:before {
     content:"\e611";
+}
+
+.fw-build:before {
+    content:"\e6c1";
 }
 
 .fw-calendar:before {
@@ -594,6 +602,10 @@
     content:"\e648";
 }
 
+.fw-layout:before {
+    content:"\e6bf";
+}
+
 .fw-ldap:before {
     content:"\e649";
 }
@@ -688,6 +700,10 @@
 
 .fw-organization:before {
     content:"\e6ac";
+}
+
+.fw-pages:before {
+    content:"\e6c0";
 }
 
 .fw-paste:before {
@@ -880,6 +896,10 @@
 
 .fw-sync:before {
     content:"\e6b3";
+}
+
+.fw-table:before {
+    content:"\e6c4";
 }
 
 .fw-tag:before {
