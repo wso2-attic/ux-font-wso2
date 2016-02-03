@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <title>Font WSO2</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Fonts from Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+
+    <!-- Code beautifier -->
+    <link rel="stylesheet" href="assets/css/highlight.min.css">
+    <script src="assets/js/highlight.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Font <i class="fw fw-wso2 fw-inverse fw-2x"></i></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="icons.html">Icons</a></li>
+                <li><a href="options.html">Options</a></li>
+                <li class="active"><a href="contribute.html">Contribute</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div class="container mt">
+		
+	</div><! --/container -->
+
+	<div class="container">
+		<hr>
+        <p class="centered">WSO2 Inc. <script>document.write(new Date().getFullYear());</script> | <a href="http://wso2.com/licenses" target="_blank">License</a></p>
+	</div><!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+
+        var code = 'pre code.html';
+
+        function htmlEscape(str) {
+            return String(str)
+                    .replace(/&/g, '&amp;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;');
+        }
+
+        $(document).ready(function() {
+            $(code).each(function(i, block){
+                var thisCode = $(this).html();
+                $(this).html(htmlEscape(thisCode));
+                hljs.highlightBlock(block);
+            });
+        });
+
+    </script>
+</body>
+</html>
