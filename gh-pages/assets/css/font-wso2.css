@@ -17,12 +17,12 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?94f5c5e90918b2ac64b66fecb54da02e");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?589683e34917fcfc182673345fc4bd1c");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff?94f5c5e90918b2ac64b66fecb54da02e") format("woff"),
-		url("../fonts/font-wso2.ttf?94f5c5e90918b2ac64b66fecb54da02e") format("truetype"),
-		url("../fonts/font-wso2.svg?94f5c5e90918b2ac64b66fecb54da02e#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff?589683e34917fcfc182673345fc4bd1c") format("woff"),
+		url("../fonts/font-wso2.ttf?589683e34917fcfc182673345fc4bd1c") format("truetype"),
+		url("../fonts/font-wso2.svg?589683e34917fcfc182673345fc4bd1c#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -258,10 +258,6 @@
  * font icons
  * ======================================================================== */
 
-.fw-add-user:before {
-    content:"\e690";
-}
-
 .fw-add:before {
     content:"\e615";
 }
@@ -290,16 +286,12 @@
     content:"\e608";
 }
 
-.fw-applications:before {
-    content:"\e609";
-}
-
 .fw-arduino:before {
     content:"\e6ab";
 }
 
 .fw-bar-chart:before {
-    content:"\e6b0";
+    content:"\e690";
 }
 
 .fw-battery:before {
@@ -326,10 +318,6 @@
     content:"\e60f";
 }
 
-.fw-broken-link:before {
-    content:"\e610";
-}
-
 .fw-bug:before {
     content:"\e611";
 }
@@ -346,12 +334,8 @@
     content:"\e618";
 }
 
-.fw-change-passcode:before {
-    content:"\e614";
-}
-
 .fw-chat:before {
-    content:"\e6b8";
+    content:"\e65b";
 }
 
 .fw-check:before {
@@ -366,8 +350,8 @@
     content:"\e61a";
 }
 
-.fw-clear-passcode:before {
-    content:"\e61c";
+.fw-clean:before {
+    content:"\e609";
 }
 
 .fw-clear:before {
@@ -382,8 +366,8 @@
     content:"\e61e";
 }
 
-.fw-coins:before {
-    content:"\e6ba";
+.fw-compare:before {
+    content:"\e610";
 }
 
 .fw-computer:before {
@@ -392,6 +376,10 @@
 
 .fw-contact:before {
     content:"\e620";
+}
+
+.fw-contract:before {
+    content:"\e614";
 }
 
 .fw-copy:before {
@@ -414,20 +402,16 @@
     content:"\e625";
 }
 
-.fw-devices:before {
-    content:"\e626";
-}
-
 .fw-dial-up:before {
     content:"\e627";
 }
 
-.fw-document:before {
-    content:"\e628";
+.fw-display:before {
+    content:"\e626";
 }
 
-.fw-dots:before {
-    content:"\e629";
+.fw-document:before {
+    content:"\e628";
 }
 
 .fw-down-arrow:before {
@@ -454,20 +438,20 @@
     content:"\e62c";
 }
 
+.fw-ellipsis:before {
+    content:"\e629";
+}
+
 .fw-endpoint:before {
     content:"\e62d";
 }
 
-.fw-enterprise-app:before {
-    content:"\e62e";
-}
-
-.fw-enterprise-wipe:before {
-    content:"\e62f";
-}
-
 .fw-error:before {
     content:"\e630";
+}
+
+.fw-expand:before {
+    content:"\e61c";
 }
 
 .fw-export:before {
@@ -479,11 +463,11 @@
 }
 
 .fw-fan:before {
-    content:"\e6bb";
+    content:"\e678";
 }
 
 .fw-faq:before {
-    content:"\e6b7";
+    content:"\e62f";
 }
 
 .fw-file-browse:before {
@@ -494,12 +478,8 @@
     content:"\e634";
 }
 
-.fw-focus:before {
-    content:"\e6b5";
-}
-
 .fw-folder:before {
-    content:"\e6b6";
+    content:"\e62e";
 }
 
 .fw-forum:before {
@@ -520,10 +500,6 @@
 
 .fw-grouping:before {
     content:"\e6af";
-}
-
-.fw-hand:before {
-    content:"\e6b3";
 }
 
 .fw-hardware:before {
@@ -615,11 +591,7 @@
 }
 
 .fw-light:before {
-    content:"\e6bc";
-}
-
-.fw-link:before {
-    content:"\e6bd";
+    content:"\e680";
 }
 
 .fw-list-sort:before {
@@ -658,10 +630,6 @@
     content:"\e652";
 }
 
-.fw-mouse-pointer:before {
-    content:"\e6b1";
-}
-
 .fw-ms-document:before {
     content:"\e654";
 }
@@ -676,10 +644,6 @@
 
 .fw-notification:before {
     content:"\e60b";
-}
-
-.fw-ok:before {
-    content:"\e657";
 }
 
 .fw-organization:before {
@@ -698,20 +662,12 @@
     content:"\e65a";
 }
 
-.fw-pointer:before {
-    content:"\e6b2";
-}
-
 .fw-policy:before {
     content:"\e67d";
 }
 
 .fw-proxy:before {
     content:"\e699";
-}
-
-.fw-public-app:before {
-    content:"\e65b";
 }
 
 .fw-public:before {
@@ -722,8 +678,8 @@
     content:"\e65c";
 }
 
-.fw-question-mark:before {
-    content:"\e6b4";
+.fw-question:before {
+    content:"\e6b0";
 }
 
 .fw-raspberry:before {
@@ -806,7 +762,7 @@
     content:"\e66b";
 }
 
-.fw-servers:before {
+.fw-server:before {
     content:"\e66c";
 }
 
@@ -828,10 +784,6 @@
 
 .fw-sign-up:before {
     content:"\e671";
-}
-
-.fw-signal:before {
-    content:"\e6b9";
 }
 
 .fw-soap:before {
@@ -866,8 +818,8 @@
     content:"\e677";
 }
 
-.fw-subscribed-calendar:before {
-    content:"\e678";
+.fw-success:before {
+    content:"\e657";
 }
 
 .fw-swagger:before {
@@ -878,7 +830,7 @@
     content:"\e67a";
 }
 
-.fw-tasks:before {
+.fw-task:before {
     content:"\e67b";
 }
 
@@ -888,10 +840,6 @@
 
 .fw-throttling-policy:before {
     content:"\e67f";
-}
-
-.fw-ticked-box:before {
-    content:"\e680";
 }
 
 .fw-tiles:before {
@@ -958,12 +906,12 @@
     content:"\e696";
 }
 
-.fw-web-service:before {
-    content:"\e69a";
+.fw-web-clip:before {
+    content:"\e698";
 }
 
-.fw-webclip:before {
-    content:"\e698";
+.fw-web-service:before {
+    content:"\e69a";
 }
 
 .fw-website:before {
