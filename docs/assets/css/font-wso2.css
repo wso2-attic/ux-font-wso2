@@ -17,12 +17,12 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?b9fbc657599bff56ab6c8c8117ec8a43");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?4d85205cb8c947743d0facc98a21c50f");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff?b9fbc657599bff56ab6c8c8117ec8a43") format("woff"),
-		url("../fonts/font-wso2.ttf?b9fbc657599bff56ab6c8c8117ec8a43") format("truetype"),
-		url("../fonts/font-wso2.svg?b9fbc657599bff56ab6c8c8117ec8a43#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff?4d85205cb8c947743d0facc98a21c50f") format("woff"),
+		url("../fonts/font-wso2.ttf?4d85205cb8c947743d0facc98a21c50f") format("truetype"),
+		url("../fonts/font-wso2.svg?4d85205cb8c947743d0facc98a21c50f#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -264,6 +264,10 @@
 
 .fw-airplay:before {
     content:"\e600";
+}
+
+.fw-alarm:before {
+    content:"\e6c2";
 }
 
 .fw-android:before {
@@ -522,6 +526,10 @@
     content:"\e639";
 }
 
+.fw-heart:before {
+    content:"\e6c3";
+}
+
 .fw-home:before {
     content:"\e63a";
 }
@@ -616,6 +624,22 @@
 
 .fw-loader:before {
     content:"\e6b4";
+}
+
+.fw-loader2:before {
+    content:"\e6ba";
+}
+
+.fw-loader3:before {
+    content:"\e6bb";
+}
+
+.fw-loader4:before {
+    content:"\e6bc";
+}
+
+.fw-loader5:before {
+    content:"\e6bd";
 }
 
 .fw-lock:before {
@@ -724,6 +748,10 @@
 
 .fw-rest-service:before {
     content:"\e662";
+}
+
+.fw-retweet:before {
+    content:"\e6b9";
 }
 
 .fw-right-arrow:before {
