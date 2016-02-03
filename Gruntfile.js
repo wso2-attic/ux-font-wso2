@@ -124,11 +124,11 @@ module.exports = function(grunt) {
         copy: {
             main: {
                 files: [
-                    { expand: true, cwd: 'build/fonts/', src: ['**'], dest: 'gh-pages/assets/fonts/' },
-                    { expand: true, cwd: 'build/css/', src: ['**'], dest: 'gh-pages/assets/css/' },
-                    { expand: true, cwd: 'build/downloads/', src: ['**'], dest: 'gh-pages/assets/downloads/' },
-                    { expand: true, cwd: 'build/', src: ['build.json'], dest: 'gh-pages/assets/data/' },
-                    { expand: true, cwd: '', src: ['icons.properties'], dest: 'gh-pages/assets/data/' }
+                    { expand: true, cwd: 'build/fonts/', src: ['**'], dest: 'docs/assets/fonts/' },
+                    { expand: true, cwd: 'build/css/', src: ['**'], dest: 'docs/assets/css/' },
+                    { expand: true, cwd: 'build/downloads/', src: ['**'], dest: 'docs/assets/downloads/' },
+                    { expand: true, cwd: 'build/', src: ['build.json'], dest: 'docs/assets/data/' },
+                    { expand: true, cwd: '', src: ['icons.properties'], dest: 'docs/assets/data/' }
                 ],
             },
         }
