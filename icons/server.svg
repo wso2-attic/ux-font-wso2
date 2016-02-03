@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="server" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
-<path d="M5,13.2V0.8C5,0.4,5.4,0,5.8,0h2.3C8.6,0,9,0.4,9,0.8v12.3C9,13.6,8.6,14,8.1,14H5.8C5.4,14,5,13.6,5,13.2z
-	 M5.8,6.7h2.4c0.2,0,0.3-0.1,0.3-0.3v0C8.5,6.2,8.4,6,8.2,6H5.8C5.6,6,5.5,6.2,5.5,6.3v0C5.5,6.5,5.6,6.7,5.8,6.7z M5.8,4.8
-	C5.6,4.8,5.5,5,5.5,5.1v0c0,0.2,0.1,0.3,0.3,0.3h2.4c0.2,0,0.3-0.1,0.3-0.3v0c0-0.2-0.1-0.3-0.3-0.3H5.8z M8.2,1.3H5.8
-	c-0.2,0-0.3,0.1-0.3,0.3v0c0,0.2,0.1,0.3,0.3,0.3h2.4c0.2,0,0.3-0.1,0.3-0.3v0C8.5,1.4,8.4,1.3,8.2,1.3z M5.8,2.5
-	c-0.2,0-0.3,0.1-0.3,0.3v0c0,0.2,0.1,0.3,0.3,0.3h2.4c0.2,0,0.3-0.1,0.3-0.3v0c0-0.2-0.1-0.3-0.3-0.3H5.8z M5.8,3.7
-	C5.6,3.7,5.5,3.8,5.5,4v0c0,0.2,0.1,0.3,0.3,0.3h2.4c0.2,0,0.3-0.1,0.3-0.3v0c0-0.2-0.1-0.3-0.3-0.3H5.8z"/>
+<style type="text/css">
+	.st0{fill:#0E0E0E;}
+</style>
+<path class="st0" d="M5,14V0c0,0,0.4,0,0.8,0h5.3L12,0l0,14H5z M5.8,6.7h5.4l0-0.7H5.8V6.7z M5.8,4.8v0.6h5.4V4.8L5.8,4.8z
+	 M11.2,1.3H5.8v0.6h5.4L11.2,1.3z M5.8,2.5v0.6h5.4V2.5H5.8z M5.8,3.7v0.6h5.4V3.7H5.8z"/>
 </svg>

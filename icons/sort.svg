@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="sort" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
-<path d="M11.334692,7.6630001c0.0340004,0.0610008,0.0310001,0.1350002-0.0079994,0.1949997l-4.1789961,6.0550003
-	C7.1126966,13.9659996,7.0556974,13.9979992,6.9926958,14c-0.0009995,0-0.0030003,0-0.0060005,0
-	c-0.0599995,0-0.118-0.0289993-0.1539993-0.0779991L2.6706927,7.8670006
-	C2.6286929,7.8100014,2.6226923,7.7320004,2.6546919,7.6680012s0.0979996-0.1040001,0.1690006-0.1040001h8.342001
-	C11.2386932,7.5629997,11.301693,7.6009998,11.334692,7.6630001z M2.8246939,6.4370003c0,0,8.3419991,0,8.3499975,0
-	c0.1296511,0,0.2309313-0.1377611,0.1726341-0.2589149c-0.0216589-0.0450115-0.0553217-0.0854263-0.0839462-0.1268716
-	c-0.0196476-0.0284476-4.0906281-5.9227438-4.1069221-5.9463353C7.1502995,0.0959633,7.1441422,0.0870482,7.1378922,0.0779991
-	C7.1008916,0.0269985,7.0368924,0,6.9778924,0C6.9148927,0.0020008,6.8578916,0.0340004,6.8228917,0.0869999L2.6646922,6.1429996
-	C2.6266921,6.2010002,2.6246912,6.2770004,2.6566927,6.3379993C2.6906931,6.3990002,2.7546923,6.4370003,2.8246939,6.4370003z"/>
+<path d="M7.1,0l4.4,6.4H2.6L7.1,0z M11.4,7.6H2.6L6.9,14L11.4,7.6z"/>
 </svg>
