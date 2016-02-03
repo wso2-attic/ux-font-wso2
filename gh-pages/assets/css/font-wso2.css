@@ -17,12 +17,12 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?07f52100ae7bcc699fbed0aa46b6e940");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?9f5659d7944aa863d8b627de0de96608");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff?07f52100ae7bcc699fbed0aa46b6e940") format("woff"),
-		url("../fonts/font-wso2.ttf?07f52100ae7bcc699fbed0aa46b6e940") format("truetype"),
-		url("../fonts/font-wso2.svg?07f52100ae7bcc699fbed0aa46b6e940#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff?9f5659d7944aa863d8b627de0de96608") format("woff"),
+		url("../fonts/font-wso2.ttf?9f5659d7944aa863d8b627de0de96608") format("truetype"),
+		url("../fonts/font-wso2.svg?9f5659d7944aa863d8b627de0de96608#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }

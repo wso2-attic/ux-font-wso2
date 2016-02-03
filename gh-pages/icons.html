@@ -128,10 +128,6 @@
             });
             var icons = removeEscapeCharactersJsonObject(dataObj);
             var iconsNames = Object.keys(icons);
-            
-            console.log(iconsNames.length);
-            console.log(iconsNames);
-            
             var items = [];
             $.each(iconsNames, function(key, val) {
                 items.push( "<li onclick='showCode(this)' data-icon='" + iconsNames[key] + "'>" +
