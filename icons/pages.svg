@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="pages" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+
+<!--
+ * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ *
+ * WSO2 Inc. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+-->
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
-<path d="M2.3000002,10.1000004H1.4000001V0h7.3000007v0.9H2.3000002V10.1000004z M3.8000002,2.4000001h6.4000006V1.5H2.9000001
-	v10.1000004h0.9000001V2.4000001z M11.7999992,4H5.4000001v9.1000004h6.3000007V4 M12.6000004,3.2V14h-8V3.2H12.6000004
-	L12.6000004,3.2z M10.7999992,5.4000001H6.4000001v0.9000001h4.3999991V5.4000001z M10.7999992,7.4000001H6.4000001v0.9000001
-	h4.3999991V7.4000001z M10.7999992,9.5H6.4000001v0.8999996h4.3999991V9.5z M10.7999992,11.6000004H6.4000001V12.5h4.3999991
-	V11.6000004z"/>
+<path class="st0" d="M2.3,10.1H1.4V0h7.3v0.9H2.3V10.1z M3.8,2.4h6.4V1.5H2.9v10.1h0.9V2.4z M11.8,4H5.4v9.1h6.3L11.8,4 M12.6,3.2
+	V14h-8V3.2H12.6L12.6,3.2z M10.8,5.4H6.4v0.9h4.4V5.4z M10.8,7.4H6.4v0.9h4.4V7.4z M10.8,9.5H6.4v0.9h4.4V9.5z M10.8,11.6H6.4v0.9
+	h4.4V11.6z"/>
 </svg>
