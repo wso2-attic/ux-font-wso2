@@ -17,12 +17,12 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?041ea07be197e2cd17eea6108223d8dd");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?4d85205cb8c947743d0facc98a21c50f");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff?041ea07be197e2cd17eea6108223d8dd") format("woff"),
-		url("../fonts/font-wso2.ttf?041ea07be197e2cd17eea6108223d8dd") format("truetype"),
-		url("../fonts/font-wso2.svg?041ea07be197e2cd17eea6108223d8dd#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff?4d85205cb8c947743d0facc98a21c50f") format("woff"),
+		url("../fonts/font-wso2.ttf?4d85205cb8c947743d0facc98a21c50f") format("truetype"),
+		url("../fonts/font-wso2.svg?4d85205cb8c947743d0facc98a21c50f#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -264,6 +264,10 @@
 
 .fw-airplay:before {
     content:"\e600";
+}
+
+.fw-alarm:before {
+    content:"\e6c2";
 }
 
 .fw-android:before {
@@ -520,6 +524,10 @@
 
 .fw-hdd:before {
     content:"\e639";
+}
+
+.fw-heart:before {
+    content:"\e6c3";
 }
 
 .fw-home:before {
