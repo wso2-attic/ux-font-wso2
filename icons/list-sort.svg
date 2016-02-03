@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="list-sort" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="1.954 0 10.092 14" enable-background="new 1.954 0 10.092 14" xml:space="preserve">
-<path d="M1.954,10.078l2.55-6.367h0.282l2.498,6.367H6.785l-0.88-2.247H3.328l-0.885,2.247H1.954z M3.489,7.442h2.268L4.894,5.156
-	C4.822,4.977,4.735,4.728,4.634,4.41C4.556,4.688,4.471,4.939,4.378,5.165L3.489,7.442z M7.64,10.078V9.756l3.713-5.611H7.808V3.737
-	h4.138V4.06l-3.721,5.61h3.821v0.408H7.64z"/>
-<polygon points="5.173,3.061 9.183,3.061 7.178,0.021 "/>
-<polygon points="5.173,10.939 9.183,10.939 7.178,13.979 "/>
+	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+<g>
+	<polygon points="8.9700203,9.552578 12.5736027,4.1202688 12.5941715,4.0889249 12.5941715,3.6016231 8.1932764,3.6016231 
+		8.1932764,4.2618065 11.641118,4.2618065 8.045372,9.6946058 8.0248022,9.7259502 8.0248022,10.2127619 12.6950607,10.2127619 
+		12.6950607,9.552578 	"/>
+	<path d="M6.2499475,10.2127619H7.019835L4.4471769,3.6550059L4.4163227,3.5756664H3.9628139L1.3735045,10.040369
+		l-0.068565,0.1723928h0.760582L2.9534388,7.958931h2.4139791L6.2499475,10.2127619z M5.1235218,7.3178477H3.2134962
+		l0.8237596-2.1103334C4.0872107,5.0855665,4.1356959,4.954803,4.1822219,4.8162036
+		c0.0504446,0.1464353,0.0969706,0.2732806,0.1395788,0.3785772L5.1235218,7.3178477z"/>
+	<polygon points="7.2081437,0 5.1971068,3.0491238 9.2191811,3.0491238 	"/>
+	<polygon points="7.2081437,14 9.2191811,10.9508152 5.1971068,10.9508152 	"/>
+</g>
 </svg>

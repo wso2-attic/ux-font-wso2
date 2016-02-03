@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="blank-document" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="-415 291.28 10.645 14" style="enable-background:new -415 291.28 10.645 14;" xml:space="preserve">
-<path id="Blank" d="M-407.46454,291.28201h-0.53525l-0.00299-0.00201v0.00201h-6.27771c-0.39816,0-0.72128,0.32312-0.72128,0.72128
-	v12.55539c0,0.39816,0.32312,0.72131,0.72128,0.72131h9.20596c0.39816,0,0.72131-0.32315,0.72131-0.72131v-10.2934
-	L-407.46454,291.28201z M-405.26559,304.65359l-8.77661-0.01553c-0.16708,0-0.30313-0.13605-0.30313-0.30313v-12.05118
-	c0-0.16708,0.13605-0.30313,0.30313-0.30313l6.03943,0.02383v2.08374c0,0.38016,0.30911,0.6893,0.6893,0.6893l2.35202-0.0083
-	v9.58127C-404.96246,304.51755-405.0975,304.65359-405.26559,304.65359z"/>
+	 y="0px" viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+<path id="Blank" d="M9.1307068,0H8.6452179l0,0l0,0H2.6796875C2.2913055,0,2,0.296875,2,0.692749v12.614502
+	C2,13.7030945,2.291275,14,2.6796875,14h8.7813416c0.388382,0,0.6796875-0.296875,0.6796875-0.692749V2.9689026L9.1307068,0z
+	 M10.934082,13.0846863H3.206604c-0.1941986,0-0.2912903-0.0989685-0.2912903-0.296875V1.2121887
+	c0-0.197937,0.0971069-0.296875,0.2912903-0.296875h5.4386139v1.7306519c0,0.3958435,0.291275,0.692749,0.6796875,0.692749
+	h1.9004822v9.4490967C11.2253571,12.9857178,11.031189,13.0846863,10.934082,13.0846863z"/>
 </svg>

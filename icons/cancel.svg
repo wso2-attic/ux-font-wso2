@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="cancel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-0.034 0 14.034 14" enable-background="new -0.034 0 14.034 14" xml:space="preserve">
-<path d="M7.937,7l5.83-5.83c0.353-0.265,0.265-0.707,0-0.972c-0.265-0.265-0.707-0.265-0.972,0l-5.83,5.83l-5.829-5.83
-	c-0.265-0.265-0.707-0.265-0.972,0s-0.265,0.707,0,0.972L5.994,7l-5.829,5.829c-0.265,0.265-0.265,0.707,0,0.972
-	c0.265,0.265,0.707,0.265,0.972,0l5.829-5.829l5.83,5.83c0.265,0.265,0.707,0.265,0.972,0c0.353-0.265,0.265-0.707,0-0.972L7.937,7z
-	"/>
+	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+<path d="M8.0652599,7.0303001l5.8387203-5.8924298c0.0963202-0.0971498,0.0963202-0.2560201,0-0.3531199l-0.7011204-0.7067199
+	c-0.0963202-0.09709-0.2539997-0.09709-0.3503199,0L7.00876,5.94697l-5.8269-5.8734999
+	c-0.09717-0.09795-0.25617-0.09795-0.3533399,0L0.0966601,0.7602c-0.0971701,0.09795-0.0971701,0.2582202,0,0.3561702
+	l5.87357,5.9139395L0.0960202,12.83951c-0.0963199,0.0970898-0.0963199,0.2560196,0,0.3531208l0.7818201,0.7224503
+	c0.0963199,0.0970898,0.25394,0.0970898,0.35032,0l5.7806101-5.8268499l5.8186793,5.8383093
+	c0.0971699,0.09795,0.2561703,0.09795,0.3534002,0l0.7224903-0.7009907c0.0971699-0.09795,0.0971699-0.2582207,0-0.3561707
+	L8.0652599,7.0303001z"/>
 </svg>

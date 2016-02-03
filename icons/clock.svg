@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="clock" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-413 291.28 14 14" style="enable-background:new -413 291.28 14 14;" xml:space="preserve">
-<path d="M-406,291.28c-3.87903,0-7,3.12097-7,7c0,3.87897,3.12097,7,7,7s7-3.12103,7-7C-399,294.40097-402.12097,291.28-406,291.28z
-	 M-406,304.405c-3.383,0-6.125-2.742-6.125-6.125c0-3.38306,2.742-6.125,6.125-6.125s6.125,2.74194,6.125,6.125
-	C-399.875,301.66299-402.617,304.405-406,304.405z M-402.69775,298.31155c0,0.21667-0.17725,0.39392-0.39392,0.39392h-2.36804
-	c-0.13312,0.17981-0.34302,0.30347-0.56927,0.30347c-0.40802,0-0.729-0.32098-0.729-0.72894
-	c0-0.29315,0.15112-0.53009,0.39874-0.63733v-3.17828c0-0.21661,0.17725-0.39386,0.39392-0.39386s0.39392,0.17725,0.39392,0.39386
-	v3.23596c0.08197,0.06146,0.14825,0.13367,0.19672,0.21735h2.28302C-402.875,297.91769-402.69775,298.09494-402.69775,298.31155z"/>
+	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+<path d="M7,0C3.1340332,0,0,3.1340332,0,7s3.1340332,7,7,7s7-3.1340332,7-7S10.8659668,0,7,0z M7,12.7999878
+	c-3.1981201,0-5.7999878-2.6018677-5.7999878-5.7999878S3.8018799,1.2000122,7,1.2000122S12.7999878,3.8018799,12.7999878,7
+	S10.1981201,12.7999878,7,12.7999878z M10.3022461,7.0414429c0,0.3499756-0.1772461,0.5205688-0.3939209,0.5205688H7.7911987
+	C7.6121216,7.8318481,7.3204956,8.0205688,6.9723511,8.0205688c-0.5522461,0-1-0.4476929-1-1
+	c0-0.3908691,0.2301636-0.7207642,0.5570679-0.8851929V3.2258301c0-0.2166138,0.2058716-0.3938599,0.505249-0.3938599
+	c0.2888794,0,0.494751,0.1772461,0.494751,0.3938599v2.9865112c0.1324463,0.0915527,0.2421265,0.2064819,0.317627,0.3496704
+	h2.0612793C10.125,6.5620117,10.3022461,6.68927,10.3022461,7.0414429z"/>
 </svg>
