@@ -3,7 +3,8 @@ var path = require('path');
 module.exports = function(grunt) {
     
     var classPrefix = 'fw',
-        codepoints = grunt.file.read('icons.properties');
+        codepoints = grunt.file.read('icons.properties'),
+        codePointString = codepoints.split('\n');
     
     function removeEscapeCharactersJsonObject(obj){
         var str = JSON.stringify(obj);
@@ -13,7 +14,6 @@ module.exports = function(grunt) {
     }
     
     var iconsList = (function(){
-        var codePointString = codepoints.split(',');
         var dataObj = {};
         codePointString.forEach(function(codeString){
             var cssClass = codeString.split(':')[0]; 
@@ -27,7 +27,6 @@ module.exports = function(grunt) {
     })();
     
     var subClassesExtract = (function() {
-        var codePointString = codepoints.split(',');
         var dataObj = {};
         codePointString.forEach(function(codeString){
             var cssClass = codeString.split(':')[0];

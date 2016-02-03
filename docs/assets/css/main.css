@@ -144,6 +144,10 @@
 
 }
 
+* {
+  outline: none !important;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -233,8 +237,12 @@ a:after {
 	border-color: transparent;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:hover {
     color: #ed9c28;
+    background: transparent;
 }
 
 .navbar-default .navbar-brand,
@@ -245,8 +253,34 @@ a:after {
 	color: #ffffff;
 }
 
+@media (max-width: 768px) {
+    .navbar-default .navbar-brand {
+        display: block !important;
+    }
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+    background-color: #ed9c28;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ed9c28;
+}
+
 .navbar-default .navbar-nav > li > a {
 	color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background: #75716c;
+    }
 }
 
 .navbar-nav.navbar-right {
@@ -337,6 +371,18 @@ i.fw-border {
     text-decoration: none;
 }
 
+@media (max-width: 768px) {
+    #headerwrap h1 {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    #headerwrap .sample-icon .item {
+        text-align: center;
+    }
+}
+
 .icons-list ul {
     padding: 0 10px;
     margin: 0;
@@ -381,23 +427,29 @@ i.fw-border {
     margin: 0 2px;
 }
 
-.search-input {
+.search-input-wrapper {
+    position: relative;
     width: 375px;
+    margin: 0 auto 40px;
+}
+
+.search-input {
     height: 40px;
+    width: 100%;
     padding: 0 15px 0 38px;
     border: none;
-    margin-top: -10px;
-    margin-bottom: 40px;
     color: #333;
     background: #d4d4d4;
     position: relative;
 }
 
 .search-icon {
-    position: relative;
+    position: absolute;
+    height: 16px;
+    width: 16px;
     z-index: 1;
-    right: -32px;
-    top: -2px;
+    top: 12px;
+    padding-left: 11px;
     color: #7B7B7B;
     cursor: pointer;
 }

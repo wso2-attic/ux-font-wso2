@@ -75,8 +75,9 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="icons.html">Icons</a></li>
+                <li class="active"><a href="icons.html">Icons</a></li>
                 <li><a href="options.html">Options</a></li>
+                <li><a href="contribute.html">Contribute</a></li>
             </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -88,8 +89,10 @@
 		</div><!-- /row -->
 
         <div class="row centered">
-            <i class="fw fw-search search-icon"></i>
-            <input type="text" class="search-input" id="icons-filter" placeholder="Search Icons ...">
+            <div class="search-input-wrapper">
+                <i class="fw fw-search search-icon"></i>
+                <input type="text" class="search-input" id="icons-filter" placeholder="Search Icons ...">
+            </div>
         </div><!-- /row -->
 
         <div class="row icons-list" id="icons"><!-- dynamic content loads here--></div>

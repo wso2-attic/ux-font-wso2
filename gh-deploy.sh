@@ -1,7 +1,7 @@
 #/bin/sh
 echo
 echo =========================================================
-echo "gh-pages" folder contains will deploy to gh-pages brunch
+echo "docs" folder contains will deploy to gh-pages brunch
 echo please commit all the changes before continue
 echo =========================================================
 echo
@@ -15,7 +15,7 @@ if echo "$answer" | grep -iq "^y" ;then
 	echo Deploying.....
 	echo
 	git pull
-	git subtree push --prefix gh-pages origin gh-pages
+	git subtree push --prefix docs origin gh-pages
 	echo
 	echo Complete Deploying!
 	sleep
