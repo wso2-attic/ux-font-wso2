@@ -16,7 +16,7 @@ grunt
 
 ## Prerequisite
 
-To run the build, this requires grunt > 0.4, node, fontforge & ttfautohint.
+To run the build, this requires [grunt](http://gruntjs.com/getting-started) > 0.4, node, fontforge & ttfautohint.
 
 Note that `ttfautohint` is optional, 
 but your generated font will not be properly hinted if it’s not installed. And make sure you don’t use `ttfautohint` 0.97 because that version won’t work.
