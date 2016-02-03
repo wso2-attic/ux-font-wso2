@@ -14,13 +14,16 @@ Lets look at what needs to be in place to qualify your icon design as a valid fo
 **Icon Size**: 
 14px by 14px
 
+
 **Design Principles**
 
 1. Use Bold and geometric shapes
 2. Use 100% scale for pixel-accuracy
 3. Use readily understood and widely acceptable symbols
 
+
 **Icon Positioning on Content Area**
+
 
 **Icon Anatomy**
 
@@ -28,12 +31,14 @@ Lets look at what needs to be in place to qualify your icon design as a valid fo
 2. Stroke : 1.2px
 3. Corner radius: None
 
+
 **Best Practices**
 
 + Use consistent 1.2px stroke weight and squared stroke terminals
 + All icons should be front facing and 2 dimensional
 + Simplify Icons for readability and clarity
 + Position icons to snap to pixel grid
+
 
 **Color**
 
