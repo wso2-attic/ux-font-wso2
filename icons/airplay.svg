@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
-<path id="XMLID_1_" fill="#010101" d="M14,2.114v7.859h-2.907l-0.995-1.279h2.623V3.393H1.279v5.301h2.542L2.847,9.973H0V2.114H14z
-	 M11.77,11.886l-4.84-6.222l-4.736,6.222H11.77z"/>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="airplay" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+<path d="M14,1.4303002v8.0250111h-2.7237101l-1.2034006-1.6902199h2.2977705l0.00037-4.6263199H1.63129l-0.00195,4.6231499
+	l2.3162501,0.00317L2.7183001,9.4553003H0V1.4303002H14z M11.8589296,12.5697002L7.0189295,6.3476801l-4.73599,6.2220201H11.8589296
+	z"/>
 </svg>
