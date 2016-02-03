@@ -117,7 +117,7 @@
         
         $.get("assets/data/icons.properties", function(data) {
             
-            var codePointString = data.split(',');
+            var codePointString = data.split('\n');
             var dataObj = {};
             codePointString.forEach(function(codeString){
                 var cssClass = codeString.split(':')[0];
