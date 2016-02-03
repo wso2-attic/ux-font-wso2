@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<!--
+ * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ *
+ * WSO2 Inc. licenses this file to you under the Apache License,
+ * Version 2.0 (the "License"); you may not use this file except
+ * in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied. See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+-->
+
 <svg version="1.1" id="user" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#010101;}
-</style>
-<path class="st0" d="M6.7513928,14c-2.8167846,0-5.2923069,0-5.4602165,0c-0.3437499,0-0.5995098-0.3583326-0.5995098-0.3583326
+<path d="M6.7513928,14c-2.8167846,0-5.2923069,0-5.4602165,0c-0.3437499,0-0.5995098-0.3583326-0.5995098-0.3583326
 	c-1.5312494-1.7468748,2.1000001-3.1000004,2.1000001-3.1000004c0.5999999-0.1999998,0.885072-0.3416672,1.4850719-0.6416674
 	c0.9000001-0.3999996,1.1999998-1.5,0.8000002-2.3000002C4.7767391,7,4.5767388,6.4000001,4.376739,5.8000002
 	c-0.0999999-0.2000003-0.1999998-0.4000001-0.3000002-0.5c-0.3999999-0.5-0.3999999-1.0999999,0-1.7c0-0.2,0-0.4000001,0-0.6000001
