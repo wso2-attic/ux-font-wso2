@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
- * Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
- *
- * WSO2 Inc. licenses this file to you under the Apache License,
- * Version 2.0 (the "License"); you may not use this file except
- * in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied. See the License for the
- * specific language governing permissions and limitations
- * under the License.
--->
-
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="24.427 17 10.649 14" enable-background="new 24.427 17 10.649 14" xml:space="preserve">
-<path d="M31.964,17.003h-0.536L31.426,17v0.002h-6.277c-0.398,0-0.722,0.324-0.722,0.722v12.555c0,0.398,0.324,0.722,0.722,0.722
-	h9.206c0.398,0,0.722-0.324,0.722-0.722V19.986L31.964,17.003z M34.355,30.582h-9.206c-0.167,0-0.303-0.136-0.303-0.303V17.724
-	c0-0.167,0.136-0.303,0.303-0.303h6.277v2.388c0,0.38,0.309,0.689,0.689,0.689h2.543v9.781
-	C34.658,30.446,34.522,30.582,34.355,30.582z M26.105,24.438h7.295v0.292h-7.295V24.438z M26.105,25.897h7.295v0.292h-7.295V25.897z
-	 M26.105,27.356h7.295v0.292h-7.295V27.356z M26.105,22.979h7.295v0.292h-7.295V22.979z"/>
+	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+<path d="M8.6219673,0H1.9349976v14h10.1300049V3.2576382L8.6219673,0z M10.8649902,12.7999878H3.1350098V1.2000122h5.1199951
+	v2.6099854h2.6099854V12.7999878z M9.7782259,7.6367188L4.2196326,7.6298828l0.0019531-1L9.780179,6.6367188L9.7782259,7.6367188z
+	 M9.7782259,9.3857422L4.2196326,9.3789062l0.0019531-1L9.780179,8.3857422L9.7782259,9.3857422z M9.7782259,11.1347656
+	l-5.5585933-0.0068359l0.0019531-1l5.5585933,0.0068359L9.7782259,11.1347656z"/>
 </svg>

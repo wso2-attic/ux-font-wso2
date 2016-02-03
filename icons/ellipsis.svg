@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="dots" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="ellipsis" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
-<path d="M3.7,6.9000001c0,1.0999999-0.8,1.7999997-1.9,1.7999997S0,8,0,6.9000001s0.8-1.7999997,1.8-1.7999997
-	S3.7,5.9000001,3.7,6.9000001z M7.0999999,5.0999999C6,5.0999999,5.1999998,5.9000001,5.1999998,6.9000001
-	S6,8.6999998,7.0999999,8.6999998S8.8000002,8,8.8000002,6.9000001S8,5.0999999,7.0999999,5.0999999z M12.1999998,5.0999999
-	c-1.1000004,0-1.8000002,0.6999998-1.8000002,1.7999997s0.6999998,1.8000002,1.8000002,1.8000002S14,8,14,6.9000001
-	S13.1999998,5.0999999,12.1999998,5.0999999z"/>
+<path d="M3.7023978,8.7729197H0V5.0705218h3.7023978V8.7729197z M8.8345156,5.0705218H5.1321182v3.7023978h3.7023973V5.0705218z
+	 M14,5.0705218h-3.7023973v3.7023978H14V5.0705218z"/>
 </svg>
