@@ -84,5 +84,5 @@ If you feel the need of a new icon which is not in our [icon base](http://wso2-d
 
 2. Open "/font-wso2/icons.properties" and add the name of the icon file with codepoint value
 
-    _e.g. "service":0xe66d_
+    _e.g. "service":0xe66d,_
     
