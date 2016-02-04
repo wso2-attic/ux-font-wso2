@@ -80,7 +80,7 @@ If you feel the need of a new icon which is not in our [icon base](http://wso2-d
 
 1. Copy the newly created icon (in .svg format) into the cloned project path
 
-    _e.g. /font-wso2/icons/newicon.svg_
+    _e.g. /font-wso2/icons/service.svg_
 
 2. Open "/font-wso2/icons.properties" and add the name of the icon file with codepoint value
 
