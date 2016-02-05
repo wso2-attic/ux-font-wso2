@@ -18,7 +18,7 @@
  * under the License.
 -->
 
-<svg version="1.1" id="fliter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="filter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="10 0 14 14" enable-background="new 10 0 14 14" xml:space="preserve">
 <path d="M15.3,7h3.5v4.7L15.3,14V7z M10,0v1.2l5.3,5.3h3.5L24,1.2V0H10z"/>
 </svg>

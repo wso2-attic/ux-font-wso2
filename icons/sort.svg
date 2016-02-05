@@ -20,5 +20,5 @@
 
 <svg version="1.1" id="sort" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
-<path d="M7.1,0l4.4,6.4H2.6L7.1,0z M11.4,7.6H2.6L6.9,14L11.4,7.6z"/>
+<path d="M2.6,6.4L7,0l4.4,6.4H2.6z M2.6,7.6L7,14l4.4-6.4H2.6z"/>
 </svg>
