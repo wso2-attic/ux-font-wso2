@@ -1,7 +1,7 @@
 @echo off
-title Deploy gh-pages files to gh-pages brunch
+title Deploy gh-pages files to gh-pages branch
 
-echo "docs" folder contains will deploy to gh-pages brunch
+echo "docs" folder contains will deploy to gh-pages branch
 echo =========================================================
 echo please commit all the changes before continue
 echo.
@@ -19,7 +19,7 @@ echo.
 git pull
 git subtree push --prefix docs origin gh-pages
 echo.
-echo Complete Deploying!
+echo Finished!
 pause
 exit /b 0 
 
