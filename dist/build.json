@@ -1,0 +1,10 @@
+{
+    "name": "font-wso2",
+    "version": "1.0.0",
+    "url": "http://wso2-dev-ux.github.io/font-wso2/",
+    "git": "http://github.com/wso2-dev-ux/font-wso2.git",
+    "designer": "WSO2",
+    "designerURL": "http://wso2.com",
+    "license": "Apache License, Version 2.0",
+    "licenseURL": "http://wso2.com/licenses"
+}
