@@ -58,11 +58,11 @@ module.exports = function(grunt) {
         webfont: {
             icons: {
                 src: 'icons/*.svg',
-                dest: 'dist/fonts',
-                destCss: 'dist/css',
+                dest: 'build/fonts',
+                destCss: 'build/css',
                 options: {
                     font: '<%= pkg.name %>',
-                    destHtml: 'dist',
+                    destHtml: 'build',
                     htmlDemoTemplate: 'templates/tmpl.html',
                     htmlDemoFilename: 'demo',
                     fontFilename: '<%= pkg.name %>',
@@ -88,27 +88,27 @@ module.exports = function(grunt) {
         cssmin: {
           css:{ 
             files: {
-              'dist/css/<%= pkg.name %>.min.css': ['dist/css/<%= pkg.name %>.css']
+              'build/css/<%= pkg.name %>.min.css': ['build/css/<%= pkg.name %>.css']
             }
         }
         },
         zip: {
             'using-cwd': {
-                cwd: 'dist/',
+                cwd: 'build/',
                 src: [
-                    'dist/css/<%= pkg.name %>.css',
-                    'dist/css/<%= pkg.name %>.min.css',
-                    'dist/fonts/<%= pkg.name %>.eot',
-                    'dist/fonts/<%= pkg.name %>.svg',
-                    'dist/fonts/<%= pkg.name %>.ttf',
-                    'dist/fonts/<%= pkg.name %>.woff'
+                    'build/css/<%= pkg.name %>.css',
+                    'build/css/<%= pkg.name %>.min.css',
+                    'build/fonts/<%= pkg.name %>.eot',
+                    'build/fonts/<%= pkg.name %>.svg',
+                    'build/fonts/<%= pkg.name %>.ttf',
+                    'build/fonts/<%= pkg.name %>.woff'
                 ],
-                dest: 'dist/downloads/<%= pkg.name %>-<%= pkg.version %>.zip'
+                dest: 'build/downloads/<%= pkg.name %>-<%= pkg.version %>.zip'
             }
         },
         json_generator: {
             target: {
-                dest: "dist/build.json",
+                dest: "build/build.json",
                 options: {
                     "name": "<%= pkg.name %>",
                     "version": "<%= pkg.version %>",
@@ -124,10 +124,12 @@ module.exports = function(grunt) {
         copy: {
             main: {
                 files: [
-                    { expand: true, cwd: 'dist/fonts/', src: ['**'], dest: 'docs/assets/fonts/' },
-                    { expand: true, cwd: 'dist/css/', src: ['**'], dest: 'docs/assets/css/' },
-                    { expand: true, cwd: 'dist/downloads/', src: ['**'], dest: 'docs/assets/downloads/' },
-                    { expand: true, cwd: 'dist/', src: ['build.json'], dest: 'docs/assets/data/' },
+                    { expand: true, cwd: 'build/fonts/', src: ['**'], dest: 'docs/assets/fonts/' },
+                    { expand: true, cwd: 'build/fonts/', src: ['**'], dest: 'dist/fonts/' },
+                    { expand: true, cwd: 'build/css/', src: ['**'], dest: 'docs/assets/css/' },
+                    { expand: true, cwd: 'build/css/', src: ['**'], dest: 'dist/css/' },
+                    { expand: true, cwd: 'build/downloads/', src: ['**'], dest: 'docs/assets/downloads/' },
+                    { expand: true, cwd: 'build/', src: ['build.json'], dest: 'docs/assets/data/' },
                     { expand: true, cwd: '', src: ['icons.properties'], dest: 'docs/assets/data/' }
                 ],
             },
