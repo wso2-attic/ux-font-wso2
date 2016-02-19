@@ -101,7 +101,8 @@ module.exports = function(grunt) {
                     'build/fonts/<%= pkg.name %>.eot',
                     'build/fonts/<%= pkg.name %>.svg',
                     'build/fonts/<%= pkg.name %>.ttf',
-                    'build/fonts/<%= pkg.name %>.woff'
+                    'build/fonts/<%= pkg.name %>.woff',
+                    'build/fonts/<%= pkg.name %>.woff2'
                 ],
                 dest: 'build/downloads/<%= pkg.name %>-<%= pkg.version %>.zip'
             }
