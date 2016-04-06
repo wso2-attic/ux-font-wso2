@@ -9,7 +9,7 @@ Font generation is base on [sapegin/grunt-webfont](https://github.com/sapegin/gr
 
 ## Changelog
 
-[v1.0.1](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.0.1+is%3Aclosed)
+[v1.0.1 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.0.1+is%3Aclosed)
 
 ## Build
 
