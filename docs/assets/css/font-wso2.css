@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?450dda8ab7b6dab8ff6d1a0c98e6d9ef");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?7aa11251c5800c67f0d319b168ef4d4b");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?450dda8ab7b6dab8ff6d1a0c98e6d9ef") format("woff2"),
-		url("../fonts/font-wso2.woff?450dda8ab7b6dab8ff6d1a0c98e6d9ef") format("woff"),
-		url("../fonts/font-wso2.ttf?450dda8ab7b6dab8ff6d1a0c98e6d9ef") format("truetype"),
-		url("../fonts/font-wso2.svg?450dda8ab7b6dab8ff6d1a0c98e6d9ef#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?7aa11251c5800c67f0d319b168ef4d4b") format("woff2"),
+		url("../fonts/font-wso2.woff?7aa11251c5800c67f0d319b168ef4d4b") format("woff"),
+		url("../fonts/font-wso2.ttf?7aa11251c5800c67f0d319b168ef4d4b") format("truetype"),
+		url("../fonts/font-wso2.svg?7aa11251c5800c67f0d319b168ef4d4b#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -427,6 +427,10 @@
     content:"\e625";
 }
 
+.fw-deprecate:before {
+    content:"\e6cb";
+}
+
 .fw-dial-up:before {
     content:"\e627";
 }
@@ -688,7 +692,7 @@
 }
 
 .fw-micro-services:before {
-    content:"\e6cb";
+    content:"\e6ce";
 }
 
 .fw-minus:before {
@@ -747,6 +751,10 @@
     content:"\e67d";
 }
 
+.fw-prototype:before {
+    content:"\e6cc";
+}
+
 .fw-proxy:before {
     content:"\e699";
 }
@@ -789,6 +797,10 @@
 
 .fw-rest-service:before {
     content:"\e662";
+}
+
+.fw-retire:before {
+    content:"\e6cd";
 }
 
 .fw-retweet:before {
