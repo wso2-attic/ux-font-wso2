@@ -55,7 +55,7 @@ Then install `fontforge`.
 
 #### Add Icons
 
-* Add SVG icons to the icons folder - Please read the icon [design guides](#)
+* Add SVG icons to the icons folder - Please read the icon [design guides](https://github.com/wso2-dev-ux/font-wso2/wiki/Icon-design-guide)
 * Open "icons.properties" and add the name of the icon file with codepoint value
 
 ex:- `"service":0xe66d`
