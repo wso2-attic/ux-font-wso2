@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <!--
-2016-4-6: Created with FontForge (http://fontforge.org)
+2016-4-22: Created with FontForge (http://fontforge.org)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20150827 at Wed Apr 06 08:56:26 2016
+Created by FontForge 20150827 at Fri Apr 22 12:47:09 2016
  By Jerad
 
 </metadata>
@@ -22,9 +22,12 @@ Created by FontForge 20150827 at Wed Apr 06 08:56:26 2016
     bbox="-0.000474263 -67.9334 537.601 448.741"
     underline-thickness="25.6"
     underline-position="-51.2"
-    unicode-range="U+E600-E6CE"
+    unicode-range="U+E600-E6CF"
   />
     <missing-glyph />
+    <glyph glyph-name="uniE6CF" unicode="&#xe6cf;" horiz-adv-x="468" 
+d="M299.886 396.8c98.7432 -29.2568 168.229 -117.028 168.229 -223.086c0 -128 -106.058 -234.057 -234.058 -234.057s-234.058 106.057 -234.058 234.057c0 102.4 65.8291 186.515 153.601 219.429v-58.5137c-58.5146 -29.2578 -102.4 -91.4287 -102.4 -164.571
+c0 -98.7432 80.457 -182.857 182.857 -182.857c98.7432 0 182.857 80.457 182.857 182.857c0 76.7998 -47.543 142.628 -113.372 168.229v58.5137h-3.65723zM201.144 448h54.8564v-219.429h-54.8564v219.429z" />
     <glyph glyph-name="uniE615" unicode="&#xe615;" 
 d="M512 219.429v-54.8574h-228.571v-228.571h-54.8574v228.571h-228.571v54.8574h228.571v228.571h54.8574v-228.571h228.571z" />
     <glyph glyph-name="uniE600" unicode="&#xe600;" 
