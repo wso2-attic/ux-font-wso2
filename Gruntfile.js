@@ -145,6 +145,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-json-generator');
 
     // Default task(s).
-    grunt.registerTask('default', ['webfont','cssmin','zip','copy','json_generator']);
+    grunt.registerTask('default', ['webfont','cssmin','zip','json_generator','copy']);
 
 };
