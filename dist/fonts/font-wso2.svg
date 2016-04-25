@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <!--
-2016-4-22: Created with FontForge (http://fontforge.org)
+2016-4-25: Created with FontForge (http://fontforge.org)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20150827 at Fri Apr 22 12:47:09 2016
+Created by FontForge 20150827 at Mon Apr 25 12:06:43 2016
  By Jerad
 
 </metadata>
@@ -22,7 +22,7 @@ Created by FontForge 20150827 at Fri Apr 22 12:47:09 2016
     bbox="-0.000474263 -67.9334 537.601 448.741"
     underline-thickness="25.6"
     underline-position="-51.2"
-    unicode-range="U+E600-E6CF"
+    unicode-range="U+E600-E6D1"
   />
     <missing-glyph />
     <glyph glyph-name="uniE6CF" unicode="&#xe6cf;" horiz-adv-x="468" 
@@ -310,6 +310,8 @@ c2.36035 0 4.24121 -0.68457 5.64355 -2.12109c1.40234 -1.40234 2.12109 -3.2832 2.
 c2.42871 0.68457 4.51465 0.992188 6.22559 0.992188c2.63379 0 4.8916 -0.992188 6.7041 -2.97656c1.84766 -1.9834 2.77051 -4.68555 2.77051 -8.10645c0 -3.5918 -0.957031 -6.46484 -2.87305 -8.58594s-4.27539 -3.18164 -7.08105 -3.18164
 c-2.59961 0 -4.82324 0.889648 -6.63574 2.66895c-1.84766 1.74414 -2.97559 4.30957 -3.38672 7.66211zM379.421 94.8486v-119.136h-119.135v119.136h119.135zM323.359 -0.200195h13.1357v14.2305h8.75684v11.9033h-8.75684v44.8281h-11.3906l-30.6494 -44.8623v-11.8691
 h28.9043v-14.2305zM323.359 25.9336h-16.248l16.248 24.1504v-24.1504z" />
+    <glyph glyph-name="uniE6D1" unicode="&#xe6d1;" 
+d="M256 448c138.972 0 256 -117.028 256 -256s-117.028 -256 -256 -256s-256 117.028 -256 256s117.028 256 256 256zM427.886 162.743h3.65723v58.5137h-347.429v-58.5137h343.771z" />
     <glyph glyph-name="uniE626" unicode="&#xe626;" 
 d="M36.6182 367.744l-0.046875 -247.852h438.834l0.046875 247.852h-438.834zM0.0458984 404.315h511.954l-0.0458984 -320.994h-511.954zM163.226 70.6992h187.147v-47.6377h37.4287v-37.4297h-262.006v37.4297h37.4297v47.6377z" />
     <glyph glyph-name="uniE628" unicode="&#xe628;" horiz-adv-x="370" 
