@@ -2,6 +2,8 @@ var path = require('path');
 
 module.exports = function(grunt) {
     
+    //require('load-grunt-tasks')(grunt);
+    
     var classPrefix = 'fw',
         codepoints = grunt.file.read('icons.properties'),
         codePointString = codepoints.split('\n');
@@ -55,6 +57,11 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        clean: {
+            build: {
+                src: ['build']
+            }
+        },
         webfont: {
             icons: {
                 src: 'icons/*.svg',
@@ -138,6 +145,7 @@ module.exports = function(grunt) {
     });
     
     // Load the plugin that provides the “uglify” task.
+    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-webfont');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-zip');
@@ -145,6 +153,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-json-generator');
 
     // Default task(s).
-    grunt.registerTask('default', ['webfont','cssmin','zip','json_generator','copy']);
+    grunt.registerTask('default', ['clean','webfont','cssmin','zip','json_generator','copy']);
 
 };
