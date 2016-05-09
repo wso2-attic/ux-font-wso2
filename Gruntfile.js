@@ -58,9 +58,8 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         clean: {
-            build: {
-                src: ['build']
-            }
+            build: ['build'],
+            release: ['dist']
         },
         webfont: {
             icons: {
@@ -153,6 +152,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-json-generator');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean','webfont','cssmin','zip','json_generator','copy']);
+    grunt.registerTask('default', ['clean:build','webfont','cssmin','zip','json_generator','copy','clean:build']);
 
 };
