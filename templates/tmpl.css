@@ -204,26 +204,48 @@
 :root .<%= baseClass %>-flip-vertical {
     filter: none;
 }
-.<%= baseClass %>-stack {
+.<%= baseClass %>-stack,
+.<%= baseClass %>-helper {
     position: relative;
     display: inline-block;
     width: 2em;
     height: 2em;
-    line-height: 2em;
+    line-height: 1.85em;
     vertical-align: middle;
 }
 .<%= baseClass %>-stack-1x,
-.<%= baseClass %>-stack-2x {
+.<%= baseClass %>-stack-2x,
+.<%= baseClass %>-helper:before,
+.<%= baseClass %>-helper:after {
     position: absolute;
     left: 0;
     width: 100%;
     text-align: center;
 }
-.<%= baseClass %>-stack-1x {
+.<%= baseClass %>-stack-1x,
+.<%= baseClass %>-helper:before {
     line-height: inherit;
 }
-.<%= baseClass %>-stack-2x {
-    font-size: 2em;
+.<%= baseClass %>-stack-2x,
+.<%= baseClass %>-helper:after {
+    font-size: 1.9em;
+}
+.<%= baseClass %>-helper-circle:before,
+.<%= baseClass %>-helper-square:before {
+    color: #ffffff;
+    z-index: 1;
+}
+.<%= baseClass %>-helper-circle-outline:after {
+    content: "\e61f";
+}
+.<%= baseClass %>-helper-circle:after {
+    content: "\e61a";
+}
+.<%= baseClass %>-helper-square-outline:after {
+    content: "\e6b2";
+}
+.<%= baseClass %>-helper-square:after {
+    content: "\e6b1";
 }
 .<%= baseClass %>-stack > .<%= baseClass %>-stack {
     position: absolute;
@@ -255,7 +277,8 @@
     color: #ffffff;
 }
 .<%= baseClass %>-number {
-    line-height: 1.8em;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 <% if (iconsStyles) { %>
