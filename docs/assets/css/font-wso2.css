@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?209015b85d97165c63e183177ec53215");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?b0895287478f230dc29d7561cbd5cfab");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?209015b85d97165c63e183177ec53215") format("woff2"),
-		url("../fonts/font-wso2.woff?209015b85d97165c63e183177ec53215") format("woff"),
-		url("../fonts/font-wso2.ttf?209015b85d97165c63e183177ec53215") format("truetype"),
-		url("../fonts/font-wso2.svg?209015b85d97165c63e183177ec53215#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?b0895287478f230dc29d7561cbd5cfab") format("woff2"),
+		url("../fonts/font-wso2.woff?b0895287478f230dc29d7561cbd5cfab") format("woff"),
+		url("../fonts/font-wso2.ttf?b0895287478f230dc29d7561cbd5cfab") format("truetype"),
+		url("../fonts/font-wso2.svg?b0895287478f230dc29d7561cbd5cfab#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -522,6 +522,10 @@
     content:"\e631";
 }
 
+.fw-facebook:before {
+    content:"\e6d3";
+}
+
 .fw-factory-reset:before {
     content:"\e632";
 }
@@ -554,8 +558,36 @@
     content:"\e637";
 }
 
+.fw-github:before {
+    content:"\e6d4";
+}
+
 .fw-globe:before {
     content:"\e697";
+}
+
+.fw-google-docs:before {
+    content:"\e6d6";
+}
+
+.fw-google-drive:before {
+    content:"\e6da";
+}
+
+.fw-google-plus:before {
+    content:"\e6d9";
+}
+
+.fw-google-sheets:before {
+    content:"\e6d7";
+}
+
+.fw-google-slides:before {
+    content:"\e6d8";
+}
+
+.fw-google:before {
+    content:"\e6d5";
 }
 
 .fw-grid:before {
@@ -608,6 +640,10 @@
 
 .fw-info:before {
     content:"\e63e";
+}
+
+.fw-instagram:before {
+    content:"\e6db";
 }
 
 .fw-invitation:before {
@@ -676,6 +712,10 @@
 
 .fw-light:before {
     content:"\e680";
+}
+
+.fw-linkedin:before {
+    content:"\e6dc";
 }
 
 .fw-list-sort:before {
@@ -780,6 +820,10 @@
 
 .fw-pie-chart:before {
     content:"\e65a";
+}
+
+.fw-pinterest:before {
+    content:"\e6dd";
 }
 
 .fw-policy:before {
@@ -918,6 +962,10 @@
     content:"\e6b8";
 }
 
+.fw-skype:before {
+    content:"\e6de";
+}
+
 .fw-soap:before {
     content:"\e672";
 }
@@ -992,6 +1040,10 @@
 
 .fw-tiles:before {
     content:"\e681";
+}
+
+.fw-twitter:before {
+    content:"\e6df";
 }
 
 .fw-uncheck:before {
@@ -1112,6 +1164,10 @@
 
 .fw-xslt:before {
     content:"\e6a4";
+}
+
+.fw-youtube:before {
+    content:"\e6e0";
 }
 
 .fw-zoom-in:before {
