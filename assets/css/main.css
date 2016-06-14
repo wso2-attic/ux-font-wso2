@@ -259,6 +259,10 @@ a:after {
     }
 }
 
+.navbar-default .navbar-brand > .fw {
+    font-size: 42px;
+}
+
 .navbar-default .navbar-toggle {
     border: none;
     background-color: #ed9c28;
@@ -369,6 +373,10 @@ i.fw-border {
 
 #headerwrap h1 a {
     text-decoration: none;
+}
+
+#headerwrap h1 a > .fw {
+    font-size: 165px;
 }
 
 @media (max-width: 768px) {
