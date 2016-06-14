@@ -230,6 +230,9 @@
 .<%= baseClass %>-helper:after {
     font-size: 1.9em;
 }
+.<%= baseClass %>-helper-slash:before {
+    font-size: 1.4em;
+}
 .<%= baseClass %>-helper-circle:before,
 .<%= baseClass %>-helper-square:before {
     color: #ffffff;
@@ -246,6 +249,9 @@
 }
 .<%= baseClass %>-helper-square:after {
     content: "\e6b1";
+}
+.<%= baseClass %>-helper-slash:after {
+    content: "\e6e1";
 }
 .<%= baseClass %>-stack > .<%= baseClass %>-stack {
     position: absolute;
