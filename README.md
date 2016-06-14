@@ -1,4 +1,4 @@
-# Font WSO2 v1.0.3
+# Font WSO2 v1.1.0
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
