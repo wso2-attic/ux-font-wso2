@@ -204,12 +204,6 @@
 :root .<%= baseClass %>-flip-vertical {
     filter: none;
 }
-.<%= baseClass %>-stroke {
-    text-shadow: -2px -2px 0 #fff,  
-                 2px -2px 0 #fff,
-                 -2px 2px 0 #fff,
-                 2px 2px 0 #fff;
-}
 .<%= baseClass %>-stack,
 .<%= baseClass %>-helper {
     position: relative;
@@ -274,12 +268,19 @@
 .<%= baseClass %>-stack > .<%= baseClass %>-stack.<%= baseClass %>-move-right {
     right: -0.5em;
 }
-.<%= baseClass %>-inverse,
-.<%= baseClass %>-helper-inverse:before {
+.<%= baseClass %>-inverse:before,
+.<%= baseClass %>-helper-inverse:after,
+.<%= baseClass %>-number {
     color: #ffffff;
 }
 .<%= baseClass %>-helper-shadow:after {
-    text-shadow: #fff 1px 1px 0;
+    text-shadow: #ffffff 1px 1px 0;
+}
+.<%= baseClass %>-stroke {
+    text-shadow: -2px -2px 0 #ffffff,  
+                 2px -2px 0 #ffffff,
+                 -2px 2px 0 #ffffff,
+                 2px 2px 0 #ffffff;
 }
 .<%= baseClass %>-number {
     line-height: 2em;
