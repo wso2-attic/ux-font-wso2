@@ -241,7 +241,6 @@
 }
 .<%= baseClass %>-helper-circle:before,
 .<%= baseClass %>-helper-square:before {
-    color: #ffffff;
     z-index: 1;
 }
 .<%= baseClass %>-helper-circle-outline:after {
@@ -263,18 +262,6 @@
     position: absolute;
     font-size: 0.5em;
 }
-/* TODO: Check and remove
-.<%= baseClass %>-stack > .<%= baseClass %>-stack > .<%= baseClass %>-stack-1x.<%= baseClass %>-stroke {
-    font-size: 1.1em;
-    left: 0;
-    top: 0;
-}
-.<%= baseClass %>-stack > .<%= baseClass %>-stack > .<%= baseClass %>-stack-2x.<%= baseClass %>-stroke {
-    font-size: 2.3em;
-    left: -0.07em;
-    top: -0.07em;
-}
-*/
 .<%= baseClass %>-stack > .<%= baseClass %>-stack.<%= baseClass %>-move-top {
     top: -0.2em;
 }
@@ -287,8 +274,12 @@
 .<%= baseClass %>-stack > .<%= baseClass %>-stack.<%= baseClass %>-move-right {
     right: -0.5em;
 }
-.<%= baseClass %>-inverse {
+.<%= baseClass %>-inverse,
+.<%= baseClass %>-helper-inverse:before {
     color: #ffffff;
+}
+.<%= baseClass %>-helper-shadow:after {
+    text-shadow: #fff 1px 1px 0;
 }
 .<%= baseClass %>-number {
     line-height: 2em;
