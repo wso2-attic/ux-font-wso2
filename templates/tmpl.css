@@ -204,6 +204,12 @@
 :root .<%= baseClass %>-flip-vertical {
     filter: none;
 }
+.<%= baseClass %>-stroke {
+    text-shadow: -2px -2px 0 #fff,  
+                 2px -2px 0 #fff,
+                 -2px 2px 0 #fff,
+                 2px 2px 0 #fff;
+}
 .<%= baseClass %>-stack,
 .<%= baseClass %>-helper {
     position: relative;
@@ -257,6 +263,7 @@
     position: absolute;
     font-size: 0.5em;
 }
+/* TODO: Check and remove
 .<%= baseClass %>-stack > .<%= baseClass %>-stack > .<%= baseClass %>-stack-1x.<%= baseClass %>-stroke {
     font-size: 1.1em;
     left: 0;
@@ -267,6 +274,7 @@
     left: -0.07em;
     top: -0.07em;
 }
+*/
 .<%= baseClass %>-stack > .<%= baseClass %>-stack.<%= baseClass %>-move-top {
     top: -0.2em;
 }
