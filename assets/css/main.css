@@ -323,10 +323,12 @@ i.fw-border {
 .fw-helper-inverse:after {
     color: #f2f2f2;
 }
+.fw-shadow:before,
 .fw-helper-shadow:after {
     text-shadow: #f2f2f2 1px 1px 0;
 }
-.fw-stroke {
+.fw-stroke:before,
+.fw-helper-stroke:after {
     text-shadow: -2px -2px 0 #f2f2f2,  
                  2px -2px 0 #f2f2f2,
                  -2px 2px 0 #f2f2f2,
