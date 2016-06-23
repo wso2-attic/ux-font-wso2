@@ -12,7 +12,6 @@
 /* Regular */
 @font-face {
     font-family: 'Open Sans';
-
     src: url('../fonts/OpenSans-Regular-webfont.eot');
     src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
     url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
@@ -318,6 +317,21 @@ i.fw {
 
 i.fw-border {
     border-color: #dedede;
+}
+
+.fw-inverse:before,
+.fw-helper-inverse:after,
+.fw-number {
+    color: #f2f2f2;
+}
+.fw-helper-shadow:after {
+    text-shadow: #f2f2f2 1px 1px 0;
+}
+.fw-stroke {
+    text-shadow: -2px -2px 0 #f2f2f2,  
+                 2px -2px 0 #f2f2f2,
+                 -2px 2px 0 #f2f2f2,
+                 2px 2px 0 #f2f2f2;
 }
 
 /* HeaderWrap */
