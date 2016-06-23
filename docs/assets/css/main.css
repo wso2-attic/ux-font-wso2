@@ -320,8 +320,7 @@ i.fw-border {
 }
 
 .fw-inverse:before,
-.fw-helper-inverse:after,
-.fw-number {
+.fw-helper-inverse:after {
     color: #f2f2f2;
 }
 .fw-helper-shadow:after {

@@ -273,10 +273,12 @@
 .<%= baseClass %>-number {
     color: #ffffff;
 }
+.<%= baseClass %>-shadow:before,
 .<%= baseClass %>-helper-shadow:after {
     text-shadow: #ffffff 1px 1px 0;
 }
-.<%= baseClass %>-stroke {
+.<%= baseClass %>-stroke:before,
+.<%= baseClass %>-helper-stroke:after {
     text-shadow: -2px -2px 0 #ffffff,  
                  2px -2px 0 #ffffff,
                  -2px 2px 0 #ffffff,

@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?74d8d769d6a9b0cdfa5399d2f947b3e4");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?b2f8adec75a5e224430a66d91233e0aa");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?74d8d769d6a9b0cdfa5399d2f947b3e4") format("woff2"),
-		url("../fonts/font-wso2.woff?74d8d769d6a9b0cdfa5399d2f947b3e4") format("woff"),
-		url("../fonts/font-wso2.ttf?74d8d769d6a9b0cdfa5399d2f947b3e4") format("truetype"),
-		url("../fonts/font-wso2.svg?74d8d769d6a9b0cdfa5399d2f947b3e4#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?b2f8adec75a5e224430a66d91233e0aa") format("woff2"),
+		url("../fonts/font-wso2.woff?b2f8adec75a5e224430a66d91233e0aa") format("woff"),
+		url("../fonts/font-wso2.ttf?b2f8adec75a5e224430a66d91233e0aa") format("truetype"),
+		url("../fonts/font-wso2.svg?b2f8adec75a5e224430a66d91233e0aa#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -269,10 +269,12 @@
 .fw-number {
     color: #ffffff;
 }
+.fw-shadow:before,
 .fw-helper-shadow:after {
     text-shadow: #ffffff 1px 1px 0;
 }
-.fw-stroke {
+.fw-stroke:before,
+.fw-helper-stroke:after {
     text-shadow: -2px -2px 0 #ffffff,  
                  2px -2px 0 #ffffff,
                  -2px 2px 0 #ffffff,
