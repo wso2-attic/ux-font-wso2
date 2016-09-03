@@ -118,8 +118,7 @@
             return str;
         }
         
-        $.get("assets/data/icons.properties", function(data) {
-            
+        $.get("assets/data/icons.properties", function(data) {          
             var codePointString = data.split('\n');
             var dataObj = {};
             codePointString.forEach(function(codeString){
@@ -150,6 +149,16 @@
             }).appendTo("#icons");
 
             $("#title").append("&nbsp;[" + iconsNames.length + "]");
+            
+            var hashRequest = window.location.hash.substr(1),
+                iconRequest = $('li[data-icon="' + hashRequest + '"]');
+            
+            if(hashRequest && (iconRequest.length > 0)){
+                showCode(iconRequest[0]);
+            }
+            else{
+                location.hash = '';
+            }
         });
 
         function showCode(elem){
@@ -159,24 +168,25 @@
                 iContentHTML = iContentHTML.replace(/%27|%22/g, ""),
                 iContentHTMLEntity = iContentHTML.replace("\\", "&#x") + ";";
             
-            $("#icon").html(i.outerHTML + " " + $(elem).attr("data-icon"));
+            $("#icon").html(i.outerHTML + " " + $(elem).data("icon"));
             $("#html").text(i.outerHTML);
             $("#css").text(function(){
-                var name = $(elem).attr("data-icon"),
+                var name = $(elem).data("icon"),
                     css = ".fw-" + name + ":before {\n    content: '" + iContentHTML + "';\n}";
 
                 return css;
             });
             $("#htmlE").text(iContentHTMLEntity);
             $(".code-box, .code-box-bg").show();
+            location.hash = $(elem).data("icon");
         }
 
         function hideCode(){
             $(".code-box, .code-box-bg").hide();
+            location.hash = '';
         }
 
         $(document).ready(function () {
-
             /* filter icons */
             $("#icons-filter").on("keyup click input", function(){
                 if (this.value.length > 0) {
@@ -188,7 +198,6 @@
                     $("#icons ul li").show();
                 }
             });
-
         });
     </script>
 </body>
