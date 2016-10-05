@@ -92,11 +92,11 @@ module.exports = function(grunt) {
             }
         },
         cssmin: {
-          css:{ 
-            files: {
-              'build/css/<%= pkg.name %>.min.css': ['build/css/<%= pkg.name %>.css']
+            css:{ 
+                files: {
+                    'build/css/<%= pkg.name %>.min.css': ['build/css/<%= pkg.name %>.css']
+                }
             }
-        }
         },
         zip: {
             'using-cwd': {
