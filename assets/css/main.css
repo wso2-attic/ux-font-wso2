@@ -260,6 +260,7 @@ a:after {
 
 .navbar-default .navbar-brand > .fw {
     font-size: 42px;
+    vertical-align: middle;
 }
 
 .navbar-default .navbar-toggle {
@@ -391,7 +392,8 @@ i.fw-border {
 }
 
 #headerwrap h1 a > .fw {
-    font-size: 165px;
+    font-size: 145px;
+    vertical-align: middle;
 }
 
 @media (max-width: 768px) {
@@ -479,7 +481,6 @@ i.fw-border {
 
 .options .fw {
     margin-right: 5px;
-    vertical-align: middle;
 }
 
 .options .fw.fw-spin, .options .fw.fw-pulse {
