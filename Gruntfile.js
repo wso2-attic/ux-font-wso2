@@ -137,7 +137,8 @@ module.exports = function(grunt) {
                     { expand: true, cwd: 'build/css/', src: ['**'], dest: 'dist/css/' },
                     { expand: true, cwd: 'build/downloads/', src: ['**'], dest: 'docs/assets/downloads/' },
                     { expand: true, cwd: 'build/', src: ['build.json'], dest: 'docs/assets/data/' },
-                    { expand: true, cwd: '', src: ['icons.properties'], dest: 'docs/assets/data/' }
+                    { expand: true, cwd: '', src: ['icons.properties'], dest: 'docs/assets/data/' },
+                    { expand: true, cwd: 'build', src: ['demo.html'], dest: 'docs/' }
                 ],
             },
         }

@@ -34,21 +34,19 @@
 <% if (baseStyles) { %>.<%= baseClass %>, [class^="<%= baseClass %>-"], [class*=" <%= baseClass %>-"]<% if (addLigatures) { %>,
 .ligature-icons<% } %> {
     font: normal normal normal 14px/1 <%= fontBaseName %>;
-    display:inline-block;
-    vertical-align:middle;
-    line-height:1;
-    font-weight:normal;
-    font-style:normal;
+    display: inline-block;
+    font-weight: normal;
+    font-style: normal;
     font-size: inherit;
     font-variant: normal;
-    speak:none;
-    text-decoration:inherit;
+    speak: none;
+    text-decoration: inherit;
     
     /* Better Font Rendering =========== */
-    text-transform:none;
-    text-rendering:auto;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 <% } %>
 
