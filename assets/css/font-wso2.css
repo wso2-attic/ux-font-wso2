@@ -1,4 +1,4 @@
-/*
+/*!
 ~   Copyright (c) WSO2 Inc. (http://wso2.com) All Rights Reserved.
 ~
 ~   Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?7ff6234627a78640db5b41e18b383409");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?8842a9686403e5fed437b6479ef80f3d");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?7ff6234627a78640db5b41e18b383409") format("woff2"),
-		url("../fonts/font-wso2.woff?7ff6234627a78640db5b41e18b383409") format("woff"),
-		url("../fonts/font-wso2.ttf?7ff6234627a78640db5b41e18b383409") format("truetype"),
-		url("../fonts/font-wso2.svg?7ff6234627a78640db5b41e18b383409#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?8842a9686403e5fed437b6479ef80f3d") format("woff2"),
+		url("../fonts/font-wso2.woff?8842a9686403e5fed437b6479ef80f3d") format("woff"),
+		url("../fonts/font-wso2.ttf?8842a9686403e5fed437b6479ef80f3d") format("truetype"),
+		url("../fonts/font-wso2.svg?8842a9686403e5fed437b6479ef80f3d#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
