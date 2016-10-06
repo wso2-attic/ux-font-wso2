@@ -59,6 +59,7 @@
               <pre><code class="html" id="htmlE"></code></pre>
           </div>
       </h4>
+      <h6 id="aliasTip"><b><i>Tip:</i></b> You can also use this icon using its aliases - <span id="iconsList"></span></h6>
   </div>
   <div class="code-box-bg" onclick="hideCode()"></div>
 
@@ -118,29 +119,65 @@
             return str;
         }
         
+        function removeHash() { 
+            var scrollV, scrollH, loc = window.location;
+            if ("pushState" in history)
+                history.pushState("", document.title, loc.pathname + loc.search);
+            else {
+                // Prevent scrolling by storing the page's current scroll offset
+                scrollV = document.body.scrollTop;
+                scrollH = document.body.scrollLeft;
+
+                loc.hash = "";
+
+                // Restore the scroll offset, should be flicker free
+                document.body.scrollTop = scrollV;
+                document.body.scrollLeft = scrollH;
+            }
+        }
+        
         $.get("assets/data/icons.properties", function(data) {          
             var codePointString = data.split('\n');
-            var dataObj = {};
+            var iconsObj = {};
+            var subCssClasses;
+            
             codePointString.forEach(function(codeString){
                 var cssClass = codeString.split(':')[0];
+                var objValues = {};
+                
+                subCssClasses = cssClass.match(/[^[\]]+(?=])/g),
+                subCssClasses = subCssClasses ? subCssClasses : '';
+                    
                 cssClass = cssClass.replace(/\[.*?\]/g, ''); //Remove [square brackets with value]
                 cssClass = cssClass.replace(/"/g,''); //Remove double quotes
+                
                 var className = cssClass.split('@');
-                dataObj[className[0]] = parseInt(codeString.split(':')[1],16);
+                objValues['codepoint'] = parseInt(codeString.split(':')[1],16);
+                objValues['subClasses'] = subCssClasses;
+                iconsObj[className[0]] = objValues;
             });
-            var icons = removeEscapeCharactersJsonObject(dataObj);
-            var iconsNames = Object.keys(icons);
+            
+            var icons = removeEscapeCharactersJsonObject(iconsObj);
+            var iconNames = Object.keys(icons);
             var items = [];
-            $.each(iconsNames, function(key, val) {
-                items.push( "<li onclick='showCode(this)' data-icon='" + iconsNames[key] + "'>" +
-                "<i class='fw fw-" + iconsNames[key] + "'></i>" +
-                iconsNames[key] +
-                "<span class='get-code'>" +
-                "<i class='fw fw-left'></i>" +
-                "Code" +
-                "<i class='fw fw-right'></i>" +
-                "</span>" +
-                "</li>" );
+            
+            $.each(iconNames, function(key, val) {
+                
+                var aliasClasses = icons[val].subClasses;
+                aliasClasses = aliasClasses.toString().replace(/\|\|/g, ' / ');
+                
+                var alias = icons[val].subClasses ? "<span class='alias'>[ " + aliasClasses + " ]</span>" : "";
+                
+                items.push( "<li onclick='showCode(this)' data-icon='" + iconNames[key] + "' data-aliases='" + aliasClasses + "'>" +
+                    "<i class='fw fw-" + iconNames[key] + "'></i>" +
+                    iconNames[key] +
+                    alias +
+                    "<span class='get-code'>" +
+                    "<i class='fw fw-left'></i>" +
+                    "Code" +
+                    "<i class='fw fw-right'></i>" +
+                    "</span>" +
+                    "</li>" );
             });
 
             $( "<ul/>", {
@@ -148,7 +185,7 @@
                 html: items.join("")
             }).appendTo("#icons");
 
-            $("#title").append("&nbsp;[" + iconsNames.length + "]");
+            $("#title").append("&nbsp;[" + iconNames.length + "]");
             
             var hashRequest = window.location.hash.substr(1),
                 iconRequest = $('li[data-icon="' + hashRequest + '"]');
@@ -157,7 +194,7 @@
                 showCode(iconRequest[0]);
             }
             else{
-                location.hash = '';
+                removeHash();
             }
         });
 
@@ -166,7 +203,8 @@
                 iContent = getComputedStyle(i, ':before').content,
                 iContentHTML = ((escape(iContent)).toLowerCase()).replace("%u", "\\"),
                 iContentHTML = iContentHTML.replace(/%27|%22/g, ""),
-                iContentHTMLEntity = iContentHTML.replace("\\", "&#x") + ";";
+                iContentHTMLEntity = iContentHTML.replace("\\", "&#x") + ";",
+                aliases = $(elem).data("aliases").split(' / ');
             
             $("#icon").html(i.outerHTML + " " + $(elem).data("icon"));
             $("#html").text(i.outerHTML);
@@ -177,13 +215,23 @@
                 return css;
             });
             $("#htmlE").text(iContentHTMLEntity);
+            $("#iconsList").html(function(){
+                var list = '';
+                $.each(aliases, function(key, val) {
+                    if(val !== ''){
+                        list += (list == '') ? ('fw-' + val) : (' / fw-' + val);
+                    }
+                });
+                return list;
+            });
+            $("#iconsList").html() == '' ? $('#aliasTip').hide() : $('#aliasTip').show(); 
             $(".code-box, .code-box-bg").show();
             location.hash = $(elem).data("icon");
         }
 
         function hideCode(){
             $(".code-box, .code-box-bg").hide();
-            location.hash = '';
+            removeHash();
         }
 
         $(document).ready(function () {

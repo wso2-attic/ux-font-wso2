@@ -436,6 +436,13 @@ i.fw-border {
     padding-bottom: 3px;
 }
 
+.icons-list ul li .alias {
+    color: #f0ad4e;
+    font-size: 13px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
 .icons-list .get-code {
     margin-left: 10px;
     font-size: 14px;
@@ -450,6 +457,11 @@ i.fw-border {
 .icons-list .get-code i.fw {
     width: auto;
     margin: 0 2px;
+}
+
+#iconsList {
+    font-size: 13px;
+    color: #ed9c28;
 }
 
 .search-input-wrapper {
