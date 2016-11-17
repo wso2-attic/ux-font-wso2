@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?80ea9062b90cb2f1aff62d6742be3dd5");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?4e98bf6227524c452eca0741de0aec96");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?80ea9062b90cb2f1aff62d6742be3dd5") format("woff2"),
-		url("../fonts/font-wso2.woff?80ea9062b90cb2f1aff62d6742be3dd5") format("woff"),
-		url("../fonts/font-wso2.ttf?80ea9062b90cb2f1aff62d6742be3dd5") format("truetype"),
-		url("../fonts/font-wso2.svg?80ea9062b90cb2f1aff62d6742be3dd5#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?4e98bf6227524c452eca0741de0aec96") format("woff2"),
+		url("../fonts/font-wso2.woff?4e98bf6227524c452eca0741de0aec96") format("woff"),
+		url("../fonts/font-wso2.ttf?4e98bf6227524c452eca0741de0aec96") format("truetype"),
+		url("../fonts/font-wso2.svg?4e98bf6227524c452eca0741de0aec96#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -316,6 +316,10 @@
     content:"\e606";
 }
 
+.fw-annotation:before {
+    content:"\e6e6";
+}
+
 .fw-api:before {
     content:"\e601";
 }
@@ -466,6 +470,30 @@
 
 .fw-deprecate:before {
     content:"\e6cb";
+}
+
+.fw-dgm-fork:before {
+    content:"\e6e7";
+}
+
+.fw-dgm-header:before {
+    content:"\e6e8";
+}
+
+.fw-dgm-if-else:before {
+    content:"\e6e9";
+}
+
+.fw-dgm-lifeline:before {
+    content:"\e6ea";
+}
+
+.fw-dgm-logger:before {
+    content:"\e6eb";
+}
+
+.fw-dgm-try-catch:before {
+    content:"\e6ec";
 }
 
 .fw-dial-up:before {
@@ -666,6 +694,10 @@
 
 .fw-invitation:before {
     content:"\e63f";
+}
+
+.fw-invoke:before {
+    content:"\e6ed";
 }
 
 .fw-is-connector:before {
@@ -1116,6 +1148,10 @@
     content:"\e68f";
 }
 
+.fw-variable:before {
+    content:"\e6ee";
+}
+
 .fw-view:before {
     content:"\e691";
 }
@@ -1158,6 +1194,10 @@
 
 .fw-windows:before {
     content:"\e605";
+}
+
+.fw-worker:before {
+    content:"\e6ef";
 }
 
 .fw-wsdl:before {
