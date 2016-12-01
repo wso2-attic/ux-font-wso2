@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?4e98bf6227524c452eca0741de0aec96");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?99479d7fcbd2b54481a59047c7592181");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?4e98bf6227524c452eca0741de0aec96") format("woff2"),
-		url("../fonts/font-wso2.woff?4e98bf6227524c452eca0741de0aec96") format("woff"),
-		url("../fonts/font-wso2.ttf?4e98bf6227524c452eca0741de0aec96") format("truetype"),
-		url("../fonts/font-wso2.svg?4e98bf6227524c452eca0741de0aec96#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?99479d7fcbd2b54481a59047c7592181") format("woff2"),
+		url("../fonts/font-wso2.woff?99479d7fcbd2b54481a59047c7592181") format("woff"),
+		url("../fonts/font-wso2.ttf?99479d7fcbd2b54481a59047c7592181") format("truetype"),
+		url("../fonts/font-wso2.svg?99479d7fcbd2b54481a59047c7592181#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -424,6 +424,10 @@
     content:"\e61e";
 }
 
+.fw-code:before {
+    content:"\e6f1";
+}
+
 .fw-compare:before {
     content:"\e610";
 }
@@ -446,6 +450,10 @@
 
 .fw-copy:before {
     content:"\e621";
+}
+
+.fw-cut:before {
+    content:"\e6f2";
 }
 
 .fw-dashboard:before {
@@ -472,6 +480,18 @@
     content:"\e6cb";
 }
 
+.fw-design-view:before {
+    content:"\e6f3";
+}
+
+.fw-dgm-connector:before {
+    content:"\e6f4";
+}
+
+.fw-dgm-constant-definition:before {
+    content:"\e6f5";
+}
+
 .fw-dgm-fork:before {
     content:"\e6e7";
 }
@@ -492,8 +512,24 @@
     content:"\e6eb";
 }
 
+.fw-dgm-resource:before {
+    content:"\e6f6";
+}
+
+.fw-dgm-service:before {
+    content:"\e6f7";
+}
+
 .fw-dgm-try-catch:before {
     content:"\e6ec";
+}
+
+.fw-dgm-type-convertor:before {
+    content:"\e6f8";
+}
+
+.fw-dgm-type:before {
+    content:"\e6f9";
 }
 
 .fw-dial-up:before {
@@ -596,8 +632,16 @@
     content:"\e62e";
 }
 
+.fw-format:before {
+    content:"\e6fa";
+}
+
 .fw-forum:before {
     content:"\e636";
+}
+
+.fw-function:before {
+    content:"\e6fb";
 }
 
 .fw-gadget:before {
@@ -918,6 +962,10 @@
 
 .fw-register:before {
     content:"\e65e";
+}
+
+.fw-rename:before {
+    content:"\e6fc";
 }
 
 .fw-resource:before {
