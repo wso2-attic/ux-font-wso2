@@ -84,7 +84,7 @@ module.exports = function(grunt) {
                     types: ['woff','woff2','ttf','eot','svg'],
                     fontHeight: 512,
                     startCodepoint: 0xe600,
-                    codepoints: iconsList, //eval('({'+codepoints+'})')
+                    codepoints: iconsList,
                     callback: function(filename, types, glyphs, hash) {
                         grunt.log.write("\n" + hash + "\n");
                     }
