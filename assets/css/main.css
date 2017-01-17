@@ -426,7 +426,7 @@ i.fw-border {
 .icons-list ul li {
     list-style: none;
     margin-bottom: 8px;
-    width: 375px;
+    width: 33%;
     float: left;
     font-size: 20px;
     cursor: pointer;
