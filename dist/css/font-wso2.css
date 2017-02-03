@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?b35047a845f2bc33b8b66fae05ff5eba");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?98d3eb7a2851125a28ac0f11c87a6ced");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?b35047a845f2bc33b8b66fae05ff5eba") format("woff2"),
-		url("../fonts/font-wso2.woff?b35047a845f2bc33b8b66fae05ff5eba") format("woff"),
-		url("../fonts/font-wso2.ttf?b35047a845f2bc33b8b66fae05ff5eba") format("truetype"),
-		url("../fonts/font-wso2.svg?b35047a845f2bc33b8b66fae05ff5eba#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?98d3eb7a2851125a28ac0f11c87a6ced") format("woff2"),
+		url("../fonts/font-wso2.woff?98d3eb7a2851125a28ac0f11c87a6ced") format("woff"),
+		url("../fonts/font-wso2.ttf?98d3eb7a2851125a28ac0f11c87a6ced") format("truetype"),
+		url("../fonts/font-wso2.svg?98d3eb7a2851125a28ac0f11c87a6ced#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -436,8 +436,16 @@
     content:"\e61e";
 }
 
+.fw-code-view:before {
+    content:"\e70e";
+}
+
 .fw-code:before {
     content:"\e6f1";
+}
+
+.fw-comment:before {
+    content:"\e710";
 }
 
 .fw-compare:before {
@@ -501,11 +509,23 @@
 }
 
 .fw-design-view:before {
-    content:"\e6f3";
+    content:"\e70f";
+}
+
+.fw-desing-view:before {
+    content:"\e6d0";
 }
 
 .fw-devices:before {
     content:"\e704";
+}
+
+.fw-dgm-action-invoke:before {
+    content:"\e712";
+}
+
+.fw-dgm-action:before {
+    content:"\e711";
 }
 
 .fw-dgm-connector:before {
@@ -674,6 +694,10 @@
 
 .fw-forum:before {
     content:"\e636";
+}
+
+.fw-function-invoke:before {
+    content:"\e713";
 }
 
 .fw-function:before {
@@ -1028,6 +1052,10 @@
     content:"\e6fc";
 }
 
+.fw-reply:before {
+    content:"\e714";
+}
+
 .fw-resource:before {
     content:"\e660";
 }
@@ -1042,6 +1070,10 @@
 
 .fw-retire:before {
     content:"\e6cd";
+}
+
+.fw-return:before {
+    content:"\e715";
 }
 
 .fw-retweet:before {
@@ -1172,6 +1204,10 @@
     content:"\e676";
 }
 
+.fw-struct:before {
+    content:"\e716";
+}
+
 .fw-subscribe:before {
     content:"\e677";
 }
@@ -1218,6 +1254,10 @@
 
 .fw-twitter:before {
     content:"\e6df";
+}
+
+.fw-type-converter:before {
+    content:"\e6f3";
 }
 
 .fw-uncheck:before {
