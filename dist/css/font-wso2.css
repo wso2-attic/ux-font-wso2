@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?956e746555c2e23b4f9b0f0939519155");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?ba416aeb6103bdf355a0c8fcc741af73");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?956e746555c2e23b4f9b0f0939519155") format("woff2"),
-		url("../fonts/font-wso2.woff?956e746555c2e23b4f9b0f0939519155") format("woff"),
-		url("../fonts/font-wso2.ttf?956e746555c2e23b4f9b0f0939519155") format("truetype"),
-		url("../fonts/font-wso2.svg?956e746555c2e23b4f9b0f0939519155#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?ba416aeb6103bdf355a0c8fcc741af73") format("woff2"),
+		url("../fonts/font-wso2.woff?ba416aeb6103bdf355a0c8fcc741af73") format("woff"),
+		url("../fonts/font-wso2.ttf?ba416aeb6103bdf355a0c8fcc741af73") format("truetype"),
+		url("../fonts/font-wso2.svg?ba416aeb6103bdf355a0c8fcc741af73#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }

@@ -18,6 +18,8 @@
     "grunt-contrib-nodeunit": "~0.1.2",
     "grunt-json-generator": "^0.1.0",
     "grunt-webfont": "1.6.0",
-    "grunt-zip": "~0.17.1"
+    "grunt-zip": "~0.17.1",
+    "grunt-convert-svg-to-png":"^1.0.1",
+    "grunt-responsive-images":"^1.10.1"
   }
 }

@@ -57,18 +57,14 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        clean: {
-            build: ['build'],
-            release: ['dist']
-        },
         webfont: {
             icons: {
                 src: 'icons/*.svg',
-                dest: 'build/fonts',
-                destCss: 'build/css',
+                dest: 'dist/fonts',
+                destCss: 'dist/css',
                 options: {
                     font: '<%= pkg.name %>',
-                    destHtml: 'build',
+                    destHtml: 'docs',
                     htmlDemoTemplate: 'templates/tmpl.html',
                     htmlDemoFilename: 'demo',
                     fontFilename: '<%= pkg.name %>',
@@ -94,53 +90,66 @@ module.exports = function(grunt) {
         cssmin: {
             css:{ 
                 files: {
-                    'build/css/<%= pkg.name %>.min.css': ['build/css/<%= pkg.name %>.css']
+                    'dist/css/<%= pkg.name %>.min.css': ['dist/css/<%= pkg.name %>.css']
                 }
             }
         },
         zip: {
-            'using-cwd': {
-                cwd: 'build/',
-                src: [
-                    'build/css/<%= pkg.name %>.css',
-                    'build/css/<%= pkg.name %>.min.css',
-                    'build/fonts/<%= pkg.name %>.eot',
-                    'build/fonts/<%= pkg.name %>.svg',
-                    'build/fonts/<%= pkg.name %>.ttf',
-                    'build/fonts/<%= pkg.name %>.woff',
-                    'build/fonts/<%= pkg.name %>.woff2'
-                ],
-                dest: 'build/downloads/<%= pkg.name %>-<%= pkg.version %>.zip'
-            }
-        },
-        json_generator: {
-            target: {
-                dest: "build/build.json",
-                options: {
-                    "name": "<%= pkg.name %>",
-                    "version": "<%= pkg.version %>",
-                    "url": "<%= pkg.url %>",
-                    "git": "<%= pkg.git %>",
-                    "designer": "<%= pkg.designer %>",
-                    "designerURL": "<%= pkg.designerURL %>",
-                    "license": "<%= pkg.license %>",
-                    "licenseURL": "<%= pkg.licenseURL %>"
-                }
+            'dist': {
+                cwd: 'dist/',
+                src: ['dist/**'],
+                dest: 'docs/assets/downloads/<%= pkg.name %>-<%= pkg.version %>.zip'
+            },
+            'png': {
+                cwd: 'assets/',
+                src: ['assets/**.png'],
+                dest: 'docs/assets/downloads/<%= pkg.name %>-<%= pkg.version %>-png.zip'
             }
         },
         copy: {
             main: {
                 files: [
-                    { expand: true, cwd: 'build/fonts/', src: ['**'], dest: 'docs/assets/fonts/' },
-                    { expand: true, cwd: 'build/fonts/', src: ['**'], dest: 'dist/fonts/' },
-                    { expand: true, cwd: 'build/css/', src: ['**'], dest: 'docs/assets/css/' },
-                    { expand: true, cwd: 'build/css/', src: ['**'], dest: 'dist/css/' },
-                    { expand: true, cwd: 'build/downloads/', src: ['**'], dest: 'docs/assets/downloads/' },
-                    { expand: true, cwd: 'build/', src: ['build.json'], dest: 'docs/assets/data/' },
+                    { expand: true, cwd: 'dist/fonts/', src: ['**'], dest: 'docs/assets/fonts/' },
+                    { expand: true, cwd: 'dist/css/', src: ['**'], dest: 'docs/assets/css/' },
                     { expand: true, cwd: '', src: ['icons.properties'], dest: 'docs/assets/data/' },
-                    { expand: true, cwd: 'build', src: ['demo.html'], dest: 'docs/' }
+                    { expand: true, cwd: '', src: ['package.json'], dest: 'docs/assets/data/' },
                 ],
             },
+        },
+        "convert-svg-to-png": {
+            main: {
+                options: {
+                    size: {w: "128px", h: "128px"},
+                },
+                files: [{
+                    expand: true,
+                    cwd: "icons",
+                    src: ["*.svg"],
+                    dest: "assets"
+                }]
+            }
+        },
+        responsive_images: {
+            main: {
+                options: {
+                    sizes: [{
+                        width: 16,
+                        suffix: "_16"
+                    },{
+                        width: 24,
+                        suffix: "_24"
+                    },{
+                        width: 64,
+                        suffix: "_64"
+                    }]
+                },
+                files: [{
+                    expand: true,
+                    src: ['**.png'],
+                    cwd: 'assets/',
+                    custom_dest: 'docs/assets/downloads/icons/{%= width %}/'
+                }]
+            }
         }
     });
     
@@ -151,8 +160,11 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-zip');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-json-generator');
+    grunt.loadNpmTasks('grunt-convert-svg-to-png');
+    grunt.loadNpmTasks('grunt-responsive-images');
 
     // Default task(s).
-    grunt.registerTask('default', ['clean:build','webfont','cssmin','zip','json_generator','copy','clean:build']);
+    grunt.registerTask('default', ['webfont','cssmin','zip','copy','convert-svg-to-png']);
+    grunt.registerTask('genimgs', ['responsive_images']);
 
 };
