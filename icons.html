@@ -95,6 +95,8 @@
                 <input type="text" class="search-input" id="icons-filter" placeholder="Search Icons ...">
             </div>
         </div><!-- /row -->
+        
+        <div class="row centered png-downloads">Download all as PNG: <a href="#" target="_blank" id="png-download-link">128x128</a></div>
 
         <div class="row icons-list" id="icons"><!-- dynamic content loads here--></div>
 	</div><! --/container -->
@@ -111,6 +113,10 @@
     <script src="assets/js/jquery-1.10.2.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script>
+        
+        $.getJSON("assets/data/package.json", function(package) {
+            $('#png-download-link').attr('href', 'assets/downloads/'+ package.name + '-' + package.version + '-png.zip');
+        });
         
         function removeEscapeCharactersJsonObject(obj){
             var str = JSON.stringify(obj);

@@ -189,10 +189,10 @@
             });
         });
 
-        $.getJSON("assets/data/build.json", function(build) {
-            $('#fontVersion').html(build.version);
-            $('form#download').attr('action', 'assets/downloads/'+ build.name + '-' + build.version + '.zip');
-            $('#github-link').attr('href', build.git);
+        $.getJSON("assets/data/package.json", function(package) {
+            $('#fontVersion').html(package.version);
+            $('form#download').attr('action', 'assets/downloads/'+ package.name + '-' + package.version + '.zip');
+            $('#github-link').attr('href', package.git);
         });
 
         var code = 'pre code.html';
