@@ -60,3 +60,7 @@ _xmsgs/
 .idea
 .DS_Store
 atlassian-ide-plugin.xml
+
+# project generated folders
+.idea
+node_modules/
