@@ -1,0 +1,25 @@
+{
+  "name": "font-wso2",
+  "version": "1.2.2-SNAPSHOT",
+  "url": "http://wso2-dev-ux.github.io/font-wso2/",
+  "git": "http://github.com/wso2-dev-ux/font-wso2.git",
+  "private": true,
+  "designer": "WSO2",
+  "designerURL": "http://wso2.com",
+  "license": "Apache License, Version 2.0",
+  "licenseURL": "http://wso2.com/licenses",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-json-generator": "^0.1.0",
+    "grunt-webfont": "1.6.0",
+    "grunt-zip": "~0.17.1",
+    "grunt-convert-svg-to-png":"^1.0.1",
+    "grunt-responsive-images":"^1.10.1"
+  }
+}
