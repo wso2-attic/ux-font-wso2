@@ -53,6 +53,24 @@ module.exports = function(grunt) {
         
         return removeEscapeCharactersJsonObject(dataObj);     
     })();
+    
+    var iconFiles = (function(){
+        var dataObj = {};
+        codePointString.forEach(function(codeString){
+            var iconName = codeString.split(':')[0];
+            
+            iconName = iconName.replace(/"/g,''); //Remove double quotes
+            iconName = iconName.replace(/\[.*?\]/g, ''); //Remove [square brackets with value]
+            
+            iconSVG = grunt.file.read('icons/' + iconName + '.svg');
+            iconSVG = iconSVG.replace(/<!--[\s\S]*?-->/g, ''); //Remove XML comments
+            iconSVG = iconSVG.replace(/<\?xml\s[\s\S]*?>/, ''); //remove XML declaration tag
+            
+            dataObj[iconName] = iconSVG;
+        });
+        
+        return removeEscapeCharactersJsonObject(dataObj);
+    })();
 
     // Project configuration.
     grunt.initConfig({
@@ -116,6 +134,14 @@ module.exports = function(grunt) {
                 ],
             },
         },
+        json_generator: {
+            icons: {
+                dest: "dist/icons.json",
+                options: {
+                    icons: iconFiles
+                }
+            }
+        },
         "convert-svg-to-png": {
             main: {
                 options: {
@@ -164,7 +190,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-responsive-images');
 
     // Default task(s).
-    grunt.registerTask('default', ['webfont','cssmin','zip','copy','convert-svg-to-png']);
-    grunt.registerTask('genimgs', ['responsive_images']);
+    grunt.registerTask('default', ['webfont','cssmin','zip','copy','json_generator']);
+    grunt.registerTask('genimgs', ['convert-svg-to-png','responsive_images']);
 
 };
