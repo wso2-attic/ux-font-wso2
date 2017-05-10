@@ -137,9 +137,7 @@ module.exports = function(grunt) {
         json_generator: {
             icons: {
                 dest: "dist/icons.json",
-                options: {
-                    icons: iconFiles
-                }
+                options: iconFiles
             }
         },
         "convert-svg-to-png": {
