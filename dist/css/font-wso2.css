@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?ba416aeb6103bdf355a0c8fcc741af73");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?3e84d2d1a138d8825d8bb79d3e6d0156");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?ba416aeb6103bdf355a0c8fcc741af73") format("woff2"),
-		url("../fonts/font-wso2.woff?ba416aeb6103bdf355a0c8fcc741af73") format("woff"),
-		url("../fonts/font-wso2.ttf?ba416aeb6103bdf355a0c8fcc741af73") format("truetype"),
-		url("../fonts/font-wso2.svg?ba416aeb6103bdf355a0c8fcc741af73#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?3e84d2d1a138d8825d8bb79d3e6d0156") format("woff2"),
+		url("../fonts/font-wso2.woff?3e84d2d1a138d8825d8bb79d3e6d0156") format("woff"),
+		url("../fonts/font-wso2.ttf?3e84d2d1a138d8825d8bb79d3e6d0156") format("truetype"),
+		url("../fonts/font-wso2.svg?3e84d2d1a138d8825d8bb79d3e6d0156#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -378,6 +378,10 @@
 
 .fw-bpmn:before {
     content:"\e60f";
+}
+
+.fw-break:before {
+    content:"\e721";
 }
 
 .fw-bug:before {
@@ -1168,6 +1172,10 @@
     content:"\e670";
 }
 
+.fw-shortcut:before {
+    content:"\e725";
+}
+
 .fw-sign-in:before {
     content:"\e671";
 }
@@ -1276,8 +1284,16 @@
     content:"\e67c";
 }
 
+.fw-theme:before {
+    content:"\e726";
+}
+
 .fw-throttling-policy:before {
     content:"\e67f";
+}
+
+.fw-throw:before {
+    content:"\e722";
 }
 
 .fw-tiles:before {
@@ -1386,6 +1402,14 @@
 
 .fw-windows:before {
     content:"\e605";
+}
+
+.fw-worker-invoke:before {
+    content:"\e723";
+}
+
+.fw-worker-reply:before {
+    content:"\e724";
 }
 
 .fw-worker:before {
