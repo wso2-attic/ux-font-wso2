@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?3e84d2d1a138d8825d8bb79d3e6d0156");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?ad4fcc8fc2b0960939d17413a785a995");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?3e84d2d1a138d8825d8bb79d3e6d0156") format("woff2"),
-		url("../fonts/font-wso2.woff?3e84d2d1a138d8825d8bb79d3e6d0156") format("woff"),
-		url("../fonts/font-wso2.ttf?3e84d2d1a138d8825d8bb79d3e6d0156") format("truetype"),
-		url("../fonts/font-wso2.svg?3e84d2d1a138d8825d8bb79d3e6d0156#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?ad4fcc8fc2b0960939d17413a785a995") format("woff2"),
+		url("../fonts/font-wso2.woff?ad4fcc8fc2b0960939d17413a785a995") format("woff"),
+		url("../fonts/font-wso2.ttf?ad4fcc8fc2b0960939d17413a785a995") format("truetype"),
+		url("../fonts/font-wso2.svg?ad4fcc8fc2b0960939d17413a785a995#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -1006,6 +1006,10 @@
 
 .fw-pdf:before {
     content:"\e659";
+}
+
+.fw-pending:before {
+    content:"\e727";
 }
 
 .fw-php:before {
