@@ -190,5 +190,12 @@ module.exports = function(grunt) {
     // Default task(s).
     grunt.registerTask('default', ['webfont','cssmin','zip','copy','json_generator']);
     grunt.registerTask('genimgs', ['convert-svg-to-png','responsive_images']);
+    grunt.registerTask('serve', 'Start a custom web server.', function(arg) {
+        var done = this.async();
+        
+        grunt.log.writeln('Starting web server on port 9001.');
+        require('./server.js').listen(9001).on('close', done);
+        grunt.log.writeln('URL: http://localhost:9001');
+    });
 
 };
