@@ -1,7 +1,5 @@
 const http = require('http');
 const fs = require('fs');
-const path = require('path');
-const querystring = require('querystring');
 const cwd = 'docs';
 
 module.exports = http.createServer(function (request, response) {

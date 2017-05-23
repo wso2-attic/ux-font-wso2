@@ -192,10 +192,14 @@ module.exports = function(grunt) {
     grunt.registerTask('genimgs', ['convert-svg-to-png','responsive_images']);
     grunt.registerTask('serve', 'Start a custom web server.', function(arg) {
         var done = this.async();
+        var port = 9001;
         
-        grunt.log.writeln('Starting web server on port 9001.');
-        require('./server.js').listen(9001).on('close', done);
-        grunt.log.writeln('URL: http://localhost:9001');
+        grunt.log.writeln('Starting web server on port ' + port + ' ...');
+        
+        require('./server.js').listen(port).on('close', done);
+        
+        grunt.log.writeln('Server address: http://127.0.0.1:' + port + '/');
+        grunt.log.writeln('Server running... press ctrl-c to stop.');
     });
 
 };
