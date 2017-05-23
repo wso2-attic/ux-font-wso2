@@ -9,6 +9,7 @@ Font generation is base on [sapegin/grunt-webfont](https://github.com/sapegin/gr
 
 ## Changelog
 
+[v1.2.2 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.2.2+is%3Aclosed) 
 [v1.2.1 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.2.1+is%3Aclosed)  
 [v1.2.0 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.2.0+is%3Aclosed)  
 [v1.1.0 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.1.0+is%3Aclosed)  
@@ -21,6 +22,13 @@ Download and run `grunt` command
 ```
 grunt
 ```
+
+## Docs
+To run documentation locally. 
+```
+grunt serve
+```
+This will run a node http server on the subfolder: `/docs`. And you can view using: `http://127.0.0.1:9001/`
 
 ## Prerequisite
 
