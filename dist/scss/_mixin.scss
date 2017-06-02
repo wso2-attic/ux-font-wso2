@@ -33,7 +33,11 @@
   @extend %icon-base;
 
   
-        @if ($icon == "action-invoke") {
+        @if ($icon == "abort") {
+            content:"\e72a";
+        }
+  
+        @else if ($icon == "action-invoke") {
             content:"\e6fe";
         }
   
@@ -1055,6 +1059,10 @@
   
         @else if ($icon == "tiles") {
             content:"\e681";
+        }
+  
+        @else if ($icon == "transaction") {
+            content:"\e72b";
         }
   
         @else if ($icon == "try-catch") {

@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?19c1ee4077c8fe99ae5c86882c437189");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?cbfd683fd41ac1edba41f670862f638d");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?19c1ee4077c8fe99ae5c86882c437189") format("woff2"),
-		url("../fonts/font-wso2.woff?19c1ee4077c8fe99ae5c86882c437189") format("woff"),
-		url("../fonts/font-wso2.ttf?19c1ee4077c8fe99ae5c86882c437189") format("truetype"),
-		url("../fonts/font-wso2.svg?19c1ee4077c8fe99ae5c86882c437189#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?cbfd683fd41ac1edba41f670862f638d") format("woff2"),
+		url("../fonts/font-wso2.woff?cbfd683fd41ac1edba41f670862f638d") format("woff"),
+		url("../fonts/font-wso2.ttf?cbfd683fd41ac1edba41f670862f638d") format("truetype"),
+		url("../fonts/font-wso2.svg?cbfd683fd41ac1edba41f670862f638d#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -287,6 +287,10 @@
 /* ========================================================================
  * font icons
  * ======================================================================== */
+
+.fw-abort:before {
+    content:"\e72a";
+}
 
 .fw-action-invoke:before {
     content:"\e6fe";
@@ -1310,6 +1314,10 @@
 
 .fw-tiles:before {
     content:"\e681";
+}
+
+.fw-transaction:before {
+    content:"\e72b";
 }
 
 .fw-try-catch:before {
