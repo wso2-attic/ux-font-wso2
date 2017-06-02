@@ -87,6 +87,10 @@ module.exports = function(grunt) {
                     htmlDemoFilename: 'demo',
                     fontFilename: '<%= pkg.name %>',
                     template: 'templates/tmpl.css',
+                    customOutputs: [{
+                        template: 'templates/sass_mixin_tmpl.css',
+                        dest: 'dist/scss/_mixin.scss'
+                    }],
                     templateOptions: {
                         baseClass: classPrefix,
                         classPrefix: classPrefix+'-',
