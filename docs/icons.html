@@ -212,7 +212,7 @@
                 iContentHTMLEntity = iContentHTML.replace("\\", "&#x") + ";",
                 aliases = $(elem).data("aliases").split(' / ');
             
-            $("#icon").html(i.outerHTML + " " + $(elem).data("icon"));
+            $("#icon").html("<i class='fw fw-fw'>" + iContentHTMLEntity + "</i> " + $(elem).data("icon"));
             $("#html").text(i.outerHTML);
             $("#css").text(function(){
                 var name = $(elem).data("icon"),
