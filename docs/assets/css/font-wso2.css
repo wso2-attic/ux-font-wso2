@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?d22cd40885c9beb67a8faac39ed73096");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?6563fa91278f239ef8c827d90a165223");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?d22cd40885c9beb67a8faac39ed73096") format("woff2"),
-		url("../fonts/font-wso2.woff?d22cd40885c9beb67a8faac39ed73096") format("woff"),
-		url("../fonts/font-wso2.ttf?d22cd40885c9beb67a8faac39ed73096") format("truetype"),
-		url("../fonts/font-wso2.svg?d22cd40885c9beb67a8faac39ed73096#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?6563fa91278f239ef8c827d90a165223") format("woff2"),
+		url("../fonts/font-wso2.woff?6563fa91278f239ef8c827d90a165223") format("woff"),
+		url("../fonts/font-wso2.ttf?6563fa91278f239ef8c827d90a165223") format("truetype"),
+		url("../fonts/font-wso2.svg?6563fa91278f239ef8c827d90a165223#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -322,6 +322,14 @@
 
 .fw-analytics-extensions:before {
     content:"\e6e2";
+}
+
+.fw-android-logcat:before {
+    content:"\e72c";
+}
+
+.fw-android-sense:before {
+    content:"\e72d";
 }
 
 .fw-android:before {
@@ -730,6 +738,14 @@
 
 .fw-gadget:before {
     content:"\e637";
+}
+
+.fw-geo-fence-inbound:before {
+    content:"\e72e";
+}
+
+.fw-geo-fence-outbound:before {
+    content:"\e72f";
 }
 
 .fw-github:before {
@@ -1188,6 +1204,10 @@
     content:"\e670";
 }
 
+.fw-shell:before {
+    content:"\e730";
+}
+
 .fw-shortcut:before {
     content:"\e725";
 }
@@ -1222,6 +1242,10 @@
 
 .fw-sort:before {
     content:"\e673";
+}
+
+.fw-speed-alert:before {
+    content:"\e731";
 }
 
 .fw-square-outline:before {

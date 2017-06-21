@@ -69,6 +69,14 @@
             content:"\e6e2";
         }
   
+        @else if ($icon == "android-logcat") {
+            content:"\e72c";
+        }
+  
+        @else if ($icon == "android-sense") {
+            content:"\e72d";
+        }
+  
         @else if ($icon == "android") {
             content:"\e606";
         }
@@ -475,6 +483,14 @@
   
         @else if ($icon == "gadget") {
             content:"\e637";
+        }
+  
+        @else if ($icon == "geo-fence-inbound") {
+            content:"\e72e";
+        }
+  
+        @else if ($icon == "geo-fence-outbound") {
+            content:"\e72f";
         }
   
         @else if ($icon == "github") {
@@ -933,6 +949,10 @@
             content:"\e670";
         }
   
+        @else if ($icon == "shell") {
+            content:"\e730";
+        }
+  
         @else if ($icon == "shortcut") {
             content:"\e725";
         }
@@ -967,6 +987,10 @@
   
         @else if ($icon == "sort") {
             content:"\e673";
+        }
+  
+        @else if ($icon == "speed-alert") {
+            content:"\e731";
         }
   
         @else if ($icon == "square-outline") {
