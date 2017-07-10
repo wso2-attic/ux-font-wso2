@@ -161,6 +161,10 @@
             content:"\e612";
         }
   
+        @else if ($icon == "call-mediator") {
+            content:"\e736";
+        }
+  
         @else if ($icon == "camera") {
             content:"\e613";
         }
@@ -259,6 +263,10 @@
   
         @else if ($icon == "dashboard") {
             content:"\e622";
+        }
+  
+        @else if ($icon == "data-mapper") {
+            content:"\e735";
         }
   
         @else if ($icon == "database") {
@@ -509,6 +517,10 @@
             content:"\e6da";
         }
   
+        @else if ($icon == "google-glass") {
+            content:"\e732";
+        }
+  
         @else if ($icon == "google-plus") {
             content:"\e6d9";
         }
@@ -545,6 +557,10 @@
             content:"\e639";
         }
   
+        @else if ($icon == "header") {
+            content:"\e734";
+        }
+  
         @else if ($icon == "heart") {
             content:"\e6c3";
         }
@@ -575,6 +591,10 @@
   
         @else if ($icon == "import") {
             content:"\e63c";
+        }
+  
+        @else if ($icon == "in-sequence") {
+            content:"\e739";
         }
   
         @else if ($icon == "incoming-call") {
@@ -705,6 +725,10 @@
             content:"\e64e";
         }
   
+        @else if ($icon == "log") {
+            content:"\e738";
+        }
+  
         @else if ($icon == "logical") {
             content:"\e702";
         }
@@ -761,6 +785,10 @@
             content:"\e6ac";
         }
   
+        @else if ($icon == "out-sequence") {
+            content:"\e73a";
+        }
+  
         @else if ($icon == "own") {
             content:"\e6c8";
         }
@@ -775,6 +803,10 @@
   
         @else if ($icon == "paste") {
             content:"\e658";
+        }
+  
+        @else if ($icon == "payload-factory") {
+            content:"\e733";
         }
   
         @else if ($icon == "pdf") {
@@ -803,6 +835,10 @@
   
         @else if ($icon == "polygon") {
             content:"\e70d";
+        }
+  
+        @else if ($icon == "property") {
+            content:"\e737";
         }
   
         @else if ($icon == "prototype") {
