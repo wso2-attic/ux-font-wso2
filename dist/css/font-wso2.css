@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?6563fa91278f239ef8c827d90a165223");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?6877474d4154d1a14eab8f376323d2d9");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?6563fa91278f239ef8c827d90a165223") format("woff2"),
-		url("../fonts/font-wso2.woff?6563fa91278f239ef8c827d90a165223") format("woff"),
-		url("../fonts/font-wso2.ttf?6563fa91278f239ef8c827d90a165223") format("truetype"),
-		url("../fonts/font-wso2.svg?6563fa91278f239ef8c827d90a165223#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?6877474d4154d1a14eab8f376323d2d9") format("woff2"),
+		url("../fonts/font-wso2.woff?6877474d4154d1a14eab8f376323d2d9") format("woff"),
+		url("../fonts/font-wso2.ttf?6877474d4154d1a14eab8f376323d2d9") format("truetype"),
+		url("../fonts/font-wso2.svg?6877474d4154d1a14eab8f376323d2d9#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -416,6 +416,10 @@
     content:"\e612";
 }
 
+.fw-call-mediator:before {
+    content:"\e736";
+}
+
 .fw-camera:before {
     content:"\e613";
 }
@@ -514,6 +518,10 @@
 
 .fw-dashboard:before {
     content:"\e622";
+}
+
+.fw-data-mapper:before {
+    content:"\e735";
 }
 
 .fw-database:before {
@@ -764,6 +772,10 @@
     content:"\e6da";
 }
 
+.fw-google-glass:before {
+    content:"\e732";
+}
+
 .fw-google-plus:before {
     content:"\e6d9";
 }
@@ -800,6 +812,10 @@
     content:"\e639";
 }
 
+.fw-header:before {
+    content:"\e734";
+}
+
 .fw-heart:before {
     content:"\e6c3";
 }
@@ -830,6 +846,10 @@
 
 .fw-import:before {
     content:"\e63c";
+}
+
+.fw-in-sequence:before {
+    content:"\e739";
 }
 
 .fw-incoming-call:before {
@@ -960,6 +980,10 @@
     content:"\e64e";
 }
 
+.fw-log:before {
+    content:"\e738";
+}
+
 .fw-logical:before {
     content:"\e702";
 }
@@ -1016,6 +1040,10 @@
     content:"\e6ac";
 }
 
+.fw-out-sequence:before {
+    content:"\e73a";
+}
+
 .fw-own:before {
     content:"\e6c8";
 }
@@ -1030,6 +1058,10 @@
 
 .fw-paste:before {
     content:"\e658";
+}
+
+.fw-payload-factory:before {
+    content:"\e733";
 }
 
 .fw-pdf:before {
@@ -1058,6 +1090,10 @@
 
 .fw-polygon:before {
     content:"\e70d";
+}
+
+.fw-property:before {
+    content:"\e737";
 }
 
 .fw-prototype:before {
