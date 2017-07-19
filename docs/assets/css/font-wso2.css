@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?6877474d4154d1a14eab8f376323d2d9");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?a5352027753f53fe760b7acff8a09571");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?6877474d4154d1a14eab8f376323d2d9") format("woff2"),
-		url("../fonts/font-wso2.woff?6877474d4154d1a14eab8f376323d2d9") format("woff"),
-		url("../fonts/font-wso2.ttf?6877474d4154d1a14eab8f376323d2d9") format("truetype"),
-		url("../fonts/font-wso2.svg?6877474d4154d1a14eab8f376323d2d9#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?a5352027753f53fe760b7acff8a09571") format("woff2"),
+		url("../fonts/font-wso2.woff?a5352027753f53fe760b7acff8a09571") format("woff"),
+		url("../fonts/font-wso2.ttf?a5352027753f53fe760b7acff8a09571") format("truetype"),
+		url("../fonts/font-wso2.svg?a5352027753f53fe760b7acff8a09571#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -504,6 +504,10 @@
     content:"\e620";
 }
 
+.fw-continue:before {
+    content:"\e73e";
+}
+
 .fw-contract:before {
     content:"\e614";
 }
@@ -724,6 +728,10 @@
     content:"\e62e";
 }
 
+.fw-foreach:before {
+    content:"\e73ab";
+}
+
 .fw-fork-join:before {
     content:"\e720";
 }
@@ -864,6 +872,10 @@
     content:"\e6db";
 }
 
+.fw-integration:before {
+    content:"\e73f";
+}
+
 .fw-invitation:before {
     content:"\e63f";
 }
@@ -1000,6 +1012,10 @@
     content:"\e650";
 }
 
+.fw-mapping:before {
+    content:"\e73c";
+}
+
 .fw-menu:before {
     content:"\e651";
 }
@@ -1122,6 +1138,10 @@
 
 .fw-redo:before {
     content:"\e65d";
+}
+
+.fw-reduce:before {
+    content:"\e73d";
 }
 
 .fw-refresh:before {
