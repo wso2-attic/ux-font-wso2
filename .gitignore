@@ -64,3 +64,8 @@ atlassian-ide-plugin.xml
 # project generated folders
 .idea
 node_modules/
+
+
+# project generated local build zip
+*-SNAPSHOT.zip
+*-SNAPSHOT-png.zip
