@@ -249,6 +249,10 @@
             content:"\e620";
         }
   
+        @else if ($icon == "continue") {
+            content:"\e73e";
+        }
+  
         @else if ($icon == "contract") {
             content:"\e614";
         }
@@ -469,6 +473,10 @@
             content:"\e62e";
         }
   
+        @else if ($icon == "foreach") {
+            content:"\e73ab";
+        }
+  
         @else if ($icon == "fork-join") {
             content:"\e720";
         }
@@ -609,6 +617,10 @@
             content:"\e6db";
         }
   
+        @else if ($icon == "integration") {
+            content:"\e73f";
+        }
+  
         @else if ($icon == "invitation") {
             content:"\e63f";
         }
@@ -745,6 +757,10 @@
             content:"\e650";
         }
   
+        @else if ($icon == "mapping") {
+            content:"\e73c";
+        }
+  
         @else if ($icon == "menu") {
             content:"\e651";
         }
@@ -867,6 +883,10 @@
   
         @else if ($icon == "redo") {
             content:"\e65d";
+        }
+  
+        @else if ($icon == "reduce") {
+            content:"\e73d";
         }
   
         @else if ($icon == "refresh") {
