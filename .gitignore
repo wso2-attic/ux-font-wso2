@@ -61,6 +61,8 @@ _xmsgs/
 .DS_Store
 atlassian-ide-plugin.xml
 
-# project generated folders
+# project generated files/folders
 .idea
 node_modules/
+*-SNAPSHOT.zip
+*-SNAPSHOT-png.zip
