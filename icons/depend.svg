@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
- ~   Copyright (c) WSO2 Inc. (http://wso2.com) All Rights Reserved.
+ ~   Copyright 2017, WSO2 Inc. (http://www.wso2.com)
  ~
  ~   Licensed under the Apache License, Version 2.0 (the "License");
  ~   you may not use this file except in compliance with the License.
@@ -15,7 +15,6 @@
  ~   See the License for the specific language governing permissions and
  ~   limitations under the License.
 -->
-
 
 <svg version="1.1" id="depend" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
