@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?465fa5ad8679346ed6bc8c1b9c70bbae");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?4486a95ff86bd33c461dce4406ed3260");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?465fa5ad8679346ed6bc8c1b9c70bbae") format("woff2"),
-		url("../fonts/font-wso2.woff?465fa5ad8679346ed6bc8c1b9c70bbae") format("woff"),
-		url("../fonts/font-wso2.ttf?465fa5ad8679346ed6bc8c1b9c70bbae") format("truetype"),
-		url("../fonts/font-wso2.svg?465fa5ad8679346ed6bc8c1b9c70bbae#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?4486a95ff86bd33c461dce4406ed3260") format("woff2"),
+		url("../fonts/font-wso2.woff?4486a95ff86bd33c461dce4406ed3260") format("woff"),
+		url("../fonts/font-wso2.ttf?4486a95ff86bd33c461dce4406ed3260") format("truetype"),
+		url("../fonts/font-wso2.svg?4486a95ff86bd33c461dce4406ed3260#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -417,7 +417,7 @@
 }
 
 .fw-call-mediator:before {
-    content:"\e736";
+    content:"\e712";
 }
 
 .fw-camera:before {
@@ -505,7 +505,7 @@
 }
 
 .fw-continue:before {
-    content:"\e73e";
+    content:"\e6ec";
 }
 
 .fw-contract:before {
@@ -525,7 +525,7 @@
 }
 
 .fw-data-mapper:before {
-    content:"\e735";
+    content:"\e711";
 }
 
 .fw-database:before {
@@ -665,7 +665,7 @@
 }
 
 .fw-foreach:before {
-    content:"\e73ab";
+    content:"\e6f8";
 }
 
 .fw-fork-join:before {
@@ -757,7 +757,7 @@
 }
 
 .fw-header:before {
-    content:"\e734";
+    content:"\e717";
 }
 
 .fw-heart:before {
@@ -797,7 +797,7 @@
 }
 
 .fw-in-sequence:before {
-    content:"\e739";
+    content:"\e6f6";
 }
 
 .fw-incoming-call:before {
@@ -813,7 +813,7 @@
 }
 
 .fw-integration:before {
-    content:"\e73f";
+    content:"\e6e7";
 }
 
 .fw-invitation:before {
@@ -937,7 +937,7 @@
 }
 
 .fw-log:before {
-    content:"\e738";
+    content:"\e6f5";
 }
 
 .fw-logical:before {
@@ -957,7 +957,7 @@
 }
 
 .fw-mapping:before {
-    content:"\e73c";
+    content:"\e6f9";
 }
 
 .fw-menu:before {
@@ -989,7 +989,7 @@
 }
 
 .fw-namespace:before {
-    content:"\e740";
+    content:"\e6e8";
 }
 
 .fw-nodejs:before {
@@ -1005,7 +1005,7 @@
 }
 
 .fw-out-sequence:before {
-    content:"\e73a";
+    content:"\e6f7";
 }
 
 .fw-own:before {
@@ -1057,7 +1057,7 @@
 }
 
 .fw-property:before {
-    content:"\e737";
+    content:"\e6f4";
 }
 
 .fw-prototype:before {
@@ -1089,7 +1089,7 @@
 }
 
 .fw-reduce:before {
-    content:"\e73d";
+    content:"\e6eb";
 }
 
 .fw-refresh:before {
