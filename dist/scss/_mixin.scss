@@ -162,7 +162,7 @@
         }
   
         @else if ($icon == "call-mediator") {
-            content:"\e736";
+            content:"\e712";
         }
   
         @else if ($icon == "camera") {
@@ -250,7 +250,7 @@
         }
   
         @else if ($icon == "continue") {
-            content:"\e73e";
+            content:"\e6ec";
         }
   
         @else if ($icon == "contract") {
@@ -270,7 +270,7 @@
         }
   
         @else if ($icon == "data-mapper") {
-            content:"\e735";
+            content:"\e711";
         }
   
         @else if ($icon == "database") {
@@ -299,70 +299,6 @@
   
         @else if ($icon == "devices") {
             content:"\e704";
-        }
-  
-        @else if ($icon == "dgm-action-invoke") {
-            content:"\e712";
-        }
-  
-        @else if ($icon == "dgm-action") {
-            content:"\e711";
-        }
-  
-        @else if ($icon == "dgm-connector") {
-            content:"\e6f4";
-        }
-  
-        @else if ($icon == "dgm-constant-definition") {
-            content:"\e6f5";
-        }
-  
-        @else if ($icon == "dgm-fork") {
-            content:"\e6e7";
-        }
-  
-        @else if ($icon == "dgm-header") {
-            content:"\e6e8";
-        }
-  
-        @else if ($icon == "dgm-if-else") {
-            content:"\e6e9";
-        }
-  
-        @else if ($icon == "dgm-import") {
-            content:"\e717";
-        }
-  
-        @else if ($icon == "dgm-lifeline") {
-            content:"\e6ea";
-        }
-  
-        @else if ($icon == "dgm-logger") {
-            content:"\e6eb";
-        }
-  
-        @else if ($icon == "dgm-resource") {
-            content:"\e6f6";
-        }
-  
-        @else if ($icon == "dgm-service") {
-            content:"\e6f7";
-        }
-  
-        @else if ($icon == "dgm-try-catch") {
-            content:"\e6ec";
-        }
-  
-        @else if ($icon == "dgm-type-convertor") {
-            content:"\e6f8";
-        }
-  
-        @else if ($icon == "dgm-type") {
-            content:"\e6f9";
-        }
-  
-        @else if ($icon == "dgm-while") {
-            content:"\e707";
         }
   
         @else if ($icon == "dial-up") {
@@ -474,7 +410,7 @@
         }
   
         @else if ($icon == "foreach") {
-            content:"\e73ab";
+            content:"\e6f8";
         }
   
         @else if ($icon == "fork-join") {
@@ -566,7 +502,7 @@
         }
   
         @else if ($icon == "header") {
-            content:"\e734";
+            content:"\e717";
         }
   
         @else if ($icon == "heart") {
@@ -593,6 +529,10 @@
             content:"\e705";
         }
   
+        @else if ($icon == "if-else") {
+            content:"\e6e9";
+        }
+  
         @else if ($icon == "image") {
             content:"\e70a";
         }
@@ -602,7 +542,7 @@
         }
   
         @else if ($icon == "in-sequence") {
-            content:"\e739";
+            content:"\e6f6";
         }
   
         @else if ($icon == "incoming-call") {
@@ -618,7 +558,7 @@
         }
   
         @else if ($icon == "integration") {
-            content:"\e73f";
+            content:"\e6e7";
         }
   
         @else if ($icon == "invitation") {
@@ -697,6 +637,10 @@
             content:"\e64a";
         }
   
+        @else if ($icon == "lifeline") {
+            content:"\e6ea";
+        }
+  
         @else if ($icon == "light") {
             content:"\e680";
         }
@@ -738,7 +682,7 @@
         }
   
         @else if ($icon == "log") {
-            content:"\e738";
+            content:"\e6f5";
         }
   
         @else if ($icon == "logical") {
@@ -758,7 +702,7 @@
         }
   
         @else if ($icon == "mapping") {
-            content:"\e73c";
+            content:"\e6f9";
         }
   
         @else if ($icon == "menu") {
@@ -790,7 +734,7 @@
         }
   
         @else if ($icon == "namespace") {
-            content:"\e740";
+            content:"\e6e8";
         }
   
         @else if ($icon == "nodejs") {
@@ -806,7 +750,7 @@
         }
   
         @else if ($icon == "out-sequence") {
-            content:"\e73a";
+            content:"\e6f7";
         }
   
         @else if ($icon == "own") {
@@ -858,7 +802,7 @@
         }
   
         @else if ($icon == "property") {
-            content:"\e737";
+            content:"\e6f4";
         }
   
         @else if ($icon == "prototype") {
@@ -890,7 +834,7 @@
         }
   
         @else if ($icon == "reduce") {
-            content:"\e73d";
+            content:"\e6eb";
         }
   
         @else if ($icon == "refresh") {
@@ -1243,6 +1187,10 @@
   
         @else if ($icon == "website") {
             content:"\e69b";
+        }
+  
+        @else if ($icon == "while") {
+            content:"\e707";
         }
   
         @else if ($icon == "wifi") {
