@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?8e653923094f2e847aa2e6f68c534500");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?3124cb494fb6ff3b051c9c1bf1b40638");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?8e653923094f2e847aa2e6f68c534500") format("woff2"),
-		url("../fonts/font-wso2.woff?8e653923094f2e847aa2e6f68c534500") format("woff"),
-		url("../fonts/font-wso2.ttf?8e653923094f2e847aa2e6f68c534500") format("truetype"),
-		url("../fonts/font-wso2.svg?8e653923094f2e847aa2e6f68c534500#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?3124cb494fb6ff3b051c9c1bf1b40638") format("woff2"),
+		url("../fonts/font-wso2.woff?3124cb494fb6ff3b051c9c1bf1b40638") format("woff"),
+		url("../fonts/font-wso2.ttf?3124cb494fb6ff3b051c9c1bf1b40638") format("truetype"),
+		url("../fonts/font-wso2.svg?3124cb494fb6ff3b051c9c1bf1b40638#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
