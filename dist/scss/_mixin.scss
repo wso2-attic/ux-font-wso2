@@ -301,70 +301,6 @@
             content:"\e704";
         }
   
-        @else if ($icon == "dgm-action-invoke") {
-            content:"\e712";
-        }
-  
-        @else if ($icon == "dgm-action") {
-            content:"\e711";
-        }
-  
-        @else if ($icon == "dgm-connector") {
-            content:"\e6f4";
-        }
-  
-        @else if ($icon == "dgm-constant-definition") {
-            content:"\e6f5";
-        }
-  
-        @else if ($icon == "dgm-fork") {
-            content:"\e6e7";
-        }
-  
-        @else if ($icon == "dgm-header") {
-            content:"\e6e8";
-        }
-  
-        @else if ($icon == "dgm-if-else") {
-            content:"\e6e9";
-        }
-  
-        @else if ($icon == "dgm-import") {
-            content:"\e717";
-        }
-  
-        @else if ($icon == "dgm-lifeline") {
-            content:"\e6ea";
-        }
-  
-        @else if ($icon == "dgm-logger") {
-            content:"\e6eb";
-        }
-  
-        @else if ($icon == "dgm-resource") {
-            content:"\e6f6";
-        }
-  
-        @else if ($icon == "dgm-service") {
-            content:"\e6f7";
-        }
-  
-        @else if ($icon == "dgm-try-catch") {
-            content:"\e6ec";
-        }
-  
-        @else if ($icon == "dgm-type-convertor") {
-            content:"\e6f8";
-        }
-  
-        @else if ($icon == "dgm-type") {
-            content:"\e6f9";
-        }
-  
-        @else if ($icon == "dgm-while") {
-            content:"\e707";
-        }
-  
         @else if ($icon == "dial-up") {
             content:"\e627";
         }
@@ -593,6 +529,10 @@
             content:"\e705";
         }
   
+        @else if ($icon == "if-else") {
+            content:"\e6e9";
+        }
+  
         @else if ($icon == "image") {
             content:"\e70a";
         }
@@ -695,6 +635,10 @@
   
         @else if ($icon == "lifecycle") {
             content:"\e64a";
+        }
+  
+        @else if ($icon == "lifeline") {
+            content:"\e6ea";
         }
   
         @else if ($icon == "light") {
@@ -1243,6 +1187,10 @@
   
         @else if ($icon == "website") {
             content:"\e69b";
+        }
+  
+        @else if ($icon == "while") {
+            content:"\e707";
         }
   
         @else if ($icon == "wifi") {

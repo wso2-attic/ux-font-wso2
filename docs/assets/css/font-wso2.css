@@ -17,13 +17,13 @@
 
 @font-face {
 	font-family:"font-wso2";
-	src:local("font-wso2"), url("../fonts/font-wso2.eot?3124cb494fb6ff3b051c9c1bf1b40638");
+	src:local("font-wso2"), url("../fonts/font-wso2.eot?465fa5ad8679346ed6bc8c1b9c70bbae");
 	src:local("font-wso2"),
         url("../fonts/font-wso2.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/font-wso2.woff2?3124cb494fb6ff3b051c9c1bf1b40638") format("woff2"),
-		url("../fonts/font-wso2.woff?3124cb494fb6ff3b051c9c1bf1b40638") format("woff"),
-		url("../fonts/font-wso2.ttf?3124cb494fb6ff3b051c9c1bf1b40638") format("truetype"),
-		url("../fonts/font-wso2.svg?3124cb494fb6ff3b051c9c1bf1b40638#font-wso2") format("svg");
+		url("../fonts/font-wso2.woff2?465fa5ad8679346ed6bc8c1b9c70bbae") format("woff2"),
+		url("../fonts/font-wso2.woff?465fa5ad8679346ed6bc8c1b9c70bbae") format("woff"),
+		url("../fonts/font-wso2.ttf?465fa5ad8679346ed6bc8c1b9c70bbae") format("truetype"),
+		url("../fonts/font-wso2.svg?465fa5ad8679346ed6bc8c1b9c70bbae#font-wso2") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -556,70 +556,6 @@
     content:"\e704";
 }
 
-.fw-dgm-action-invoke:before {
-    content:"\e712";
-}
-
-.fw-dgm-action:before {
-    content:"\e711";
-}
-
-.fw-dgm-connector:before {
-    content:"\e6f4";
-}
-
-.fw-dgm-constant-definition:before {
-    content:"\e6f5";
-}
-
-.fw-dgm-fork:before {
-    content:"\e6e7";
-}
-
-.fw-dgm-header:before {
-    content:"\e6e8";
-}
-
-.fw-dgm-if-else:before {
-    content:"\e6e9";
-}
-
-.fw-dgm-import:before {
-    content:"\e717";
-}
-
-.fw-dgm-lifeline:before {
-    content:"\e6ea";
-}
-
-.fw-dgm-logger:before {
-    content:"\e6eb";
-}
-
-.fw-dgm-resource:before {
-    content:"\e6f6";
-}
-
-.fw-dgm-service:before {
-    content:"\e6f7";
-}
-
-.fw-dgm-try-catch:before {
-    content:"\e6ec";
-}
-
-.fw-dgm-type-convertor:before {
-    content:"\e6f8";
-}
-
-.fw-dgm-type:before {
-    content:"\e6f9";
-}
-
-.fw-dgm-while:before {
-    content:"\e707";
-}
-
 .fw-dial-up:before {
     content:"\e627";
 }
@@ -848,6 +784,10 @@
     content:"\e705";
 }
 
+.fw-if-else:before {
+    content:"\e6e9";
+}
+
 .fw-image:before {
     content:"\e70a";
 }
@@ -950,6 +890,10 @@
 
 .fw-lifecycle:before {
     content:"\e64a";
+}
+
+.fw-lifeline:before {
+    content:"\e6ea";
 }
 
 .fw-light:before {
@@ -1498,6 +1442,10 @@
 
 .fw-website:before {
     content:"\e69b";
+}
+
+.fw-while:before {
+    content:"\e707";
 }
 
 .fw-wifi:before {
