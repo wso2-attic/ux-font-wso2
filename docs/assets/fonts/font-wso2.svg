@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170104 at Wed Jul 26 17:45:25 2017
+Created by FontForge 20170104 at Fri Sep 22 11:02:17 2017
  By Sharon David
 </metadata>
 <defs>
@@ -1126,6 +1126,9 @@ q-8 1 -16 1h-4zM178 110q5 -8 12 -15l-44 -35q6 -12 6 -27q0 -23 -16.5 -40t-40.5 -1
     <glyph glyph-name="namespace" unicode="&#xe740;" 
 d="M0 203l119 99v-28l-100 -82l100 -82v-28l-119 99v22zM206 266q18 0 33.5 -13.5t15.5 -45.5v-83h-26v80q0 41 -32 41q-12 0 -21 -7.5t-13 -18.5q-1 -5 -1 -12v-83h-26v101q0 22 -1 38h23l1 -23h1q13 26 46 26zM340 204q37 -13 37 -41q0 -19 -14 -30.5t-38 -11.5
 q-23 0 -39 10l6 19q16 -10 33 -10q27 0 27 20q0 9 -5.5 15t-19.5 11q-37 13 -37 39q0 17 13 29t35 12q19 0 34 -9l-6 -18q-13 8 -29 8q-11 0 -17 -5.5t-6 -13.5q0 -6 3 -10t8.5 -7t14.5 -7zM393 302l119 -98v-24l-119 -98v28l101 82l-101 82v28z" />
+    <glyph glyph-name="dollar" unicode="&#xe741;" horiz-adv-x="233" 
+d="M95 -64v63q-58 1 -95 27l15 42q40 -27 90 -27q16 0 30 5t23.5 13t15 19t5.5 25q0 24 -17 41.5t-53 32.5q-52 20 -77.5 44.5t-25.5 63.5q0 38 25.5 65.5t68.5 34.5v63h38v-60q47 -2 82 -22l-16 -41q-37 21 -79 21q-22 0 -37.5 -8.5t-22 -20t-6.5 -25.5q0 -23 17.5 -38
+t60.5 -33q49 -20 72.5 -47t23.5 -67q0 -39 -26 -68.5t-72 -37.5v-65h-40z" />
     <glyph glyph-name="foreach" unicode="&#xe73ab;" horiz-adv-x="464" 
 d="M400 22v45l64 -65l-64 -64v45h-268v-47h-132v132h132v-46h268zM105 -37v78h-78v-78h78zM132 176v-47h-132v133h132v-47h268v45l64 -65l-64 -64v45h-268zM105 157v77h-78v-77h78zM132 362v-46h-132v132h132v-47h268v45l64 -64l-64 -65v45h-268zM105 343v78h-78v-78h78z
 " />

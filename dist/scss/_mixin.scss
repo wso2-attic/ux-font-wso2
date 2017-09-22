@@ -385,6 +385,10 @@
             content:"\e628";
         }
   
+        @else if ($icon == "dollar") {
+            content:"\e741";
+        }
+  
         @else if ($icon == "down-arrow") {
             content:"\e689";
         }
