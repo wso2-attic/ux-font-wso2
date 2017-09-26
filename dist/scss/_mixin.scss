@@ -53,6 +53,10 @@
             content:"\e615";
         }
   
+        @else if ($icon == "aggregate") {
+            content:"\e742";
+        }
+  
         @else if ($icon == "airplay") {
             content:"\e600";
         }
@@ -123,6 +127,10 @@
   
         @else if ($icon == "battery") {
             content:"\e60a";
+        }
+  
+        @else if ($icon == "bean") {
+            content:"\e743";
         }
   
         @else if ($icon == "blank-document") {
