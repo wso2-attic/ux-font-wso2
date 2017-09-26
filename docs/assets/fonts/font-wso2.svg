@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170104 at Fri Sep 22 11:50:58 2017
+Created by FontForge 20170104 at Tue Sep 26 12:21:06 2017
  By Sharon David
 </metadata>
 <defs>
@@ -54,7 +54,7 @@ d="M51 218q-8 6 -16 14.5t-18.5 19.5t-16.5 17q67 68 160.5 93t188.5 1t163 -94l-51 
 q-7 7 -21.5 20.5t-26.5 25.5t-21 23z" />
     <glyph glyph-name="application" unicode="&#xe608;" 
 d="M278 225l124 -84l-33 -22l44 -59l-25 -22l-48 63l-33 -22zM18 276v-278h476v278h-476zM0 411h512v-22v-420h-512v420v22zM390 388h-39v-39h39v39zM442 388h-39v-39h39v39zM494 388h-40v-39h40v39zM494 325h-475v-25h475v25z" />
-    <glyph glyph-name="configarations" unicode="&#xe609;" horiz-adv-x="475" 
+    <glyph glyph-name="configurations" unicode="&#xe609;" horiz-adv-x="475" 
 d="M362 112v-66h95v66h-95zM18 112v-66h95v66h-95zM190 221v-66h95v66h-95zM388 448h47v-318h40v-103h-40v-91h-47v88h-44v106h40v318h4zM216 448h47v-208h41v-103h-41v-201h-47v201h-44v103h40v208h4zM40 448h48v-318h40v-103h-40v-91h-48v91h-40v103h40v318z" />
     <glyph glyph-name="battery" unicode="&#xe60a;" 
 d="M105 245h140l105 -105h-245v105zM71 279v-173l339 -1v173zM0 350h478v-90h34v-139h-34v-87h-478v316z" />
