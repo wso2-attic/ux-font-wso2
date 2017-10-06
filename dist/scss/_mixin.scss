@@ -441,6 +441,10 @@
             content:"\e6e3";
         }
   
+        @else if ($icon == "event-simulator") {
+            content:"\e744";
+        }
+  
         @else if ($icon == "expand") {
             content:"\e61c";
         }
