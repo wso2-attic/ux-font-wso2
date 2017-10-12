@@ -141,6 +141,10 @@
             content:"\e695";
         }
   
+        @else if ($icon == "bluetooth") {
+            content:"\e73b";
+        }
+  
         @else if ($icon == "bookmark") {
             content:"\e60d";
         }
