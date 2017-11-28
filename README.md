@@ -3,7 +3,7 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Font WSO2 gives you scalable vector icons that can instantly customized and use on any website with the power of CSS.
-http://wso2-dev-ux.github.io/font-wso2/
+http://wso2.github.io/ux-font-wso2/
 
 Font generation is base on [sapegin/grunt-webfont](https://github.com/sapegin/grunt-webfont/)
 
