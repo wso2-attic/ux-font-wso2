@@ -3,19 +3,19 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Font WSO2 gives you scalable vector icons that can instantly customized and use on any website with the power of CSS.
-http://wso2.github.io/ux-font-wso2/
+http://wso2-attic.github.io/ux-font-wso2/
 
 Font generation is base on [sapegin/grunt-webfont](https://github.com/sapegin/grunt-webfont/)
 
 ## Changelog
 
-[v1.3.0 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.3.0+is%3Aclosed)  
-[v1.2.2 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.2.2+is%3Aclosed)   
-[v1.2.1 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.2.1+is%3Aclosed)  
-[v1.2.0 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.2.0+is%3Aclosed)  
-[v1.1.0 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.1.0+is%3Aclosed)  
-[v1.0.2 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.0.2+is%3Aclosed)  
-[v1.0.1 GitHub milestones](https://github.com/wso2-dev-ux/font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.0.1+is%3Aclosed)  
+[v1.3.0 GitHub milestones](https://github.com/wso2-attic/ux-font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.3.0+is%3Aclosed)  
+[v1.2.2 GitHub milestones](https://github.com/wso2-attic/ux-font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.2.2+is%3Aclosed)   
+[v1.2.1 GitHub milestones](https://github.com/wso2-attic/ux-font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.2.1+is%3Aclosed)  
+[v1.2.0 GitHub milestones](https://github.com/wso2-attic/ux-font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.2.0+is%3Aclosed)  
+[v1.1.0 GitHub milestones](https://github.com/wso2-attic/ux-font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.1.0+is%3Aclosed)  
+[v1.0.2 GitHub milestones](https://github.com/wso2-attic/ux-font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.0.2+is%3Aclosed)  
+[v1.0.1 GitHub milestones](https://github.com/wso2-attic/ux-font-wso2/issues?utf8=%E2%9C%93&q=milestone%3A1.0.1+is%3Aclosed)  
  
 ## Build
 
@@ -67,7 +67,7 @@ Then install `fontforge`.
 
 #### Add Icons
 
-* Add SVG icons to the icons folder - Please read the icon [design guides](https://github.com/wso2-dev-ux/font-wso2/wiki/Icon-design-guide)
+* Add SVG icons to the icons folder - Please read the icon [design guides](https://github.com/wso2-attic/ux-font-wso2/wiki/Icon-design-guide)
 * Open "icons.properties" and add the name of the icon file with codepoint value
 
 ex:- `"service":0xe66d`
